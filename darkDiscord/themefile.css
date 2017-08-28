@@ -1172,3 +1172,10 @@
 .userDefault-2_cnT0, .userHovered-3tfm93{transition:200ms ease;}
 .avatarDefault-3jtQoc, .avatarSpeaking-3teDH6{transition:200ms ease;}
 .nameDefault-1I0lx8, .nameHovered-28u_Fz, .nameSpeaking-3ROx9q{transition:200ms ease;}
+
+/* Theme information */
+.user-settings-security+.divider-1G01Z9:after{content:'You are using darkDiscord. \A Version 20170828_1';}
+.user-settings-security+.divider-1G01Z9:after{display:block;padding-top:40px;padding-bottom:20px;white-space:pre-wrap;font-size:16px;line-height:20px;border-bottom:1px solid transparent;}
+
+.theme-dark .user-settings-security+.divider-1G01Z9:after{color:var(--cbase-4);border-color:hsla(218,5%,47%,.3);}
+.theme-light .user-settings-security+.divider-1G01Z9:after{border-color:hsla(216,4%,74%,.3);}
