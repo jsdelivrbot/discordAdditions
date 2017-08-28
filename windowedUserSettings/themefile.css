@@ -1,0 +1,53 @@
+/* Originally by @mgcallie (MGRich)#8192 and @BeardDesign#6223 */
+
+.layer.animating:first-of-type  {
+    opacity: 1!important;
+    transform: scale(1)!important;
+    z-index:1;
+}
+.layer.stop-animations:first-of-type{
+  opacity: 0.7!important;
+    transform: scale(1)!important;
+    z-index:1;
+}
+.layer+.layer .ui-standard-sidebar-view {
+    min-width: 900px;
+    max-width: 60%;
+    max-height: calc(100% - 120px);
+    min-height: 650px;
+    position: fixed;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding:0!important;
+    border-radius: 5px!important;
+    overflow: hidden;
+    transform: scale(0);
+    box-shadow: 0 10px 20px rgba(0,0,0,.4);
+    transition: 300ms cubic-bezier(.4,0,0,1);
+    background: transparent!important;
+}
+.layer:not(.stop-animations)+.layer.animating .ui-standard-sidebar-view {
+  transform: scale(0.5)!important;
+  opacity: 1!important;
+  transition: all 250ms linear;
+}
+.layer.stop-animations+.layer .ui-standard-sidebar-view {
+    animation:scale 250ms cubic-bezier(.2,0,0,1.15);
+    transform: scale(1);
+    opacity: 1;
+}
+.layer+.layer {
+    background: rgba(0,0,0,0.85)!important;
+    z-index: 2;
+    opacity:0!important;
+    transition:all 200ms ease;
+}
+.layer.stop-animations+.layer{
+    opacity:1!important;
+    animation:opacity 300ms ease!important;
+}
+.ui-standard-sidebar-view .sidebar-region .sidebar{padding:40px 6px 40px 40px;}
+.ui-standard-sidebar-view .content-column.default{padding:40px;min-height:unset;}
+.ui-standard-sidebar-view .tools{padding-top:40px;}

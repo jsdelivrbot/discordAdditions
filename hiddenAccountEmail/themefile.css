@@ -1,0 +1,5 @@
+.user-settings-account .user-info-viewing .ui-form-item:nth-child(2) .view-body.selectable-prgIYK:nth-child(2){font-size:0;}
+.user-settings-account .user-info-viewing .ui-form-item:nth-child(2) .view-body.selectable-prgIYK:nth-child(2):hover{font-size:16px;}
+.user-settings-account .user-info-viewing .ui-form-item:nth-child(2) .view-body.selectable-prgIYK:nth-child(2):hover:before{font-size:0;}
+.user-settings-account .user-info-viewing .ui-form-item:nth-child(2) .view-body.selectable-prgIYK:nth-child(2):before{content:'(hidden)';font-size:16px;}
+.theme-dark .user-settings-account .user-info-viewing .ui-form-item:nth-child(2) .view-body.selectable-prgIYK:nth-child(2):before{color:var(--cbase-2);}

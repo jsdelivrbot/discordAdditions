@@ -1,0 +1,6 @@
+.header-toolbar{position:absolute;right:20px;}
+.chat>.title-wrap.title-wrap-dark .topic:before{background-color:transparent;}
+.chat>.title-wrap>.topic:before{background-color:transparent;content:'';font-family:'Segoe MDL2 Assets';font-size:85%;text-align:center;visibility:visible;width:22px;}
+.chat>.title-wrap>.topic:active:before{visibility:hidden;}
+.chat>.title-wrap>.topic:active{visibility:visible;white-space:pre-wrap;position:absolute;background-color:var(--dark-3);z-index:999;margin-left:0;top:0;padding:18px 20px 20px 20px;height:auto;width:490px;margin-left:20px;margin-top:76px;overflow:auto;line-height:normal;}
+.chat>.title-wrap>.topic{visibility:hidden;max-height:none;}
