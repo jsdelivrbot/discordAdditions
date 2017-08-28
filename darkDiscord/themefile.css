@@ -800,10 +800,11 @@
 
 /* User profile modal */
 #user-profile-modal .avatar-wrapper{background-color:transparent;left:30px;top:40px;}
-#user-profile-modal .guilds .section .connected-accounts .connected-account{border:0;}
+#user-profile-modal .guilds .section .connected-accounts .connected-account a .connected-account-open-icon{margin-right:7px;margin-left:14px;}
+#user-profile-modal .guilds .section .connected-accounts .connected-account{border:0;width:225px;padding:8px}
 #user-profile-modal .guilds .section .section-header{font-weight:600;}
 #user-profile-modal .guilds .section+.section{border-top:0;}
-#user-profile-modal .guilds .section{margin:0 20px;}
+#user-profile-modal .guilds .section{margin:0 20px;margin-right:13px;}
 #user-profile-modal .header:after{background-image:none;}
 #user-profile-modal .header{background-image:none;padding-left:150px;}
 #user-profile-modal .tab-bar-container{border-bottom:0;padding-left:20px;}
@@ -1174,7 +1175,7 @@
 .nameDefault-1I0lx8, .nameHovered-28u_Fz, .nameSpeaking-3ROx9q{transition:200ms ease;}
 
 /* Theme information */
-.user-settings-security+.divider-1G01Z9:after{content:'You are using darkDiscord. \A Version 20170828_1';}
+.user-settings-security+.divider-1G01Z9:after{content:'You are using darkDiscord. \A Version 20170828_2';}
 .user-settings-security+.divider-1G01Z9:after{display:block;padding-top:40px;padding-bottom:20px;white-space:pre-wrap;font-size:16px;line-height:20px;border-bottom:1px solid transparent;}
 
 .theme-dark .user-settings-security+.divider-1G01Z9:after{color:var(--cbase-4);border-color:hsla(218,5%,47%,.3);}
