@@ -951,7 +951,10 @@
 .theme-dark .ui-standard-sidebar-view .itemDefault-3NDwnY:hover{background-color:var(--dark-5);}
 .theme-dark .ui-standard-sidebar-view .itemDefaultSelected-1UAWLe{background-color:var(--dark-2);}
 .theme-dark .ui-standard-sidebar-view .sidebar-region{background:var(--dark-4);}
+.theme-dark .user-settings-account .user-info-viewing .ui-form-item:nth-child(2) .view-body.selectable-prgIYK:nth-child(2):before{color:var(--cbase-2);opacity:1!important;}
 .theme-dark .user-settings-account .user-info-viewing{background-color:var(--dark-4);}
+.theme-dark .user-settings-account .view-body span{color:var(--cbase-2);opacity:1!important;}
+.theme-dark .user-settings-account .view-body{color:var(--cbase-4);}
 .theme-dark .user-settings-appearance .preview{background-color:var(--dark-3);}
 .theme-dark .user-settings-connections .connect-account-btn .connect-account-btn-inner:hover{background-color:var(--dark-2);}
 .theme-dark .user-settings-connections .connect-account-btn .connect-account-btn-inner{background-color:var(--dark-4);}
@@ -1175,7 +1178,7 @@
 .nameDefault-1I0lx8, .nameHovered-28u_Fz, .nameSpeaking-3ROx9q{transition:200ms ease;}
 
 /* Theme information */
-.user-settings-security+.divider-1G01Z9:after{content:'You are using darkDiscord. \A Version 20170828_2';}
+.user-settings-security+.divider-1G01Z9:after{content:'You are using darkDiscord. \A Version 20170829_1';}
 .user-settings-security+.divider-1G01Z9:after{display:block;padding-top:40px;padding-bottom:20px;white-space:pre-wrap;font-size:16px;line-height:20px;border-bottom:1px solid transparent;}
 
 .theme-dark .user-settings-security+.divider-1G01Z9:after{color:var(--cbase-4);border-color:hsla(218,5%,47%,.3);}
