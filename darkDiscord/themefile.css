@@ -539,6 +539,10 @@
 .theme-dark .buttonRedOutlinedDefault-1VCgwL:hover{background-color:#f04747;}
 .theme-dark .buttonRedOutlinedDefault-1VCgwL{background-color:var(--dark-3);border:0;color:var(--cbase-1);}
 
+.theme-dark .ui-input-button .buttonGreyGhost-SfY7zU{background-color:var(--dark-2);}
+.theme-dark .ui-input-button{background-color:var(--dark-3);}
+.ui-input-button .ui-input-button-ui-button{margin:0;}
+
 .divider-1G01Z9{margin:20px 0;}
 
 .expandableSection-1QgO0O{padding-bottom:0;}
@@ -716,6 +720,24 @@
 .theme-dark #rtc-debug-modal .tab-bar.SIDE .tab-bar-item.selected{background-color:var(--dark-2);}
 .theme-dark #rtc-debug-modal .tab-bar.SIDE .tab-bar-item:hover{background-color:var(--dark-5);}
 .theme-dark #rtc-debug-modal{border:1px solid var(--dark-1);}
+
+/* Server region select modal */
+.region-select-modal .region-select-modal-footer{font-size:14px;text-align:left;}
+.region-select-modal .region-select-modal-header{text-align:left;font-weight:600;letter-spacing:.3px;font-size:16px;}
+.region-select-modal .region-select-modal-option .region-select-flag{border-radius:6px;border:3px solid var(--dark-3);background-color:transparent;margin-top:-2px;}
+.region-select-modal .region-select-modal-option .region-select-name{margin-top:-26px;margin-left:57px;padding:0;font-weight:500;text-align:left;}
+.region-select-modal .region-select-modal-option:first-of-type{border-radius:3px 3px 0 0;}
+.region-select-modal .region-select-modal-option:last-of-type{border-radius:0 0 3px 3px;}
+.region-select-modal .region-select-modal-options{display:block;max-height:300px;overflow-y:scroll;padding-right:4px;}
+.region-select-modal .region-select-modal-option{display:block;padding:10px;margin:0;width:100%;border-radius:0;height:50px;border:0;}
+.region-select-modal{border-radius:0;padding:20px;}
+
+.theme-dark .region-select-modal .region-select-modal-footer{color:var(--cbase-2);}
+.theme-dark .region-select-modal .region-select-modal-header{color:var(--cbase-1);}
+.theme-dark .region-select-modal .region-select-modal-option .region-select-name{color:var(--cbase-1);}
+.theme-dark .region-select-modal .region-select-modal-option:hover{background-color:#7298da;}
+.theme-dark .region-select-modal .region-select-modal-option{background-color:var(--dark-3);}
+.theme-dark .region-select-modal{background-color:var(--dark-4);border:1px solid var(--dark-1);}
 
 /* Upload modal */
 .upload-modal .footer .button+.button{margin-left:5px;}
@@ -1165,7 +1187,7 @@
 .nameDefault-1I0lx8, .nameHovered-28u_Fz, .nameSpeaking-3ROx9q{transition:200ms ease;}
 
 /* Theme information */
-.user-settings-security+.divider-1G01Z9:after{content:'You are using darkDiscord. \A Version 20170831_1';}
+.user-settings-security+.divider-1G01Z9:after{content:'You are using darkDiscord. \A Version 20170831_2';}
 .user-settings-security+.divider-1G01Z9:after{display:block;padding-top:40px;padding-bottom:20px;white-space:pre-wrap;font-size:16px;line-height:20px;border-bottom:1px solid transparent;}
 
 .theme-dark .user-settings-security+.divider-1G01Z9:after{color:var(--cbase-4);border-color:hsla(218,5%,47%,.3);}
