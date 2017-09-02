@@ -49,6 +49,7 @@
 .markup .hljs[class~="json" i]::before{content:'JavaScript Object Notation';}
 .markup .hljs[class~="jsp" i]::before{content:'Java';}
 .markup .hljs[class~="jsx" i]::before{content:'JavaScript';}
+.markup .hljs[class~="less" i]::before{content:'Less stylesheet';}
 .markup .hljs[class~="mak" i]::before{content:'Makefile';}
 .markup .hljs[class~="makefile" i]::before{content:'Makefile';}
 .markup .hljs[class~="markdown" i]::before{content:'Markdown';}
