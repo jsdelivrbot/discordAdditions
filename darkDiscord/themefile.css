@@ -1346,9 +1346,8 @@
 .theme-dark .quote-msg{background-color:var(--dark-4);}
 
 /* Plugin: EmojiStatistics */
-.emojistatistics-modal .btn-ok:hover{background-color:var(--dark-1)!important;}
-.emojistatistics-modal .btn-ok{background-color:var(--dark-3)!important;transition:200ms ease;}
-.emojistatistics-modal .btn{min-height:32px!important;min-width:65px!important;padding:10px!important;}
+.emojistatistics-modal .btn:hover{background-color:var(--dark-1)!important;}
+.emojistatistics-modal .btn{background-color:var(--dark-3)!important;min-height:32px!important;min-width:65px!important;padding:10px!important;}
 .emojistatistics-modal .emojiserver-entry .modal-emojiserver-icon{background-color:var(--dark-2)!important;color:var(--cbase-1)!important;font-weight:400!important;}
 .emojistatistics-modal .emojiserver-entry{border-bottom:0!important;border-top:0!important;}
 .emojistatistics-modal .form-actions{background-color:var(--dark-4)!important;box-shadow:0 0!important;padding:10px!important;}
@@ -1362,6 +1361,8 @@
 
 #emojistatistics-scrolldiv::-webkit-scrollbar-thumb{background-color:var(--dark-0)!important;}
 
+.emojistatistics-button{cursor:pointer;}
+
 /* Plugin: KawaiiEmotes */
 .kawaii-autocomplete .contentTitle-sL6DrN{font-size:12px;font-weight:600;}
 .kawaii-autocomplete{padding-bottom:8px;}
@@ -1374,18 +1375,50 @@
 .app #files_directDownload{left:20px;right:20px;}
 
 /* Plugin: EditChannels */
-.editchannels-modal .btn-cancel:hover{background-color:var(--dark-1)!important;}
-.editchannels-modal .btn-cancel{background-color:var(--dark-3)!important;margin-left:5px;transition:200ms ease;}
-.editchannels-modal .btn-save:hover{background-color:var(--dark-1)!important;}
-.editchannels-modal .btn-save{background-color:var(--dark-3)!important;order:2;transition:200ms ease;}
-.editchannels-modal .btn{min-height:32px!important;min-width:65px!important;padding:10px!important;}
+.editchannels-modal .btn-cancel{margin-left:5px;}
+.editchannels-modal .btn:hover{background-color:var(--dark-1)!important;}
+.editchannels-modal .btn{background-color:var(--dark-3)!important;min-height:32px!important;min-width:65px!important;padding:10px!important;transition:200ms ease;}
 .editchannels-modal .form-actions{background-color:var(--dark-4)!important;box-shadow:0 0;padding:10px!important;}
 .editchannels-modal .form-header{background-color:var(--dark-4)!important;box-shadow:0 0;}
 .editchannels-modal .modal-inner{background-color:var(--dark-4)!important;border:1px solid var(--dark-1);border-radius:0!important;}
 .editchannels-modal .modal{max-height:100vh!important;min-height:500px!important;}
 .editchannels-modal .ui-color-picker-swatch1.large{margin-right:5px;}
 .editchannels-modal .ui-color-picker-swatch1{margin-left:5px;}
-.editchannels-modal input{margin-top:5px;}
+.editchannels-modal input{margin-top:8px;}
+
+/* Plugin: ServerHider */
+.serverhider-modal .btn-all{margin-right:5px;}
+.serverhider-modal .btn:hover{background-color:var(--dark-1)!important;}
+.serverhider-modal .btn{background-color:var(--dark-3)!important;min-height:32px!important;min-width:65px!important;padding:10px!important;transition:200ms ease;}
+.serverhider-modal .form-actions{background-color:var(--dark-4)!important;padding:10px!important;box-shadow:0 0;}
+.serverhider-modal .form-header{background-color:var(--dark-4)!important;box-shadow:0 0!important;}
+.serverhider-modal .form-inner{margin:0!important;}
+.serverhider-modal .modal-inner{background-color:var(--dark-4)!important;border:1px solid var(--dark-1);border-radius:0!important;box-shadow:0 0!important;}
+.serverhider-modal .modal{max-height:100vh!important;min-height:500px!important;}
+.serverhider-modal .server-entry{border-bottom:0!important;border-top:0!important;}
+
+/* Plugin: ServerFolders */
+.serverfolders-modal .btn-save{margin-right:5px;}
+.serverfolders-modal .btn:hover{background-color:var(--dark-1)!important;}
+.serverfolders-modal .btn{background-color:var(--dark-3)!important;min-height:32px!important;min-width:65px!important;padding:10px!important;transition:200ms ease;}
+.serverfolders-modal .form-actions{background-color:var(--dark-4)!important;padding:10px!important;}
+.serverfolders-modal .form-header{background-color:var(--dark-4)!important;}
+.serverfolders-modal .form-inner{margin:0!important;}
+.serverfolders-modal .modal-inner{background-color:var(--dark-4)!important;border:1px solid var(--dark-1);border-radius:0!important;box-shadow:0 0!important;height:auto!important;width:525px!important;}
+.serverfolders-modal .modal{max-height:100vh!important;min-height:500px!important;}
+.serverfolders-modal .ui-color-picker-swatch1.large{margin-right:5px;}
+.serverfolders-modal .ui-color-picker-swatch1{margin-left:5px;}
+.serverfolders-modal .ui-color-picker-swatch2.large{margin-right:5px;}
+.serverfolders-modal .ui-color-picker-swatch2{margin-left:5px;}
+.serverfolders-modal input{margin-top:8px;}
+
+/* Plugin: Owner Tags */
+.kawaii-tag{padding:1px 4px;}
+
+.theme-dark .channel-members .member.popout-open .kawaii-tag{background:var(--dark-5)!important;color:var(--cbase-1)!important;}
+.theme-dark .channel-members .member:hover .kawaii-tag{background:var(--dark-5)!important;color:var(--cbase-1)!important;}
+.theme-dark .kawaii-tag{background:var(--dark-4)!important;color:var(--cbase-1)!important;}
+.theme-dark .userPopout-4pfA0d .kawaii-tag{color:var(--cbase-4)!important;}
 
 /* Animations */
 #bd-settings-sidebar .ui-tab-bar-item{transition:200ms ease;}
@@ -1410,7 +1443,7 @@
 .wrapperUnreadVoice-13F9Gg{transition:200ms ease;}
 
 /* Theme information */
-.user-settings-security+.divider-1G01Z9:after{content:'You are using darkDiscord. \A Version 20170903_2';}
+.user-settings-security+.divider-1G01Z9:after{content:'You are using darkDiscord. \A Version 20170903_3';}
 .user-settings-security+.divider-1G01Z9:after{display:block;padding-top:40px;padding-bottom:20px;white-space:pre-wrap;font-size:16px;line-height:20px;border-bottom:1px solid transparent;}
 
 .theme-dark .user-settings-security+.divider-1G01Z9:after{color:var(--cbase-4);border-color:hsla(218,5%,47%,.3);}
