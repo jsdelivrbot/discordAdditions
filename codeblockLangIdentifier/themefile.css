@@ -33,6 +33,7 @@
 .markup .hljs[class~="dos" i]::before{content:'DOS';}
 .markup .hljs[class~="elixir" i]::before{content:'Elixir';}
 .markup .hljs[class~="elm" i]::before{content:'Elm';}
+.markup .hljs[class~="excel" i]::before{content:'Excel workbook';}
 .markup .hljs[class~="gemspec" i]::before{content:'Ruby Gemspec';}
 .markup .hljs[class~="go" i]::before{content:'Golang';}
 .markup .hljs[class~="golang" i]::before{content:'Golang';}
@@ -76,6 +77,7 @@
 .markup .hljs[class~="scss" i]::before{content:'Sassy Cascading Stylesheet';}
 .markup .hljs[class~="sql" i]::before{content:'Structured Query Language';}
 .markup .hljs[class~="swift" i]::before{content:'Swift';}
+.markup .hljs[class~="tao" i]::before{content:'Tao3D';}
 .markup .hljs[class~="ts" i]::before{content:'TypeScript';}
 .markup .hljs[class~="typescript" i]::before{content:'TypeScript';}
 .markup .hljs[class~="vb" i]::before{content:'Visual Basic';}
@@ -85,6 +87,9 @@
 .markup .hljs[class~="vim" i]::before{content:'Vim Script';}
 .markup .hljs[class~="x86asm" i]::before{content:'x86 Assembly';}
 .markup .hljs[class~="xhtml" i]::before{content:'Extensible Hypertext Markup Language';}
+.markup .hljs[class~="xl" i]::before{content:'XL';}
+.markup .hljs[class~="xls" i]::before{content:'Excel workbook';}
+.markup .hljs[class~="xlsx" i]::before{content:'Excel workbook';}
 .markup .hljs[class~="xml" i]::before{content:'Extensible Markup Language';}
 .markup .hljs[class~="xsd" i]::before{content:'Extensible Markup Language Schema Definition';}
 .markup .hljs[class~="xsl" i]::before{content:'Extensible Markup Language Stylesheet';}
