@@ -18,7 +18,7 @@
 .markup .hljs[class~="basic" i]::before{content:'BASIC';}
 .markup .hljs[class~="bat" i]::before{content:'Batch file (DOS)';}
 .markup .hljs[class~="bf" i]::before{content:'Brainfuck';}
-.markup .hljs[class~="brainfuck" i]::before{content:'brainfuck';}
+.markup .hljs[class~="brainfuck" i]::before{content:'Brainfuck';}
 .markup .hljs[class~="clj" i]::before{content:'Clojure';}
 .markup .hljs[class~="clojure" i]::before{content:'Clojure';}
 .markup .hljs[class~="cmd" i]::before{content:'Batch file (NT)';}
