@@ -211,6 +211,7 @@
 .textAreaEnabled-2vOfh8{padding-right:44px;}
 .channelTextAreaDisabled-TBtxS6{opacity:1;}
 
+.theme-dark .channel-text-area-default{box-shadow:0 2px 25px rgba(0,0,0,0.4);}
 .theme-dark .channelTextAreaDisabled-TBtxS6 .inner-3if5cm{opacity:1;background-color:var(--dark-5);}
 .theme-dark .channelTextAreaEnabled-c05Zpy .inner-3if5cm{background-color:var(--dark-4);}
 .theme-dark .channelTextAreaEnabledNoAttach-19CjQr .inner-3if5cm{background-color:var(--dark-4);}
@@ -289,6 +290,11 @@
 
 .theme-dark .message-group .embed-wrapper .embed-color-pill{background-color:var(--dark-2);}
 .theme-dark .message-group .embed{background-color:var(--dark-5);}
+
+/* Video embeds */
+.embed .embed-video-actions .embed-video-actions-inner{border-radius:3px;padding:12px;}
+.embed .embed-video-actions .embed-video-play+*{margin-left:8px;}
+.embed .embed-video-actions .embed-video-popout+*{margin-left:8px;}
 
 /* Chat message attachment */
 .message-group .commend .embed video{border-radius:0;}
@@ -505,9 +511,10 @@
 .theme-dark .popout-menu{background:var(--dark-3);border:1px solid var(--dark-1);}
 
 /* Tooltip */
+.tooltip.tooltip-black{background-color:var(--dark-4);}
 .tooltip.tooltip-brand{background-color:var(--dark-4);}
 .tooltip:after{display:none;}
-.tooltip{background-color:var(--dark-4);box-shadow:0 2px 25px rgba(0, 0, 0, 0.4);border-radius:0;border:1px solid var(--dark-1);}
+.tooltip{background-color:var(--dark-4);box-shadow:0 2px 25px rgba(0, 0, 0, 0.4);border-radius:0;border:1px solid var(--dark-1);padding:5px 10px;max-width:185px;}
 
 /* Modal and UI controls */
 .modal-3HOjGZ .button-2t3of8.xlargeGrow-3SgBOC{margin-left:0!important;}
@@ -853,6 +860,7 @@
 .theme-dark .keybind-shortcut span{border:0;background:var(--dark-0);color:var(--cbase-4);}
 
 /* User profile modal */
+#user-profile-modal .actions .btn{transition:200ms ease;min-height:36px;min-width:65px;padding:10px;line-height:16px;}
 #user-profile-modal .avatar-wrapper{background-color:transparent;left:30px;top:40px;}
 #user-profile-modal .guilds .section .connected-accounts .connected-account a .connected-account-open-icon{margin-right:7px;margin-left:14px;}
 #user-profile-modal .guilds .section .connected-accounts .connected-account{border:0;width:225px;padding:8px}
@@ -865,6 +873,10 @@
 #user-profile-modal{border-radius:0;}
 .avatar-profile{background-size:contain;height:100px;width:100px;}
 
+.theme-dark #user-profile-modal .actions .btn.add-friend:hover{background-color:#43b581;}
+.theme-dark #user-profile-modal .actions .btn.add-friend{background-color:var(--dark-3);}
+.theme-dark #user-profile-modal .actions .btn.reject-friend:hover{background-color:var(--dark-1);}
+.theme-dark #user-profile-modal .actions .btn.reject-friend{background-color:var(--dark-3);}
 .theme-dark #user-profile-modal .empty .empty-text{color:var(--cbase-4);}
 .theme-dark #user-profile-modal .empty{background-color:var(--dark-3);}
 .theme-dark #user-profile-modal .guilds .guild .guild-nick{color:var(--cbase-4);}
@@ -891,7 +903,6 @@
 .theme-dark #user-profile-modal .tab-bar-container{background-color:var(--dark-4);}
 .theme-dark #user-profile-modal{border:1px solid var(--dark-1);}
 .theme-dark .avatar-profile .status{border-color:var(--dark-4);}
-
 /* Nitro payment modal */
 .premium-payment-modal .premium-animation{width:auto;}
 .premium-payment-modal .premium-payment-button.open:disabled:hover{border:0;opacity:.5;}
@@ -1051,7 +1062,7 @@
 .ui-standard-sidebar-view .itemBrandSelected-3LxxzT{margin:6px 0;}
 .ui-standard-sidebar-view .itemDefaultSelected-1UAWLe{margin:6px 0;}
 
-.theme-dark .ui-standard-sidebar-view .btn-close:hover{background-color:var(--dark-2);}
+.theme-dark .ui-standard-sidebar-view .btn-close:hover{background-color:var(--dark-5);}
 .theme-dark .ui-standard-sidebar-view .content-region{background:var(--dark-4);}
 .theme-dark .ui-standard-sidebar-view .itemBrand-mC9YR4:hover{background-color:var(--dark-5);}
 .theme-dark .ui-standard-sidebar-view .itemBrandSelected-3LxxzT{background-color:var(--dark-2);}
@@ -1478,7 +1489,7 @@
 .wrapperUnreadVoice-13F9Gg{transition:200ms ease;}
 
 /* Theme information */
-.user-settings-security+.divider-1G01Z9:after{content:'You are using darkDiscord. \A Version 20170906_1';}
+.user-settings-security+.divider-1G01Z9:after{content:'You are using darkDiscord. \A Version 20170908_1';}
 .user-settings-security+.divider-1G01Z9:after{display:block;padding-top:40px;padding-bottom:20px;white-space:pre-wrap;font-size:16px;line-height:20px;border-bottom:1px solid transparent;}
 
 .theme-dark .user-settings-security+.divider-1G01Z9:after{color:var(--cbase-4);border-color:hsla(218,5%,47%,.3);}
