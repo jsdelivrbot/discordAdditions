@@ -1,0 +1,5 @@
+#friends .friends-table .friends-row:before{content:counter(friends-count);counter-increment:friends-count;margin-right:5px;margin-top:20px;width:40px;}
+#friends .friends-table .friends-row:hover:before{margin-top:4px;}
+#friends .friends-table{counter-reset:friends-count;}
+.theme-dark #friends .friends-table .friends-row:before{color:hsla(0,0%,100%,.6);}
+.theme-light #friends .friends-table .friends-row:before{color:#737f8d;}
