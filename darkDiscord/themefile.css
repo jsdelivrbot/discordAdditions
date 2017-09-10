@@ -515,7 +515,7 @@
 .tooltip.tooltip-black{background-color:var(--dark-4);}
 .tooltip.tooltip-brand{background-color:var(--dark-4);}
 .tooltip:after{display:none;}
-.tooltip{background-color:var(--dark-4);box-shadow:0 2px 25px rgba(0, 0, 0, 0.4);border-radius:0;border:1px solid var(--dark-1);padding:8px;max-width:185px;font-size:14px;}
+.tooltip{background-color:var(--dark-4);box-shadow:0 2px 25px rgba(0, 0, 0, 0.4);border-radius:0;border:1px solid var(--dark-1);padding:8px;max-width:190px;font-size:14px;}
 
 /* Modal and UI controls */
 .modal-3HOjGZ .button-2t3of8.xlargeGrow-3SgBOC{margin-left:0!important;}
@@ -874,16 +874,18 @@
 .theme-dark .keybind-shortcut span{border:0;background:var(--dark-0);color:var(--cbase-4);}
 
 /* User profile modal */
+#user-profile-modal .header .additional-actions-icon{top:163px;}
+#user-profile-modal .header .header-info{padding-top:10px;}
 #user-profile-modal .actions .btn{transition:200ms ease;min-height:36px;min-width:65px;padding:10px;line-height:normal;}
-#user-profile-modal .avatar-wrapper{background-color:transparent;left:30px;top:40px;}
+#user-profile-modal .avatar-wrapper{background-color:transparent;left:20px;top:30px;}
 #user-profile-modal .guilds .section .connected-accounts .connected-account a .connected-account-open-icon{margin-right:7px;margin-left:14px;}
 #user-profile-modal .guilds .section .connected-accounts .connected-account{border:0;width:225px;padding:8px}
 #user-profile-modal .guilds .section .section-header{font-weight:600;}
 #user-profile-modal .guilds .section+.section{border-top:0;}
 #user-profile-modal .guilds .section{margin:0 20px;margin-right:13px;}
 #user-profile-modal .header:after{background-image:none;}
-#user-profile-modal .header{background-image:none;padding-left:150px;}
-#user-profile-modal .tab-bar-container{border-bottom:0;padding-left:20px;}
+#user-profile-modal .header{background-image:none;padding-left:140px;}
+#user-profile-modal .tab-bar-container{padding-left:20px;}
 #user-profile-modal{border-radius:0;}
 .avatar-profile{background-size:contain;height:100px;width:100px;}
 
@@ -894,7 +896,7 @@
 .theme-dark #user-profile-modal .actions .btn.reject-friend:hover{background-color:var(--dark-1);}
 .theme-dark #user-profile-modal .actions .btn.reject-friend{background-color:var(--dark-3);}
 .theme-dark #user-profile-modal .empty .empty-text{color:var(--cbase-4);}
-.theme-dark #user-profile-modal .empty{background-color:var(--dark-3);}
+.theme-dark #user-profile-modal .empty{background-color:var(--dark-4);}
 .theme-dark #user-profile-modal .guilds .guild .guild-nick{color:var(--cbase-4);}
 .theme-dark #user-profile-modal .guilds .guild .status{border-color:var(--dark-3);}
 .theme-dark #user-profile-modal .guilds .guild:hover{background:var(--dark-2);color:var(--cbase-1);}
@@ -912,11 +914,11 @@
 .theme-dark #user-profile-modal .header .header-info .header-info-inner .discord-tag .discriminator{color:var(--cbase-4);}
 .theme-dark #user-profile-modal .header .header-info .header-info-inner .discord-tag{color:var(--cbase-1);}
 .theme-dark #user-profile-modal .header{background-color:var(--dark-4);}
-.theme-dark #user-profile-modal .scroller{background:var(--dark-3);}
+.theme-dark #user-profile-modal .scroller{background:var(--dark-4);}
 .theme-dark #user-profile-modal .tab-bar .tab-bar-item.selected{border-color:var(--cbase-4);color:var(--cbase-1);}
 .theme-dark #user-profile-modal .tab-bar .tab-bar-item:hover{color:var(--cbase-4);}
 .theme-dark #user-profile-modal .tab-bar .tab-bar-item{color:var(--cbase-2);}
-.theme-dark #user-profile-modal .tab-bar-container{background-color:var(--dark-4);}
+.theme-dark #user-profile-modal .tab-bar-container{background-color:var(--dark-4);border-color:transparent;}
 .theme-dark #user-profile-modal{border:1px solid var(--dark-1);}
 .theme-dark .avatar-profile .status{border-color:var(--dark-4);}
 
@@ -1463,7 +1465,7 @@
 .serverfolders-modal .ui-color-picker-swatch2{margin-left:5px;}
 .serverfolders-modal input:focus{border-color:#7298da;}
 .serverfolders-modal input:hover:focus{border-color:#7298da;}
-.serverfolders-modal input:hover{border-color:#7298da;}
+.serverfolders-modal input:hover{border-color:#040405;}
 .serverfolders-modal input{margin-top:8px;background-color:var(--dark-3)!important;}
 
 /* Plugin: Owner Tags */
@@ -1476,6 +1478,15 @@
 
 /* Plugin: dateViewer */
 .theme-dark #dv-container{background-color:var(--dark-5);}
+
+/* Plugin: DiscordInjections Theme Manager */
+#ThemeMGR_CSSTextArea:focus{outline:none;}
+#ThemeMGR_CSSTextArea{border-radius:3px;font-size:14px;line-height:16px;transition:200ms ease;padding:10px;font-family:Menlo,Consolas,Monaco,monospace;}
+.di-settings-menu-wrapper div[style*="background-color: white;"]{background-color:transparent!important;}
+.theme-dark #ThemeMGR_CSSTextArea:focus:hover{border-color:#7298da;}
+.theme-dark #ThemeMGR_CSSTextArea:focus{border-color:#7298da;}
+.theme-dark #ThemeMGR_CSSTextArea:hover{border-color:#040405;}
+.theme-dark #ThemeMGR_CSSTextArea{background-color:var(--dark-3);color:var(--cbase-1);border:1px solid rgba(0,0,0,.3);}
 
 /* Animations */
 #bd-settings-sidebar .ui-tab-bar-item{transition:200ms ease;}
@@ -1509,11 +1520,8 @@
 .wrapperSelectedVoice-1Q1ocJ{transition:200ms ease;}
 .wrapperUnreadVoice-13F9Gg{transition:200ms ease;}
 
-/* Fix flickering issue */
-html,span:not(.spinner-item){backface-visibility:hidden;}
-
 /* Theme information */
-.user-settings-security:after{content:'darkDiscord version 20170908_1';}
+.user-settings-security:after{content:'darkDiscord version 20170910_1';}
 .user-settings-security:after{display:block;padding:20px 40px;white-space:pre-wrap;font-size:16px;line-height:20px;position:absolute;bottom:0;left:0;right:0;}
 
 .theme-dark .user-settings-security:after{color:var(--cbase-4);}
