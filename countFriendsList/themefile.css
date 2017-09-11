@@ -4,5 +4,5 @@
 .theme-dark #friends .friends-table .friends-row:before{color:hsla(0,0%,100%,.6);}
 .theme-light #friends .friends-table .friends-row:before{color:#737f8d;}
 
-#friends .friends-table .friends-table-header .friends-column-name{margin-left:45px;}
-#friends .friends-table .friends-table-header .friends-column-separator{visibility:hidden;}
+#friends .friends-table .friends-table-header .friends-column-name{margin-left:44px;}
+#friends .friends-table .friends-table-header .friends-column-name+.friends-column-separator{width:2px;}
