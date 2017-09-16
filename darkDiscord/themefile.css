@@ -70,6 +70,7 @@
 /* Guilds list */
 .guilds-wrapper .guilds .guild.active .friends-icon{cursor:default;}
 .guilds-wrapper .guilds .guild.selected .avatar-small{cursor:default;}
+.guilds-wrapper .guilds-add{border:0;}
 
 .theme-dark .guilds-wrapper .guilds .guild .friends-icon:hover{opacity:.75;}
 .theme-dark .guilds-wrapper .guilds .guild .friends-icon{background-image:url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPiAgICA8cGF0aCBkPSJNMjEgNmgtMnY5SDZ2MmMwIC41NS40NSAxIDEgMWgxMWw0IDRWN2MwLS41NS0uNDUtMS0xLTF6bS00IDZWM2MwLS41NS0uNDUtMS0xLTFIM2MtLjU1IDAtMSAuNDUtMSAxdjE0bDQtNGgxMGMuNTUgMCAxLS40NSAxLTF6Ii8+PC9zdmc+);opacity:.5;}
@@ -224,7 +225,7 @@
 .channel-textarea-guard{margin-bottom:46px;}
 
 .theme-dark .channel-textarea-guard button:hover{background-color:var(--dark-2);}
-.theme-dark .channel-textarea-guard button{background-color:var(--dark-4);}
+.theme-dark .channel-textarea-guard button{background-color:var(--dark-5);}
 .theme-dark .channel-textarea-guard{color:var(--cbase-2);}
 
 /* Chat autocomplete */
@@ -749,6 +750,7 @@
 
 .theme-dark .create-guild-container.deprecated .form-actions .btn-default:hover{background-color:var(--dark-1);}
 .theme-dark .create-guild-container.deprecated .form-actions .btn-default{background-color:var(--dark-3);color:var(--cbase-1);}
+.theme-dark .create-guild-container.deprecated .form-actions .btn-primary:hover{background-color:var(--dark-1);}
 .theme-dark .create-guild-container.deprecated .form-actions .btn-primary{background-color:var(--dark-3);}
 .theme-dark .create-guild-container.deprecated .form-actions{background-color:var(--dark-4);}
 .theme-dark .create-guild-container.deprecated .form-inner .control-group .region-select .region-select-inner .region-select-name{color:var(--cbase-8);}
@@ -905,15 +907,16 @@
 .theme-dark .keybind-shortcut span{border:0;background:var(--dark-0);color:var(--cbase-4);}
 
 /* User profile modal */
-#user-profile-modal .header .additional-actions-icon{top:163px;}
-#user-profile-modal .header .header-info{padding-top:10px;}
 #user-profile-modal .actions .btn{transition:200ms ease;min-height:36px;min-width:65px;padding:10px;line-height:normal;}
 #user-profile-modal .avatar-wrapper{background-color:transparent;left:20px;top:30px;}
 #user-profile-modal .guilds .section .connected-accounts .connected-account a .connected-account-open-icon{margin-right:7px;margin-left:14px;}
 #user-profile-modal .guilds .section .connected-accounts .connected-account{border:0;width:225px;padding:8px}
+#user-profile-modal .guilds .section .headerIcon-eMbZWG[name='Gamepad']{display:none;}
 #user-profile-modal .guilds .section .section-header{font-weight:600;}
 #user-profile-modal .guilds .section+.section{border-top:0;}
 #user-profile-modal .guilds .section{margin:0 20px;margin-right:13px;}
+#user-profile-modal .header .additional-actions-icon{top:163px;}
+#user-profile-modal .header .header-info{padding-top:10px;}
 #user-profile-modal .header:after{background-image:none;}
 #user-profile-modal .header{background-image:none;padding-left:140px;}
 #user-profile-modal .tab-bar-container{padding-left:20px;}
@@ -934,7 +937,7 @@
 .theme-dark #user-profile-modal .guilds .guild{color:var(--cbase-4);}
 .theme-dark #user-profile-modal .guilds .section .assetsSmallImage-2F5lSV{border-color:var(--dark-3);}
 .theme-dark #user-profile-modal .guilds .section .connected-accounts .connected-account .connected-account-name-inner .connected-account-name{color:var(--cbase-1);}
-.theme-dark #user-profile-modal .guilds .section .connected-accounts .connected-account{background-color:var(--dark-2);}
+.theme-dark #user-profile-modal .guilds .section .connected-accounts .connected-account{background-color:var(--dark-3);}
 .theme-dark #user-profile-modal .guilds .section .content-3AMrS-{color:var(--cbase-4);}
 .theme-dark #user-profile-modal .guilds .section .details-3Qyqn3{color:var(--cbase-4);}
 .theme-dark #user-profile-modal .guilds .section .headerIconForeground-3KIzwH{fill:var(--cbase-1);}
@@ -1089,7 +1092,8 @@
 
 /* Search results */
 .search-results-wrap .channel-separator .channel-name{padding-right:12px;padding-top:0;}
-.search-results-wrap .scroller-fzNley{padding:15px;}
+.search-results-wrap .results-wrapper{padding-left:0;}
+.search-results-wrap .scroller-fzNley{padding:20px;padding-right:13px;}
 .search-results-wrap .search-header{box-shadow:0 0;}
 .search-results-wrap .search-result .search-result-message.hit{box-shadow:0 0;}
 .search-results-wrap .search-result:after{display:none;}
@@ -1249,6 +1253,8 @@
 .theme-dark #bd-settingspane-container .bda-slist li:nth-child(odd){background-color:var(--dark-4);}
 .theme-dark #bd-settingspane-container .bda-slist li{background-color:var(--dark-4);}
 .theme-dark #bd-settingspane-container .bda-slist{color:var(--cbase-4);}
+.theme-dark #bd-settingspane-container .bd-pfbtn{background:var(--dark-3);}
+.theme-dark #bd-settingspane-container .bd-pfbtn:hover{background:var(--dark-1);}
 
 #bd-settings-sidebar .ui-tab-bar-header{font-weight:700;}
 #bd-settings-sidebar .ui-tab-bar-item.selected{cursor:default;margin:6px 0;}
@@ -1315,9 +1321,25 @@
 .bda-dark #rmenu:hover{background:var(--dark-2);color:var(--cbase-1);}
 .bda-dark #rmenu{background:var(--dark-4);border:1px solid var(--dark-1);color:var(--cbase-4);}
 
+/* BetterDiscord: Attached CSS editor */
+.content-region #bd-customcss-attach-controls #bd-customcss-detach-controls-button span{white-space:nowrap;margin-left:0!important;}
+.content-region #bd-customcss-attach-controls button{border:0!important;border-radius:3px!important;margin-right:5px;transition:200ms ease;}
+.content-region #bd-customcss-attach-controls{height:auto;}
+.content-region .CodeMirror-simplescroll-vertical div{border-radius:0!important;}
+.content-region .CodeMirror-simplescroll-vertical{margin-right:0!important;width:7px;}
+
+.theme-dark .content-region #bd-customcss-attach-controls button:hover{background:var(--dark-1);}
+.theme-dark .content-region #bd-customcss-attach-controls button{background:var(--dark-3);}
+.theme-dark .content-region #bd-customcss-attach-controls{background-color:var(--dark-5);box-shadow:0 0;border-top:1px solid var(--dark-4);}
+.theme-dark .content-region .CodeMirror-simplescroll-vertical div{background:var(--dark-0)!important;}
+.theme-dark .content-region .CodeMirror{background-color:var(--dark-5)!important;}
+.theme-dark .content-region .cm-s-material .CodeMirror-gutters{background-color:var(--dark-5)!important;}
+.theme-dark .content-region .cm-s-material .CodeMirror-linenumber{background-color:var(--dark-5)!important;}
+
 /* BetterDiscord: Detached CSS editor */
 #bd-customcss-detach-container #bd-customcss-attach-controls #bd-customcss-detach-controls-button span{white-space:nowrap;margin-left:0!important;}
 #bd-customcss-detach-container #bd-customcss-attach-controls button{border:0!important;border-radius:3px!important;margin-right:5px;transition:200ms ease;}
+#bd-customcss-detach-container #bd-customcss-attach-controls{height:auto;}
 #bd-customcss-detach-container .CodeMirror-simplescroll-vertical div{border-radius:0!important;}
 #bd-customcss-detach-container .CodeMirror-simplescroll-vertical{margin-right:0!important;width:7px;}
 #bd-customcss-detach-container .CodeMirror-sizer{padding-top:58px;}
@@ -1332,6 +1354,18 @@
 .app.theme-dark+#bd-customcss-detach-container .cm-s-material .CodeMirror-gutters{background-color:var(--dark-5)!important;}
 .app.theme-dark+#bd-customcss-detach-container .cm-s-material .CodeMirror-linenumber{background-color:var(--dark-5)!important;}
 .app.theme-dark+#bd-customcss-detach-container{background-color:var(--dark-5);}
+
+.ui-standard-sidebar-view #editor-detached button{left:0;margin:0;height:auto;width:auto;min-width:65px;min-height:32px;font-size:16px;padding:10px;border-radius:3px;line-height:normal;font-weight:normal;margin-top:8px;transition:200ms ease;}
+.ui-standard-sidebar-view #editor-detached h3{text-align:left;font-size:16px;line-height:20px;font-weight:normal;}
+.ui-standard-sidebar-view #editor-detached{margin-top:0;}
+
+.theme-dark .ui-standard-sidebar-view #editor-detached button:hover{background-color:var(--dark-1);}
+.theme-dark .ui-standard-sidebar-view #editor-detached button{background-color:var(--dark-3);}
+.theme-dark .ui-standard-sidebar-view #editor-detached h3{color:var(--cbase-1);}
+
+/* BetterDiscord: Minimal Mode */
+.bd-minimal .channel-members-wrap{min-width:210px;}
+.bd-minimal .channels-wrap{width:210px;}
 
 /* DiscordInjections: Settings */
 .di-settings-menu-wrapper .button-2t3of8{min-height:32px;min-width:65px;}
@@ -1539,6 +1573,17 @@
 .theme-dark .userPopout-4pfA0d .kawaii-tag{color:var(--cbase-4)!important;}
 
 /* Plugin: dateViewer */
+#dv-container #dv-btn{top:0;right:0;}
+#dv-container #dv-display{margin-left:25px;}
+#dv-container #dv-settings-panel .dv-panel .dv-title{padding-bottom:0;margin-bottom:8px;border-bottom:0;}
+#dv-container #dv-settings-panel .dv-panel{margin-left:25px;}
+#dv-container #dv-settings-panel{width:88%;}
+#dv-container.dv-flex #dv-settings-panel .dv-flex{justify-content:unset;}
+#dv-container.dv-flex #dv-settings-panel{justify-content:unset;}
+#dv-container.dv-flex {justify-content:unset;}
+
+.theme-dark #dv-container #dv-settings-panel .dv-panel .dv-title{color:var(--cbase-2);}
+.theme-dark #dv-container #dv-settings-panel{background-color:var(--dark-5);}
 .theme-dark #dv-container{background-color:var(--dark-5);}
 
 /* Plugin: DiscordInjections Theme Manager */
@@ -1583,7 +1628,7 @@
 .wrapperUnreadVoice-13F9Gg{transition:200ms ease;}
 
 /* Theme information */
-.user-settings-security:after{content:'darkDiscord version 20170915_1';}
+.user-settings-security:after{content:'darkDiscord version 20170916_1';}
 .user-settings-security:after{display:block;padding:20px 40px;white-space:pre-wrap;font-size:16px;line-height:20px;position:absolute;bottom:0;left:0;right:0;}
 
 .theme-dark .user-settings-security:after{color:var(--cbase-4);}
