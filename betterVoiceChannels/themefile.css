@@ -1,0 +1,8 @@
+:root {
+	--i-bvc-hovercolor: #36393f;
+	--i-bvc-selectcolor: rgba(79,84,92,.6);
+}
+
+.contentHoveredVoice-3qGNKh{background-color:var(--i-bvc-hovercolor);}
+.contentSelectedVoice-gTtYM9:active{background-color:var(--i-bvc-selectcolor);}
+.contentSelectedVoice-gTtYM9{background-color:var(--i-bvc-selectcolor);}
