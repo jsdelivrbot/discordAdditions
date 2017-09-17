@@ -3,6 +3,8 @@
 	--i-bvc-selectcolor: rgba(79,84,92,.6);
 }
 
+.contentHoveredVoice-3qGNKh:before{content:' ';width:4px;height:32px;position:absolute;left:0px;filter:brightness(55%);}
 .contentHoveredVoice-3qGNKh{background-color:var(--i-bvc-hovercolor);}
 .contentSelectedVoice-gTtYM9:active{background-color:var(--i-bvc-selectcolor);}
+.contentSelectedVoice-gTtYM9:before{content:' ';width:4px;height:32px;position:absolute;left:0px;}
 .contentSelectedVoice-gTtYM9{background-color:var(--i-bvc-selectcolor);}
