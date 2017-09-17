@@ -1,5 +1,10 @@
+:root {
+	--i-ccl-selectcolor: #7298da;
+	--i-ccl-unreadcolor: hsla(0,0%,100%,.6);
+}
+
 .content-2mSKOj{margin:0;padding-left:12px;border-radius:0;}
-.contentHoveredText-2HYGIY:before{content:' ';width:4px;background-color:#7298da;height:32px;position:absolute;left:0px;filter:brightness(55%);}
-.contentSelectedText-3j5CXt:before{content:' ';width:4px;background-color:#7298da;height:32px;position:absolute;left:0px;}
-.unread-23Kvxk{margin-top:0;margin-bottom:-2px;top:0;height:32px;border-radius:0;opacity:.3;}
+.contentHoveredText-2HYGIY:before{content:' ';width:4px;background-color:var(--i-ccl-selectcolor);height:32px;position:absolute;left:0px;filter:brightness(55%);}
+.contentSelectedText-3j5CXt:before{content:' ';width:4px;background-color:var(--i-ccl-selectcolor);height:32px;position:absolute;left:0px;}
+.unread-23Kvxk{margin-top:0;margin-bottom:-2px;top:0;height:32px;border-radius:0;opacity:.3;background-color:var(--i-ccl-unreadcolor);}
 .wrapper-fDmxzK{height:32px;}
