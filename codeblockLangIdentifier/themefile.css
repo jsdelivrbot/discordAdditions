@@ -39,6 +39,7 @@
 .markup .hljs[class~="elixir" i]::before{content:'Elixir';}
 .markup .hljs[class~="elm" i]::before{content:'Elm';}
 .markup .hljs[class~="excel" i]::before{content:'Excel workbook';}
+.markup .hljs[class~="fix" i]::before{content:'FIX';}
 .markup .hljs[class~="freepascal" i]::before{content:'Free Pascal';}
 .markup .hljs[class~="gemspec" i]::before{content:'Ruby Gemspec';}
 .markup .hljs[class~="glsl" i]::before{content:'OpenGL Shading Language';}
