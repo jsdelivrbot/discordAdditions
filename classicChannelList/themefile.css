@@ -3,6 +3,10 @@
 	--i-ccl-unreadcolor: hsla(0,0%,100%,.6);
 }
 
+.bd-blue .contentHoveredText-2HYGIY:before{background-color:#3a71c1;}
+.bd-blue .contentHoveredVoice-3qGNKh:before{background-color:#3a71c1;}
+.bd-blue .contentSelectedText-3j5CXt:before{background-color:#3a71c1;}
+.bd-blue .contentSelectedVoice-gTtYM9:before{background-color:#3a71c1;}
 .content-2mSKOj{margin:0;padding-left:12px;border-radius:0;}
 .contentHoveredText-2HYGIY:before{content:' ';width:4px;background-color:var(--i-ccl-selectcolor);height:32px;position:absolute;left:0px;filter:brightness(55%);}
 .contentHoveredVoice-3qGNKh:before{background-color:var(--i-ccl-selectcolor);}
