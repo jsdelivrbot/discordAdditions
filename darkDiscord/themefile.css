@@ -155,6 +155,11 @@
 .theme-dark .channel-notices .channel-notice.quickswitcher-notice{background-color:var(--dark-4);}
 .theme-dark .channel-notices .channel-notice{border-bottom:1px solid var(--dark-2);}
 
+/* Channel unread notification */
+.unread-2TDDFN{bottom:8px;border-radius:0;opacity:.8;transition:200ms ease;}
+.theme-dark .unread-2TDDFN:hover{background-color:var(--dark-2);}
+.theme-dark .unread-2TDDFN{background-color:var(--dark-4);border:1px solid var(--dark-1);}
+
 /* Guild member list */
 .theme-dark .channel-members .member.popout-open{background:var(--dark-5);}
 .theme-dark .channel-members .member:hover{background:var(--dark-5);}
@@ -351,7 +356,8 @@
 .theme-dark .messages-wrapper .messages .message-group-blocked.revealed{background:var(--dark-5);}
 
 /* Chat new messages bar */
-.chat .new-messages-bar{border-radius:0;left:unset;top:8px;}
+.chat .new-messages-bar:hover{opacity:1;}
+.chat .new-messages-bar{border-radius:0;left:unset;top:8px;opacity:.8;}
 
 .theme-dark .chat .new-messages-bar button:last-child:hover{color:var(--cbase-1);}
 .theme-dark .chat .new-messages-bar button:last-child{color:var(--cbase-2);}
@@ -360,7 +366,8 @@
 .theme-dark .chat .new-messages-bar{background-color:var(--dark-4);border:1px solid var(--dark-1);}
 
 /* Chat jump to present bar */
-.chat .jump-to-present-bar{border-radius:0;bottom:11px;left:unset;right:20px;}
+.chat .jump-to-present-bar:hover{opacity:1;}
+.chat .jump-to-present-bar{border-radius:0;bottom:11px;left:unset;right:20px;opacity:.8;}
 
 .theme-dark .chat .jump-to-present-bar button:last-child:hover{color:var(--cbase-1);}
 .theme-dark .chat .jump-to-present-bar button:last-child{color:var(--cbase-2);}
@@ -405,8 +412,9 @@
 .theme-dark .messages-popout-wrap .messages-popout .message-group{background-color:var(--dark-3);}
 
 /* Invite people DM popout */
+.popout .themed-popout.private-channel-recipients-invite .body .scroller{padding-left:10px;padding-right:3px;}
 .popout .themed-popout.private-channel-recipients-invite .footer{padding:10px;}
-.popout .themed-popout.private-channel-recipients-invite .friend{padding-left:20px;padding-right:13px;}
+.popout .themed-popout.private-channel-recipients-invite .friend{padding-left:10px;padding-right:10px;}
 .popout .themed-popout.private-channel-recipients-invite .header .subtitle{text-align:left;}
 .popout .themed-popout.private-channel-recipients-invite .header .title{text-align:left;}
 .popout .themed-popout.private-channel-recipients-invite .header{padding:20px;}
@@ -564,11 +572,9 @@
 .theme-dark .diversity-selector .popout{background-color:var(--dark-4);border-color:var(--dark-1);box-shadow:0 2px 25px rgba(0,0,0,0.4);}
 
 /* Popout menu */
-.popout-menu .popout-menu-item{cursor:default;}
+.popout-menu{border-radius:0;}
 .popout-menu .popout-menu-separator{display:none;}
-.popout-menu{border-radius:0;padding:1px;}
-.popout{height:auto!important;}
-.status-picker.popout-menu .popout-menu-item:nth-of-type(1){margin-top:1px;}
+.popout-menu .popout-menu-item{cursor:default;}
 
 .theme-dark .popout-menu .popout-menu-item:hover{background-color:var(--dark-2);color:var(--cbase-1);}
 .theme-dark .popout-menu .popout-menu-item{color:var(--cbase-4);}
@@ -940,21 +946,25 @@
 
 /* User profile modal */
 #user-profile-modal .actions .btn{transition:200ms ease;min-height:36px;min-width:65px;padding:10px;line-height:normal;}
+#user-profile-modal .avatar-profile{background-size:contain;height:100px;width:100px;}
 #user-profile-modal .avatar-wrapper{background-color:transparent;left:20px;top:30px;}
+#user-profile-modal .guilds .guild{padding:10px;}
 #user-profile-modal .guilds .section .connected-accounts .connected-account a .connected-account-open-icon{margin-right:7px;margin-left:14px;}
 #user-profile-modal .guilds .section .connected-accounts .connected-account{border:0;width:225px;padding:8px}
 #user-profile-modal .guilds .section .headerIcon-eMbZWG[name='Gamepad']{display:none;}
 #user-profile-modal .guilds .section .section-header{font-weight:600;}
 #user-profile-modal .guilds .section+.section{border-top:0;}
-#user-profile-modal .guilds .section{margin:0 20px;margin-right:13px;}
-#user-profile-modal .header .additional-actions-icon{top:163px;}
+#user-profile-modal .guilds .section{margin:0 10px;}
+#user-profile-modal .header .additional-actions-icon{top:173px;}
 #user-profile-modal .header .header-info{padding-top:10px;}
 #user-profile-modal .header:after{background-image:none;}
-#user-profile-modal .header{background-image:none;padding-left:140px;}
-#user-profile-modal .tab-bar .tab-bar-item{border-width:3px;}
+#user-profile-modal .header{background-image:none;padding-left:140px;height:160px;}
+#user-profile-modal .scroller{padding:10px;padding-right:3px;}
+#user-profile-modal .tab-bar .tab-bar-item+.tab-bar-item{margin-left:0;}
+#user-profile-modal .tab-bar .tab-bar-item{border-width:3px;padding:20px 10px;min-width:40px;}
 #user-profile-modal .tab-bar-container{padding-left:20px;border-width:3px;}
+#user-profile-modal .tab-bar{padding-top:0;}
 #user-profile-modal{border-radius:0;}
-.avatar-profile{background-size:contain;height:100px;width:100px;}
 
 .theme-dark #user-profile-modal .actions .btn.add-friend:hover{background-color:#43b581;}
 .theme-dark #user-profile-modal .actions .btn.add-friend{background-color:var(--dark-3);}
@@ -1044,14 +1054,13 @@
 .theme-dark .userPopout-4pfA0d .avatarStatusNormal-1OXVjG{border-color:var(--dark-4);}
 .theme-dark .userPopout-4pfA0d .body-3rkFrF{background-color:var(--dark-4);}
 .theme-dark .userPopout-4pfA0d .bodyTitleText-hSiL7d{color:var(--cbase-4);}
-.theme-dark .userPopout-4pfA0d .botTagInvert-gorWR_{background:var(--dark-4);color:var(--cbase-4);}
+.theme-dark .userPopout-4pfA0d .botTagInvert-gorWR_{background:rgba(0,0,0,.4);color:var(--cbase-4);}
 .theme-dark .userPopout-4pfA0d .content-3AMrS-{color:var(--cbase-4);}
 .theme-dark .userPopout-4pfA0d .details-3Qyqn3{color:var(--cbase-4);}
 .theme-dark .userPopout-4pfA0d .footer-2J5zqP{background-color:var(--dark-4);}
 .theme-dark .userPopout-4pfA0d .headerActivityText-3qBQRo{color:var(--cbase-4);}
 .theme-dark .userPopout-4pfA0d .headerNormal-1cioxU{background:var(--dark-4);}
 .theme-dark .userPopout-4pfA0d .headerTagNormal-KyD3_J{color:var(--cbase-4);}
-.theme-dark .userPopout-4pfA0d .headerTagStreaming-2FikoO .botTagInvert-gorWR_{background-color:rgba(0,0,0,.2);}
 .theme-dark .userPopout-4pfA0d .headerText-1wl24E{color:var(--cbase-4);}
 .theme-dark .userPopout-4pfA0d .name-2ZHm1Q{color:var(--cbase-1);}
 .theme-dark .userPopout-4pfA0d{background-color:var(--dark-4);border:1px solid var(--dark-1);box-shadow:0 2px 25px rgba(0,0,0,0.4);}
@@ -1692,7 +1701,7 @@
 .wrapperUnreadVoice-13F9Gg{transition:200ms ease;}
 
 /* Theme information */
-.user-settings-security:after{content:'darkDiscord version 20170918_1';}
+.user-settings-security:after{content:'darkDiscord version 20170920_1';}
 .user-settings-security:after{display:block;padding:20px 40px;white-space:pre-wrap;font-size:16px;line-height:20px;position:absolute;bottom:0;left:0;right:0;}
 
 .theme-dark .user-settings-security:after{color:var(--cbase-4);}
