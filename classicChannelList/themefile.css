@@ -8,7 +8,7 @@
 .bd-blue .contentSelectedText-3j5CXt:before{background-color:#3a71c1;}
 .bd-blue .contentSelectedVoice-gTtYM9:before{background-color:#3a71c1;}
 .bd-blue .private-channels .channel:hover:not(.selected):before{background-color:#3a71c1;}
-.bd-blue .private-channels.channel.selected:before{background-color:#3a71c1;}
+.bd-blue .private-channels .channel.selected:before{background-color:#3a71c1;border-left:0;}
 
 .content-2mSKOj{border-radius:0;margin:0;padding-left:12px;}
 .contentHoveredText-2HYGIY:before{background-color:var(--i-ccl-selectcolor);content:' ';filter:brightness(55%);height:32px;left:0;position:absolute;width:4px;}
