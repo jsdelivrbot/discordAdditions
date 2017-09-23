@@ -217,6 +217,8 @@
 .theme-dark .private-channels .channel:hover:not(.selected) a{background-color:var(--dark-5);}
 .theme-dark .private-channels{background-color:var(--dark-4);}
 
+.bd-blue .private-channels .channel.selected .icon-friends{background-color:transparent;}
+
 /* DM calls */
 .theme-dark .private-channel-call{background-color:var(--dark-3);}
 .theme-dark .ui-video{background-color:var(--dark-3);}
@@ -441,9 +443,12 @@
 .popout .themed-popout.private-channel-recipients-invite .header .title{text-align:left;}
 .popout .themed-popout.private-channel-recipients-invite .header{padding:20px;}
 .popout .themed-popout.private-channel-recipients-invite{width:auto;}
+.popout .themed-popout.private-channel-recipients-invite .error-state{padding:0 20px 20px;width:308.63px;}
 
 .theme-dark .popout .themed-popout.private-channel-recipients-invite .body{background-color:var(--dark-4);}
 .theme-dark .popout .themed-popout.private-channel-recipients-invite .error-state .text{color:var(--cbase-2);}
+.theme-dark .popout .themed-popout.private-channel-recipients-invite .error-state.not-friends .btn:hover{background-color:var(--dark-1);}
+.theme-dark .popout .themed-popout.private-channel-recipients-invite .error-state.not-friends .btn{background-color:var(--dark-3);}
 .theme-dark .popout .themed-popout.private-channel-recipients-invite .footer button:disabled:hover{background-color:var(--dark-3);}
 .theme-dark .popout .themed-popout.private-channel-recipients-invite .footer button:disabled{opacity:.5;}
 .theme-dark .popout .themed-popout.private-channel-recipients-invite .footer button:hover{background-color:var(--dark-1);}
@@ -1250,7 +1255,7 @@
 
 /* Login modal */
 .auth-blur{display:none;}
-.auth-copyright+.auth-center{background-color:#000;opacity:.85;}
+.auth-copyright+.auth-center{background-color:#000;opacity:.5;}
 .auth-copyright{background-color:var(--dark-4);border:1px solid var(--dark-1);left:unset;opacity:1;padding:8px 12px;right:20px;z-index:2;}
 .auth-form-invite.register .invite-header{margin-bottom:20px;}
 .auth-inner .auth-brand{align-items:initial;background-color:var(--dark-4);padding:20px;}
@@ -1285,6 +1290,7 @@
 .form.deprecated.auth-form footer a:hover{border-bottom:0;padding-bottom:0;text-decoration:underline;}
 .form.deprecated.auth-form footer{color:var(--cbase-4);margin-top:20px;}
 .form.deprecated.auth-form h1{font-weight:600;letter-spacing:.3px;margin:0 0 20px;text-align:left;}
+.form.deprecated.auth-form p.token-tip{margin:0;padding:0;text-align:left;margin-top:8px;margin-bottom:16px;color:var(--cbase-2);}
 .form.deprecated.auth-form p{color:var(--cbase-4);}
 .form.deprecated.auth-form{background:var(--dark-3);padding:20px;width:375px;}
 .invite-header.full .guild-wrap{justify-content:left;margin-bottom:20px;margin-top:10px;}
@@ -1752,7 +1758,8 @@
 .wrapperUnreadVoice-13F9Gg{transition:200ms ease;}
 
 /* Theme information */
-.user-settings-security:after{content:'darkDiscord version 20170923_2';}
+.user-settings-security:after{content:'darkDiscord version 20170923_3';}
+.user-settings-security{content:'darkDiscord version 20170923_2';}
 .user-settings-security:after{display:block;padding:20px 40px;white-space:pre-wrap;font-size:16px;line-height:20px;position:absolute;bottom:0;left:0;right:0;}
 
 .theme-dark .user-settings-security:after{color:var(--cbase-4);}
