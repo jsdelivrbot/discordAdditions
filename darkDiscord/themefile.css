@@ -1364,6 +1364,7 @@
 #bd-settingspane-container .bda-slist div h3{line-height:20px;font-weight:600;text-transform:uppercase;}
 #bd-settingspane-container .bda-slist div input:focus{outline:none;}
 #bd-settingspane-container .bda-slist div input[type='text']{margin-top:8px;height:40px;padding:10px;font-size:16px;border-radius:3px;transition:200ms ease;}
+#bd-settingspane-container .bda-slist div{font-size:16px;line-height:20px;}
 
 .bd-blue .theme-dark #bd-settingspane-container .bda-slist div input:focus:hover{border-color:#3a71c1;}
 .bd-blue .theme-dark #bd-settingspane-container .bda-slist div input:focus{border-color:#3a71c1;}
@@ -1598,6 +1599,7 @@
 #app-mount .emojistatistics-modal .emojiserver-entry .modal-emojiserver-icon{background-color:var(--dark-2);color:var(--cbase-1);font-weight:400;}
 #app-mount .emojistatistics-modal .emojiserver-entry{border-bottom:0;border-top:0;}
 #app-mount .emojistatistics-modal .form-actions{background-color:var(--dark-4);box-shadow:0 0;padding:10px;}
+#app-mount .emojistatistics-modal .form-header header{color:var(--cbase-1);}
 #app-mount .emojistatistics-modal .form-header{background-color:var(--dark-4);box-shadow:0 0;}
 #app-mount .emojistatistics-modal .form-inner{padding-right:13px;}
 #app-mount .emojistatistics-modal .form-titles{padding-right:13px;}
@@ -1624,6 +1626,7 @@
 #app-mount .editchannels-modal .btn:hover{background-color:var(--dark-1);}
 #app-mount .editchannels-modal .btn{background-color:var(--dark-3);min-height:32px;min-width:65px;padding:10px;transition:200ms ease;}
 #app-mount .editchannels-modal .form-actions{background-color:var(--dark-4);box-shadow:0 0;padding:10px;}
+#app-mount .editchannels-modal .form-header header{color:var(--cbase-1);}
 #app-mount .editchannels-modal .form-header{background-color:var(--dark-4);box-shadow:0 0;}
 #app-mount .editchannels-modal .modal-inner{background-color:var(--dark-4);border:1px solid var(--dark-1);border-radius:0;}
 #app-mount .editchannels-modal .modal{max-height:100vh;min-height:500px;}
@@ -1641,6 +1644,7 @@
 #app-mount .serverhider-modal .btn:hover{background-color:var(--dark-1);}
 #app-mount .serverhider-modal .btn{background-color:var(--dark-3);min-height:32px;min-width:65px;padding:10px;transition:200ms ease;}
 #app-mount .serverhider-modal .form-actions{background-color:var(--dark-4);box-shadow:0 0;padding:10px;}
+#app-mount .serverhider-modal .form-header header{color:var(--cbase-1);}
 #app-mount .serverhider-modal .form-header{background-color:var(--dark-4);box-shadow:0 0;}
 #app-mount .serverhider-modal .form-inner{margin:0;padding-right:13px;}
 #app-mount .serverhider-modal .modal-inner{background-color:var(--dark-4);border:1px solid var(--dark-1);border-radius:0;box-shadow:0 0;}
@@ -1652,6 +1656,7 @@
 #app-mount .serverfolders-modal .btn:hover{background-color:var(--dark-1);}
 #app-mount .serverfolders-modal .btn{background-color:var(--dark-3);min-height:32px;min-width:65px;padding:10px;transition:200ms ease;}
 #app-mount .serverfolders-modal .form-actions{background-color:var(--dark-4);padding:10px;}
+#app-mount .serverfolders-modal .form-header header{color:var(--cbase-1);}
 #app-mount .serverfolders-modal .form-header{background-color:var(--dark-4);}
 #app-mount .serverfolders-modal .form-inner{margin:0;}
 #app-mount .serverfolders-modal .modal-inner{background-color:var(--dark-4);border:1px solid var(--dark-1);border-radius:0;box-shadow:0 0;height:auto;width:525px;}
@@ -1674,7 +1679,7 @@
 .theme-dark .userPopout-4pfA0d .kawaii-tag{color:var(--cbase-4)!important;}
 
 /* Plugin: dateViewer */
-#dv-container #dv-btn{right:0;top:0;z-index:2;}
+#dv-container .dv-btn{right:0;top:0;z-index:2;}
 #dv-container #dv-display{margin-left:25px;text-align:left;}
 #dv-container #dv-settings-panel .dv-panel .dv-title{border-bottom:0;margin-bottom:8px;padding-bottom:0;}
 #dv-container #dv-settings-panel .dv-panel{margin-left:25px;}
@@ -1702,6 +1707,7 @@
 #app-mount .editservers-modal .btn{background-color:var(--dark-3);min-height:32px;min-width:65px;padding:10px;transition:200ms ease;}
 #app-mount .editservers-modal .form-actions .btn+.btn{margin-right:5px;}
 #app-mount .editservers-modal .form-actions{background-color:var(--dark-4);box-shadow:0 0;padding:10px;}
+#app-mount .editservers-modal .form-header header{color:var(--cbase-1);}
 #app-mount .editservers-modal .form-header{background-color:var(--dark-4);box-shadow:0 0;display:none;}
 #app-mount .editservers-modal .form-inner .form-tab .form-tablinks.active{background-color:transparent;border-color:#7298da;}
 #app-mount .editservers-modal .form-inner .form-tab .form-tablinks:hover:not(.active){background-color:transparent;border-color:var(--dark-0);}
@@ -1758,7 +1764,7 @@
 .wrapperUnreadVoice-13F9Gg{transition:200ms ease;}
 
 /* Theme information */
-.user-settings-security:after{content:'darkDiscord version 20170923_3';}
+.user-settings-security:after{content:'darkDiscord version 20170923_4';}
 .user-settings-security{content:'darkDiscord version 20170923_2';}
 .user-settings-security:after{display:block;padding:20px 40px;white-space:pre-wrap;font-size:16px;line-height:20px;position:absolute;bottom:0;left:0;right:0;}
 
