@@ -10,7 +10,7 @@
     transform: scale(1)!important;
     z-index:1;
 }
-.layer+.layer .ui-standard-sidebar-view {
+.layer~.layer .ui-standard-sidebar-view {
     min-width: 900px;
     max-width: 60%;
     max-height: calc(100% - 120px);
@@ -28,23 +28,23 @@
     transition: 300ms cubic-bezier(.4,0,0,1);
     background: transparent!important;
 }
-.layer:not(.stop-animations)+.layer.animating .ui-standard-sidebar-view {
+.layer:not(.stop-animations)~.layer.animating .ui-standard-sidebar-view {
   transform: scale(0.5)!important;
   opacity: 1!important;
   transition: all 250ms linear;
 }
-.layer.stop-animations+.layer .ui-standard-sidebar-view {
+.layer.stop-animations~.layer .ui-standard-sidebar-view {
     animation:scale 250ms cubic-bezier(.2,0,0,1.15);
     transform: scale(1);
     opacity: 1;
 }
-.layer+.layer {
+.layer~.layer {
     background: rgba(0,0,0,0.85)!important;
     z-index: 2;
     opacity:0!important;
     transition:all 200ms ease;
 }
-.layer.stop-animations+.layer{
+.layer.stop-animations~.layer{
     opacity:1!important;
     animation:opacity 300ms ease!important;
 }
