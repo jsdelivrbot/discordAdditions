@@ -121,7 +121,7 @@
 .theme-dark .mention-RlZ5F3{border:1px solid var(--dark-1);}
 
 /* Guild header */
-.header-1tSljs{border-bottom:0;box-shadow:0 0;}
+.header-1tSljs{border-bottom:0;box-shadow:0 0;z-index:901;}
 
 .theme-dark .header-1tSljs:hover{background-color:var(--dark-3);}
 .theme-dark .header-1tSljs{background-color:var(--dark-4);}
@@ -231,7 +231,7 @@
 
 /* Account and voice bar */
 .container-3lnMWU{border-bottom:0;}
-.container-iksrDt{margin-bottom:0;}
+.container-iksrDt{margin-bottom:0;z-index:901;}
 
 .theme-dark .button-1aU9q1:hover{background-color:var(--dark-5);}
 .theme-dark .button-3WJ5FX:hover{background-color:var(--dark-5);}
@@ -616,13 +616,27 @@
 .theme-dark .diversity-selector .popout{background-color:var(--dark-4);border-color:var(--dark-1);box-shadow:0 2px 25px rgba(0,0,0,0.4);}
 
 /* Popout menu */
-.popout-menu{border-radius:0;}
-.popout-menu .popout-menu-separator{display:none;}
 .popout-menu .popout-menu-item{cursor:default;}
+.popout-menu .popout-menu-separator{display:none;}
+.popout-menu{border-radius:0;width:240px;}
+.popout.popout-bottom{margin-top:0;}
+
+.popout-bottom .popout-menu{-webkit-box-shadow:none;animation:.4s popoutTop ease;bottom:55px;box-shadow:none;height:inherit;left:70px;position:fixed;top:56px;transform:translateY(0);width:240px;z-index:900;}
+.popout-bottom[style*="overflow: hidden; visibility: visible;"]{left:-160px!important;top:56px!important;transform:none!important;z-index:900!important;}
+.popout-bottom[style*="visibility: visible;"]{-webkit-box-shadow:none!important;animation:fadeIn .15s;animation-timing-function:ease-in;box-shadow:none!important;margin-left:-75px;overflow:visible!important;transform:none!important;}
+
+.popout-top-left .popout-menu{-webkit-box-shadow:none;animation:.4s popoutBottom ease;bottom:30px;box-shadow:none;height:inherit;left:70px;transform:translateY(0);width:240px;z-index:900;}
+.popout-top-left[style*="overflow: hidden; visibility: visible;"]{left:70px!important;bottom:0px!important;transform:none!important;z-index:900!important;}
+.popout-top-left[style*="visibility: visible;"]{-webkit-box-shadow:none!important;animation:fadeIn .15s;animation-timing-function:ease-in;box-shadow:none!important;margin-left:0px;overflow:visible!important;transform:none!important;top:unset!important;bottom:52px!important;}
 
 .theme-dark .popout-menu .popout-menu-item:hover{background-color:var(--dark-2);color:var(--cbase-1);}
 .theme-dark .popout-menu .popout-menu-item{color:var(--cbase-4);}
-.theme-dark .popout-menu{background:var(--dark-3);border:1px solid var(--dark-1);}
+.theme-dark .popout-menu{background:var(--dark-4);}
+.theme-dark .popout.popout-bottom .popout-menu{border-bottom:1px solid var(--dark-1);}
+.theme-dark .popout.popout-top-left .popout-menu{border-top:1px solid var(--dark-1);}
+
+@keyframes popoutBottom{from{transform:translateY(100%);}}
+@keyframes popoutTop{from{transform:translateY(-100%);}}
 
 /* Tooltip */
 .tooltip.tooltip-black{background-color:var(--dark-4);}
@@ -1958,7 +1972,7 @@ body .sp-picker-container{border-left:0;}
 .userHovered-3tfm93{transition:200ms ease;}
 
 /* Theme information */
-.user-settings-security:after{content:'darkDiscord version 20171012_1';}
+.user-settings-security:after{content:'darkDiscord version 20171013_1';}
 .user-settings-security:after{display:block;padding:20px 40px;white-space:pre-wrap;font-size:16px;line-height:20px;position:absolute;bottom:0;left:0;right:0;}
 
 .theme-dark .user-settings-security:after{color:var(--cbase-4);}
