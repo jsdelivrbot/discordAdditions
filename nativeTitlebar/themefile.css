@@ -11,9 +11,9 @@
 
 .titlebar{background-color:var(--i-dtl-bgcolor);background-image:url(/assets/1c8a54f25d101bdc607cec7228247a9a.svg);background-position-x:8px;background-position-y:center;background-repeat:no-repeat;background-size:24px;height:34px;}
 .titlebar .win-buttons{height:34px;right:0;top:0;}
-.titlebar .win-buttons button{background-position-y:7px;background-repeat:no-repeat;background-size:24px;height:34px;width:48px;}
+.titlebar .win-buttons button{background-position-y:7px;background-repeat:no-repeat;background-size:24px;height:34px;width:48px;cursor:default;}
 
-.native-toolbar .titlebar{background-color:var(--i-dtl-bgcolor);background-image:url(/assets/1c8a54f25d101bdc607cec7228247a9a.svg);background-position-x:8px;background-position-y:center;background-repeat:no-repeat;background-size:24px;height:34px;}
+.native-toolbar .titlebar{background-color:var(--i-dtl-bgcolor);background-image:url(/assets/1c8a54f25d101bdc607cec7228247a9a.svg);background-position-x:8px;background-position-y:center;background-repeat:no-repeat;background-size:24px;height:34px;cursor:default;}
 .native-toolbar .titlebar .win-buttons{height:34px;right:0;top:0;}
 .native-toolbar .titlebar .win-buttons button{background-position-y:7px;background-repeat:no-repeat;background-size:24px;height:34px;width:48px;}
 
@@ -29,22 +29,24 @@
 .titlebar .win-buttons .win-close:hover{background-color:var(--i-dtl-closehover);}
 .titlebar .win-buttons button:hover{background-color:var(--i-dtl-btnhover);}
 
-.modal-2LIEKY{padding-top:calc(60px - 34px);top:34px;}
+.modal-2LIEKY{padding-top:calc(60px - 34px);margin-top:34px;}
 
-.app{top:34px;}
-.app .channels-wrap{overflow:hidden;}
-.app .chat>.title-wrap{min-height:48px;}
-.app .guilds-wrapper .guilds{padding-top:18px;}
-.app .header-1tSljs{height:48px;}
-.app .header-toolbar .separator.separator-win{display:none;}
-.connecting{top:34px;}
+.layers{margin-top:34px;}
+.layers .channels-wrap{overflow:hidden;}
+.layers .chat>.title-wrap{min-height:48px;}
+.layers .guilds-wrapper .guilds{padding-top:18px;}
+.layers .header-1tSljs{height:48px;}
+.layers .header-toolbar .separator.separator-win{display:none;}
+.connecting{margin-top:34px;}
 
-.native-toolbar .app{top:34px;}
-.native-toolbar .app .channels-wrap{border-radius:0;overflow:hidden;}
-.native-toolbar .app .chat>.title-wrap{min-height:48px;}
-.native-toolbar .app .guilds-wrapper .guilds{padding-top:18px;}
-.native-toolbar .app .guilds-wrapper .guilds:before{display:none;}
-.native-toolbar .app .header-1tSljs{height:48px;}
-.native-toolbar .app .header-toolbar .separator.separator-win{display:none;}
+.native-toolbar .layers{margin-top:34px;}
+.native-toolbar .layers .channels-wrap{border-radius:0;overflow:hidden;}
+.native-toolbar .layers .chat>.title-wrap{min-height:48px;}
+.native-toolbar .layers .guilds-wrapper .guilds{padding-top:18px;}
+.native-toolbar .layers .guilds-wrapper .guilds:before{display:none;}
+.native-toolbar .layers .header-1tSljs{height:48px;}
+.native-toolbar .layers .header-toolbar .separator.separator-win{display:none;}
 .native-toolbar .app-layer{background:transparent;}
-.native-toolbar .connecting{top:34px;}
+.native-toolbar .connecting{margin-top:34px;}
+
+.popout .themed-popout{max-height:calc(100vh - 34px - 48px - 20px)!important;}
