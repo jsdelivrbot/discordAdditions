@@ -1182,7 +1182,7 @@
 .search-popout .search-query .search-for strong{line-height:20px;}
 .search-popout .search-query .search-for{line-height:20px;}
 .search-popout .search-query{border-bottom:0;}
-.search-popout{border-radius:0;}
+.search-popout{border-radius:0;margin-left:-82px;margin-top:13px;}
 
 .theme-dark .search-popout .option .answer{color:var(--cbase-8);}
 .theme-dark .search-popout .option .filter{color:var(--cbase-4);}
@@ -1972,7 +1972,7 @@ body .sp-picker-container{border-left:0;}
 .userHovered-3tfm93{transition:200ms ease;}
 
 /* Theme information */
-.user-settings-security:after{content:'darkDiscord version 20171013_1';}
+.user-settings-security:after{content:'darkDiscord version 20171014_1';}
 .user-settings-security:after{display:block;padding:20px 40px;white-space:pre-wrap;font-size:16px;line-height:20px;position:absolute;bottom:0;left:0;right:0;}
 
 .theme-dark .user-settings-security:after{color:var(--cbase-4);}
