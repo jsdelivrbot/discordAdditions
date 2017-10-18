@@ -24,10 +24,11 @@
 .theme-dark .title-38OOBL{color:var(--cbase-2);}
 
 /* Title bar */
-.chat>.title-wrap.title-wrap-dark{border-bottom:0;box-shadow:0 0;}
 .chat>.title-wrap.title-wrap-dark .topic{color:var(--cbase-4);}
+.chat>.title-wrap.title-wrap-dark{border-bottom:0;box-shadow:0 0;}
 .theme-dark .chat{background-color:var(--dark-3);}
 .theme-dark .header-toolbar .toolbar-badge{border-color:var(--dark-3);}
+.theme-dark .title-qAcLxz{background-color:var(--dark-3);}
 
 /* Notice bar */
 .notice .btn{line-height:20px;margin:0;margin-bottom:5px;margin-left:10px;}
@@ -252,7 +253,7 @@
 .theme-dark .channelTextAreaDisabled-TBtxS6 .inner-3if5cm{opacity:1;background-color:var(--dark-5);}
 .theme-dark .channelTextAreaEnabled-c05Zpy .inner-3if5cm{background-color:var(--dark-4);}
 .theme-dark .channelTextAreaEnabledNoAttach-19CjQr .inner-3if5cm{background-color:var(--dark-4);}
-.theme-dark .chat form{border-top:0;}
+.theme-dark .chat form{border-top:0;box-shadow:0 0;background-color:transparent;}
 .theme-dark .textArea-20yzAH::-webkit-input-placeholder{color:var(--cbase-4);}
 
 /* Chat guard */
@@ -625,29 +626,11 @@
 /* Popout menu */
 .popout-menu .popout-menu-item{cursor:default;}
 .popout-menu .popout-menu-separator{display:none;}
-.popout-menu{border-radius:0;width:240px;}
-.popout.popout-bottom{margin-top:0;}
-
-.popout-bottom .popout-menu{-webkit-box-shadow:none;animation:.4s popoutTop ease;bottom:55px;box-shadow:none;height:inherit;left:70px;position:fixed;top:56px;transform:translateY(0);width:240px;z-index:900;}
-.popout-bottom[style*="overflow: hidden; visibility: visible;"]{left:-160px!important;top:56px!important;transform:none!important;z-index:900!important;}
-.popout-bottom[style*="visibility: visible;"]{-webkit-box-shadow:none!important;box-shadow:none!important;margin-left:-75px;overflow:visible!important;transform:none!important;}
-body:active .popout-bottom:not(:active) .popout-menu{animation:.1s popout_close ease;transform:translateY(-100%);}
-
-.popout-top-left .popout-menu{-webkit-box-shadow:none;animation:.4s popoutBottom ease;bottom:30px;box-shadow:none;height:inherit;left:70px;transform:translateY(0);width:240px;z-index:900;}
-.popout-top-left[style*="overflow: hidden; visibility: visible;"]{left:70px!important;bottom:0px!important;transform:none!important;z-index:900!important;}
-.popout-top-left[style*="visibility: visible;"]{-webkit-box-shadow:none!important;box-shadow:none!important;margin-left:0px;overflow:visible!important;transform:none!important;top:unset!important;bottom:52px!important;}
-body:active .popout-top-left:not(:active) .popout-menu{animation:.1s popout_close ease;transform:translateY(100%);}
+.popout-menu{border-radius:0;}
 
 .theme-dark .popout-menu .popout-menu-item:hover{background-color:var(--dark-2);color:var(--cbase-1);}
 .theme-dark .popout-menu .popout-menu-item{color:var(--cbase-4);}
-.theme-dark .popout-menu{background:var(--dark-4);}
-.theme-dark .popout.popout-bottom .popout-menu{border-bottom:1px solid var(--dark-1);}
-.theme-dark .popout.popout-top-left .popout-menu{border-top:1px solid var(--dark-1);}
-
-@keyframes popoutBottom{from{transform:translateY(100%);}}
-@keyframes popoutTop{from{transform:translateY(-100%);}}
-
-@keyframes popout_close{from{transform:translateY(0);}}
+.theme-dark .popout-menu{background:var(--dark-4);border:1px solid var(--dark-1);}
 
 /* Tooltip */
 .tooltip.tooltip-black{background-color:var(--dark-4);}
@@ -1929,10 +1912,10 @@ body:active .popout-top-left:not(:active) .popout-menu{animation:.1s popout_clos
 #app-mount .role-tag{padding:1px 4px;border:0!important;}
 
 /* Plugin: CheckAllPluginsButton */
-.theme-dark .cap-check:hover{background-color:var(--dark-1);}
-.theme-dark .cap-check{background-color:var(--dark-3);}
-.theme-dark .cap-uncheck:hover{background-color:var(--dark-1);}
-.theme-dark .cap-uncheck{background-color:var(--dark-3);}
+#app-mount .theme-dark .cap-check:hover{background-color:var(--dark-1);}
+#app-mount .theme-dark .cap-check{background-color:var(--dark-3);}
+#app-mount .theme-dark .cap-uncheck:hover{background-color:var(--dark-1);}
+#app-mount .theme-dark .cap-uncheck{background-color:var(--dark-3);}
 
 /* Plugin: SendLargeMessages */
 #app-mount .sendlargemessages-modal .btn:hover{background-color:var(--dark-1);}
@@ -2005,6 +1988,9 @@ body .sp-picker-container{border-left:0;}
 #app-mount .colorpicker-modal .modal-inner .colorpicker-inputs{border-radius:0;background-color:var(--dark-4);}
 #app-mount .colorpicker-modal .modal-inner{border-radius:0;padding:20px;width:450px;background-color:var(--dark-4);border:1px solid var(--dark-1);}
 
+/* Plugin dependencies: Check for update button */
+#app-mount .bd-pfbtn.bd-updatebtn{left:200px!important;}
+
 /* Animations */
 #bd-settings-sidebar .ui-tab-bar-item{transition:200ms ease;}
 .avatarDefault-3jtQoc{transition:200ms ease;}
@@ -2031,7 +2017,7 @@ body .sp-picker-container{border-left:0;}
 .userHovered-3tfm93{transition:200ms ease;}
 
 /* Theme information */
-.user-settings-security:after{content:'darkDiscord version 20171017_1';}
+.user-settings-security:after{content:'darkDiscord version 20171018_1';}
 .user-settings-security:after{display:block;padding:20px 40px;white-space:pre-wrap;font-size:16px;line-height:20px;position:absolute;bottom:0;left:0;right:0;}
 
 .theme-dark .user-settings-security:after{color:var(--cbase-4);}
