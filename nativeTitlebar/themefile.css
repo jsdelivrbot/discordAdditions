@@ -40,7 +40,7 @@
 .titleBar-3_fDwJ .winButton-U7zAqI svg{display:none;}
 .titleBar-3_fDwJ .winButton-U7zAqI{height:30px;width:48px;cursor:default;background-repeat:no-repeat;background-size:20px;background-position:center;transition:200ms ease;}
 .titleBar-3_fDwJ .wordmark-2L03Wr svg[name='DiscordWordmark']{display:none;}
-.titleBar-3_fDwJ .wordmark-2L03Wr{box-sizing:border-box;height:30px;width:calc(100% - 48px * 3);background-image:url(/assets/1c8a54f25d101bdc607cec7228247a9a.svg);background-repeat:no-repeat;background-size:24px;background-position-y:center;background-position-x:8px;}
+.titleBar-3_fDwJ .wordmark-2L03Wr{box-sizing:border-box;height:30px;width:calc(100% - 48px * 3);background-image:url(/assets/1c8a54f25d101bdc607cec7228247a9a.svg);background-repeat:no-repeat;background-size:22px;background-position-y:center;background-position-x:8px;}
 .titleBar-3_fDwJ div:nth-of-type(2){background-image:var(--i-dtl-btnclose);}
 .titleBar-3_fDwJ div:nth-of-type(3){background-image:var(--i-dtl-btnmaximize);}
 .titleBar-3_fDwJ div:nth-of-type(4){background-image:var(--i-dtl-btnminimize);}
