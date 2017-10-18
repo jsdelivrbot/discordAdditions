@@ -22,11 +22,25 @@
 
 .modal-2LIEKY{padding-top:calc(60px - 34px);margin-top:34px;}
 
-.layers{margin-top:34px;}
+.base-3AoPqv{border-radius:0;}
+.channels-3g2vYe{border-radius:0;}
+.connecting{margin-top:34px;}
 .layers .channels-wrap{overflow:hidden;}
 .layers .chat>.title-wrap{min-height:48px;}
-.layers .guilds-wrapper .guilds{padding-top:18px;}
+.layers .guilds-wrapper .guilds{padding-top:18px;padding-bottom:18px;}
 .layers .header-1tSljs{height:48px;}
 .layers .header-toolbar .separator.separator-win{display:none;}
-.connecting{margin-top:34px;}
+.layers{margin-top:34px;}
 .popout .themed-popout{max-height:calc(100vh - 34px - 48px - 20px)!important;}
+
+.titleBar-3_fDwJ .winButton-U7zAqI svg{display:none;}
+.titleBar-3_fDwJ .winButton-U7zAqI{height:34px;width:48px;cursor:default;background-repeat:no-repeat;background-size:24px;background-position:center;}
+.titleBar-3_fDwJ .wordmark-2L03Wr svg[name='DiscordWordmark']{display:none;}
+.titleBar-3_fDwJ .wordmark-2L03Wr{box-sizing:border-box;height:34px;width:calc(100% - 48px * 3);background-image:url(/assets/1c8a54f25d101bdc607cec7228247a9a.svg);background-repeat:no-repeat;background-size:24px;background-position-y:center;background-position-x:8px;}
+.titleBar-3_fDwJ div:nth-of-type(2){background-image:var(--i-dtl-btnclose);}
+.titleBar-3_fDwJ div:nth-of-type(3){background-image:var(--i-dtl-btnmaximize);}
+.titleBar-3_fDwJ div:nth-of-type(4){background-image:var(--i-dtl-btnminimize);}
+.titleBar-3_fDwJ+.app-XZYfmp .connecting{margin-top:0;}
+.titleBar-3_fDwJ+.app-XZYfmp .layers{margin-top:0;}
+.titleBar-3_fDwJ.typeWindows-15E0Ys{height:34px;}
+.titleBar-3_fDwJ{background-color:var(--i-dtl-bgcolor);}
