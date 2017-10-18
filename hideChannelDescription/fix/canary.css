@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Segoe MDL2 Assets';
+    src: url('https://cors-anywhere.herokuapp.com/https://nirewen.s-ul.eu/WJJ3bKJl.ttf');
+}
+
+.chat.private>.title-qAcLxz>.topic-1KFf6J{visibility:visible;}
+.chat.private>.title-qAcLxz>.topic-1KFf6J:before{visibility:hidden;}
+.chat>.title-qAcLxz>.topic-1KFf6J{visibility:hidden;}
+.chat>.title-qAcLxz>.topic-1KFf6J:before{background-color:transparent;content:'';font-family:'Segoe MDL2 Assets';font-size:85%;text-align:center;visibility:visible;width:22px;}
+.header-toolbar{position:static;}
