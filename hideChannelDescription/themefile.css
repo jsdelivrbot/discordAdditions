@@ -3,9 +3,12 @@
     src: url('https://cors-anywhere.herokuapp.com/https://nirewen.s-ul.eu/WJJ3bKJl.ttf');
 }
 
+.chat.private>.title-qAcLxz>.topic-1KFf6J{visibility:visible;}
+.chat.private>.title-qAcLxz>.topic-1KFf6J:before{visibility:hidden;}
+.chat>.title-qAcLxz>.topic-1KFf6J{visibility:hidden;}
+.chat>.title-qAcLxz>.topic-1KFf6J:before{background-color:transparent;content:'';font-family:'Segoe MDL2 Assets';font-size:85%;text-align:center;visibility:visible;width:22px;}
+
 .chat.private>.title-wrap>.topic:before{display:none;}
 .chat.private>.title-wrap>.topic{visibility:visible;}
-.chat>.title-wrap.title-wrap-dark .topic:before{background-color:transparent;}
 .chat>.title-wrap>.topic:before{background-color:transparent;content:'';font-family:'Segoe MDL2 Assets';font-size:85%;text-align:center;visibility:visible;width:22px;}
 .chat>.title-wrap>.topic{visibility:hidden;}
-.header-toolbar{position:absolute;right:20px;}
