@@ -2017,7 +2017,7 @@ body .sp-picker-container{border-left:0;}
 .userHovered-3tfm93{transition:200ms ease;}
 
 /* Theme information */
-.user-settings-security:after{content:'darkDiscord version 20171018_2';}
+.user-settings-security:after{content:'darkDiscord version 20171019_3';}
 .user-settings-security:after{display:block;padding:20px 40px;white-space:pre-wrap;font-size:16px;line-height:20px;position:absolute;bottom:0;left:0;right:0;}
 
 .theme-dark .user-settings-security:after{color:var(--dd-cbase-4);}
