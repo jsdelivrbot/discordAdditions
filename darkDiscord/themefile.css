@@ -196,9 +196,10 @@
 .theme-dark .channel-notices .channel-notice{border-bottom:1px solid var(--dd-dark-2);}
 
 /* Guild member list */
-.theme-dark .channel-members .member.popout-open{background:var(--dd-dark-5);}
-.theme-dark .channel-members .member:hover{background:var(--dd-dark-5);}
+.theme-dark .channel-members .member.popout-open{background:var(--dd-dark-2);}
+.theme-dark .channel-members .member:hover:not(.popout-open){background:var(--dd-dark-5);}
 .theme-dark .channel-members{background-color:var(--dd-dark-4);}
+.channel-members .member{border-radius:3px;margin:1px 0;margin-left:7px;padding-left:23px;}
 
 /* Guild member list load */
 .channel-members-loading .background{animation:none;background-image:none!important;}
