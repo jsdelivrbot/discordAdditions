@@ -24,8 +24,6 @@
 .titlebar .win-buttons .win-close:hover{background-color:var(--i-dtl-closehover);}
 .titlebar .win-buttons button:hover{background-color:var(--i-dtl-btnhover);}
 
-.modal-2LIEKY{padding-top:calc(60px - 30px);margin-top:30px;}
-
 .base-3AoPqv{border-radius:0;}
 .channels-3g2vYe{border-radius:0;}
 .connecting{margin-top:30px;}
@@ -35,18 +33,24 @@
 .layers .header-1tSljs{height:48px;}
 .layers .header-toolbar .separator.separator-win{display:none;}
 .layers{margin-top:30px;}
+.modal-2LIEKY{padding-top:calc(60px - 30px);margin-top:30px;}
 .popout .themed-popout{max-height:calc(100vh - 30px - 48px - 20px)!important;}
 
+
 .titleBar-3_fDwJ .winButton-U7zAqI svg{display:none;}
-.titleBar-3_fDwJ .winButton-U7zAqI.winButtonClose-2rIvsa:hover{background-color:var(--i-dtl-closehover);}
-.titleBar-3_fDwJ .winButton-U7zAqI.winButtonMinMax-bT_gQ1:hover{background-color:var(--i-dtl-btnhover);}
+
 .titleBar-3_fDwJ .winButton-U7zAqI{height:30px;width:48px;cursor:default;background-repeat:no-repeat;background-size:20px;background-position:center;transition:200ms ease;top:0;}
 .titleBar-3_fDwJ .wordmark-2L03Wr svg[name='DiscordWordmark']{display:none;}
 .titleBar-3_fDwJ .wordmark-2L03Wr{box-sizing:border-box;height:30px;width:calc(100% - 48px * 3);background-image:url(/assets/1c8a54f25d101bdc607cec7228247a9a.svg);background-repeat:no-repeat;background-size:22px;background-position-y:center;background-position-x:8px;}
+.titleBar-3_fDwJ.typeWindows-15E0Ys{height:30px;margin-top:0;}
+.titleBar-3_fDwJ{background-color:var(--i-dtl-bgcolor);}
+
 .titleBar-3_fDwJ div:nth-of-type(2){background-image:var(--i-dtl-btnclose);}
 .titleBar-3_fDwJ div:nth-of-type(3){background-image:var(--i-dtl-btnmaximize);}
 .titleBar-3_fDwJ div:nth-of-type(4){background-image:var(--i-dtl-btnminimize);}
+
+.titleBar-3_fDwJ .winButton-U7zAqI.winButtonClose-2rIvsa:hover{background-color:var(--i-dtl-closehover);}
+.titleBar-3_fDwJ .winButton-U7zAqI.winButtonMinMax-bT_gQ1:hover{background-color:var(--i-dtl-btnhover);}
+
 .titleBar-3_fDwJ+.app-XZYfmp .connecting{margin-top:0;}
 .titleBar-3_fDwJ+.app-XZYfmp .layers{margin-top:0;}
-.titleBar-3_fDwJ.typeWindows-15E0Ys{height:30px;margin-top:0;}
-.titleBar-3_fDwJ{background-color:var(--i-dtl-bgcolor);}
