@@ -54,3 +54,5 @@
 
 .titleBar-3_fDwJ+.app-XZYfmp .connecting{margin-top:0;}
 .titleBar-3_fDwJ+.app-XZYfmp .layers{margin-top:0;}
+
+.titleBar-3_fDwJ:after{content:'';position:absolute;width:calc(100% - 48px * 3);left:0;top:0;height:6px;z-index:3002;-webkit-app-region:no-drag;}
