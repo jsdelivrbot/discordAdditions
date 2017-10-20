@@ -748,6 +748,7 @@
 .foldableHeaderExpanded-3g_WYd{padding:20px 0;}
 
 .theme-dark .input-2YozMi{background-color:var(--dd-dark-3);}
+.bd-blue .theme-dark .input-2YozMi:focus{border-color:#3a71c1;}
 
 .ui-hover-card:before{border:0;}
 .theme-dark .override-251XCL:hover{background-color:var(--dd-dark-3);}
