@@ -19,6 +19,10 @@
     --dd-titlebar-height: 22px;
 }
 
+#app-mount {
+    --i-dtl-bgcolor: var(--dd-dark-6);
+}
+
 /* Layers */
 .theme-dark .layers{background:var(--dd-dark-6);}
 .theme-dark .layer{background:var(--dd-dark-6);}
