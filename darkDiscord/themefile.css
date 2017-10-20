@@ -307,6 +307,7 @@
 .theme-dark .message-group .local-bot-message{color:var(--dd-cbase-2);}
 .theme-dark .message-group.is-local-bot-message{background-image:none;box-shadow:0 0;}
 .theme-dark .messages-wrapper{background-color:var(--dd-dark-6);}
+.theme-dark .noChannel-2EQ0a9{background:var(--dd-dark-6);}
 
 /* Bot tag */
 .bot-tag{padding:1px 4px;}
