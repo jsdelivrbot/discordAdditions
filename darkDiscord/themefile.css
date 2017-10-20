@@ -1318,25 +1318,19 @@
 .auth-inner .auth-name{display:none;}
 .auth-inner{border:1px solid var(--dd-dark-1);border-radius:0;}
 .bd-blue .form.deprecated.auth-form .control-group input[type=email]:focus{border-color:#3a71c1;}
-.bd-blue .form.deprecated.auth-form .control-group input[type=email]:hover:focus{border-color:#3a71c1;}
 .bd-blue .form.deprecated.auth-form .control-group input[type=password]:focus{border-color:#3a71c1;}
-.bd-blue .form.deprecated.auth-form .control-group input[type=password]:hover:focus{border-color:#3a71c1;}
 .bd-blue .form.deprecated.auth-form .control-group input[type=text]:focus{border-color:#3a71c1;}
-.bd-blue .form.deprecated.auth-form .control-group input[type=text]:hover:focus{border-color:#3a71c1;}
 .form.deprecated.auth-form .btn-primary:hover{background-color:var(--dd-dark-2);}
 .form.deprecated.auth-form .btn-primary{background-color:var(--dd-dark-4);line-height:normal;margin-top:20px;padding:10px;width:375px;margin-top:10px;box-sizing:border-box;}
 .form.deprecated.auth-form .button-2t3of8{margin-top:65px;}
 .form.deprecated.auth-form .control-group input[type=email]:focus{border-color:#7298da;}
-.form.deprecated.auth-form .control-group input[type=email]:hover:focus{border-color:#7298da;}
-.form.deprecated.auth-form .control-group input[type=email]:hover{border-color:#040405;}
+.form.deprecated.auth-form .control-group input[type=email]:hover:not(:focus){border-color:#040405;}
 .form.deprecated.auth-form .control-group input[type=email]{background-color:var(--dd-dark-4);border:1px solid rgba(0,0,0,.3);border-radius:3px;height:21.1111px;line-height:16px;margin-bottom:0;padding:10px;width:352px;transition:200ms ease;}
 .form.deprecated.auth-form .control-group input[type=password]:focus{border-color:#7298da;}
-.form.deprecated.auth-form .control-group input[type=password]:hover:focus{border-color:#7298da;}
-.form.deprecated.auth-form .control-group input[type=password]:hover{border-color:#040405;}
+.form.deprecated.auth-form .control-group input[type=password]:hover:not(:focus){border-color:#040405;}
 .form.deprecated.auth-form .control-group input[type=password]{background-color:var(--dd-dark-4);border:1px solid rgba(0,0,0,.3);border-radius:3px;height:21.1111px;line-height:16px;margin-bottom:0;padding:10px;width:352px;transition:200ms ease;}
 .form.deprecated.auth-form .control-group input[type=text]:focus{border-color:#7298da;}
-.form.deprecated.auth-form .control-group input[type=text]:hover:focus{border-color:#7298da;}
-.form.deprecated.auth-form .control-group input[type=text]:hover{border-color:#040405;}
+.form.deprecated.auth-form .control-group input[type=text]:hover:not(:focus){border-color:#040405;}
 .form.deprecated.auth-form .control-group input[type=text]{background-color:var(--dd-dark-4);border:1px solid rgba(0,0,0,.3);border-radius:3px;height:21.1111px;line-height:16px;margin-bottom:0;padding:10px;width:352px;transition:200ms ease;}
 .form.deprecated.auth-form .control-group label+input{margin-top:10px;}
 .form.deprecated.auth-form .control-group label+textarea{margin-top:10px;}
@@ -1757,11 +1751,9 @@
 #app-mount .editchannels-modal .modal-inner{background-color:var(--dd-dark-4);border:1px solid var(--dd-dark-1);border-radius:0;}
 #app-mount .editchannels-modal .modal{max-height:100vh;min-height:500px;}
 #app-mount .editchannels-modal input:focus{border-color:#7298da;}
-#app-mount .editchannels-modal input:hover:focus{border-color:#7298da;}
-#app-mount .editchannels-modal input:hover{border-color:#040405;}
+#app-mount .editchannels-modal input:hover:not(:focus){border-color:#040405;}
 #app-mount .editchannels-modal input{background-color:var(--dd-dark-3);margin-top:8px;}
 .bd-blue #app-mount .editchannels-modal input:focus{border-color:#3a71c1;}
-.bd-blue #app-mount .editchannels-modal input:hover:focus{border-color:#3a71c1;}
 
 /* Plugin: ServerHider */
 #app-mount #serverhider-scrolldiv::-webkit-scrollbar-thumb{background-color:var(--dd-dark-0);visibility:hidden;}
@@ -1797,12 +1789,10 @@
 #app-mount .serverfolders-modal .modal-inner{background-color:var(--dd-dark-4);border:1px solid var(--dd-dark-1);border-radius:0;box-shadow:0 0;height:auto;width:525px;}
 #app-mount .serverfolders-modal .modal{max-height:100vh;min-height:500px;}
 #app-mount .serverfolders-modal input:focus{border-color:#7298da;}
-#app-mount .serverfolders-modal input:hover:focus{border-color:#7298da;}
-#app-mount .serverfolders-modal input:hover{border-color:#040405;}
+#app-mount .serverfolders-modal input:hover:not(:focus){border-color:#040405;}
 #app-mount .serverfolders-modal input{background-color:var(--dd-dark-3);margin-top:8px;}
 .bd-blue #app-mount .serverfolders-modal .form-inner .form-tab .form-tablinks.active{border-color:#3a71c1;}
 .bd-blue #app-mount .serverfolders-modal input:focus{border-color:#3a71c1;}
-.bd-blue #app-mount .serverfolders-modal input:hover:focus{border-color:#3a71c1;}
 
 /* Plugin: Owner Tags */
 .kawaii-tag{padding:1px 4px;}
@@ -1850,14 +1840,12 @@
 #app-mount .editservers-modal .form-inner .form-tab{background-color:transparent;height:55.56px;}
 #app-mount .editservers-modal .form-inner .inputs{margin:0;width:auto;}
 #app-mount .editservers-modal .form-inner input:focus{border-color:#7298da;}
-#app-mount .editservers-modal .form-inner input:hover:focus{border-color:#7298da;}
-#app-mount .editservers-modal .form-inner input:hover{border-color:#040405;}
+#app-mount .editservers-modal .form-inner input:hover:not(:focus){border-color:#040405;}
 #app-mount .editservers-modal .form-inner input{background-color:var(--dd-dark-3);margin:8px 5% 8px 0;}
 #app-mount .editservers-modal .form-inner{height:auto;margin:0;}
 #app-mount .editservers-modal .modal-inner{background-color:var(--dd-dark-4);border:1px solid var(--dd-dark-1);border-radius:0;box-shadow:0 0;}
 .bd-blue #app-mount .editservers-modal .form-inner .form-tab .form-tablinks.active{border-color:#3a71c1;}
 .bd-blue #app-mount .editservers-modal .form-inner input:focus{border-color:#3a71c1;}
-.bd-blue #app-mount .editservers-modal .form-inner input:hover:focus{border-color:#3a71c1;}
 
 /* Plugin: ReadAllNotificationsButton */
 #app-mount .theme-dark #RANbutton:hover{background-color:var(--dd-dark-2);}
@@ -1884,8 +1872,7 @@
 #app-mount .editusers-modal .form-inner [class^="swatches"]{margin:0;width:auto;}
 #app-mount .editusers-modal .form-inner input:disabled{background-color:var(--dd-dark-4);}
 #app-mount .editusers-modal .form-inner input:focus{border-color:#7298da;}
-#app-mount .editusers-modal .form-inner input:hover:focus{border-color:#7298da;}
-#app-mount .editusers-modal .form-inner input:hover{border-color:#040405;}
+#app-mount .editusers-modal .form-inner input:hover:not(:focus){border-color:#040405;}
 #app-mount .editusers-modal .form-inner input[type='checkbox']{width:21px;margin-right:10px;}
 #app-mount .editusers-modal .form-inner input[type='text']{width:100%;}
 #app-mount .editusers-modal .form-inner input{background-color:var(--dd-dark-3);margin:8px 0;}
@@ -1893,7 +1880,6 @@
 #app-mount .editusers-modal .modal-inner{background-color:var(--dd-dark-4);border:1px solid var(--dd-dark-1);border-radius:0;box-shadow:0 0;width:525px;}
 .bd-blue #app-mount .editusers-modal .form-inner .form-tab .form-tablinks.active{border-color:#3a71c1;}
 .bd-blue #app-mount .editusers-modal .form-inner input:focus{border-color:#3a71c1;}
-.bd-blue #app-mount .editusers-modal .form-inner input:hover:focus{border-color:#3a71c1;}
 
 /* Plugin: ChatFilter */
 #bd-settingspane-container .bda-slist .added-word+.added-word{margin-left:5px!important;}
@@ -1944,13 +1930,11 @@
 #app-mount .sendlargemessages-modal .form-inner #warning-message{font-weight:500;color:var(--dd-cbase-4);cursor:default;}
 #app-mount .sendlargemessages-modal .form-inner textarea:disabled{background-color:var(--dd-dark-4);}
 #app-mount .sendlargemessages-modal .form-inner textarea:focus{outline:none;border-color:#7298da;}
-#app-mount .sendlargemessages-modal .form-inner textarea:hover:focus{border-color:#7298da;}
-#app-mount .sendlargemessages-modal .form-inner textarea:hover{border-color:#040405;}
+#app-mount .sendlargemessages-modal .form-inner textarea:hover:not(:focus){border-color:#040405;}
 #app-mount .sendlargemessages-modal .form-inner textarea{background-color:var(--dd-dark-3);margin-bottom:8px;transition:200ms ease;}
 #app-mount .sendlargemessages-modal .form-inner{height:auto;margin:0;}
 #app-mount .sendlargemessages-modal .modal-inner{background-color:var(--dd-dark-4);border:1px solid var(--dd-dark-1);border-radius:0;box-shadow:0 0;width:525px;}
 .bd-blue #app-mount .sendlargemessages-modal .form-inner textarea:focus{border-color:#3a71c1;}
-.bd-blue #app-mount .sendlargemessages-modal .form-inner textarea:hover:focus{border-color:#3a71c1;}
 
 /* Plugin: PermissionViewer */
 #app-mount .member-perms{max-height:unset;}
@@ -1989,8 +1973,7 @@
 body .sp-container{box-shadow:0 2px 25px rgba(0,0,0,0.4);background-color:var(--dd-dark-4);border:1px solid var(--dd-dark-1);}
 body .sp-input.sp-validation-error{border-color:#f04747;background-color:var(--dd-dark-3);}
 body .sp-input:focus{border-color:#7298da;outline:none;}
-body .sp-input:hover:focus{border-color:#7298da;}
-body .sp-input:hover{border-color:#040405;}
+body .sp-input:hover:not(:focus){border-color:#040405;}
 body .sp-input{transition:200ms ease;padding:10px;color:var(--dd-cbase-1);border:1px solid rgba(0,0,0,.3);background-color:var(--dd-dark-3);font:normal 16px Whitney,Helvetica Neue,Helvetica,Arial,sans-serif!important;}
 body .sp-picker-container{border-left:0;}
 
