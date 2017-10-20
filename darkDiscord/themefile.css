@@ -304,9 +304,9 @@
 
 .bd-blue .theme-dark .message-group .comment .markup .mention:hover{background-color:#3a71c1;color:var(--dd-cbase-1);}
 .theme-dark .chat>.content{background-color:var(--dd-dark-6);}
+.theme-dark .message-group .local-bot-message{color:var(--dd-cbase-2);}
 .theme-dark .message-group.is-local-bot-message{background-image:none;box-shadow:0 0;}
 .theme-dark .messages-wrapper{background-color:var(--dd-dark-6);}
-.theme-dark .message-group .local-bot-message{color:var(--dd-cbase-2);}
 
 /* Bot tag */
 .bot-tag{padding:1px 4px;}
