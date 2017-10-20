@@ -1364,6 +1364,18 @@
 .connecting video{display:none;}
 .connecting{background:rgba(0,0,0,.85);}
 
+.container-2oOGIt .content-3dsgDG .attribution-3t1Ekl{color:var(--dd-cbase-2);font-size:12px;margin:0;text-transform:none;}
+.container-2oOGIt .content-3dsgDG .quote-3NlLs0{font-style:normal;font-weight:400;margin-bottom:4px;margin-top:20px;text-transform:none;}
+.container-2oOGIt .content-3dsgDG .status-166iio{display:none;}
+.container-2oOGIt .content-3dsgDG::before{color:var(--dd-cbase-1);content:'Connecting to Discord';font-weight:600;letter-spacing:.3px;padding-bottom:20px;text-transform:uppercase;}
+.container-2oOGIt .content-3dsgDG{background-color:var(--dd-dark-3);border:1px solid var(--dd-dark-1);padding:20px;text-align:left;width:375px;}
+.container-2oOGIt .problems-2jwWfL .problemsText-3RO4MF{color:var(--dd-cbase-4);}
+.container-2oOGIt .problems-2jwWfL.slideIn-HbGyCL{display:block;}
+.container-2oOGIt .problems-2jwWfL{background-color:var(--dd-dark-4);border:1px solid var(--dd-dark-1);bottom:20px;display:none;left:unset;padding:20px;position:absolute;right:unset;}
+.container-2oOGIt img{display:none;}
+.container-2oOGIt video{display:none;}
+.container-2oOGIt{background-color:rgba(0,0,0,.85);}
+
 /* Scroll bars */
 *::-webkit-scrollbar-thumb{border:0!important;border-radius:0!important;}
 *::-webkit-scrollbar-track-piece{background-color:transparent!important;border:0!important;border-radius:0!important;}
