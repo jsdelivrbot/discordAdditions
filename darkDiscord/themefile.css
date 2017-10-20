@@ -225,7 +225,6 @@
 
 /* DM list */
 .private-channels .channel.selected a{cursor:default;}
-.private-channels .channel.selected{cursor:default;}
 
 .theme-dark .private-channels .channel .channel-name{color:var(--dd-cbase-2);opacity:1;}
 .theme-dark .private-channels .channel.selected .channel-name{color:var(--dd-cbase-1);}
