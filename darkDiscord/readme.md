@@ -2,4 +2,4 @@
 
 a dark themed discord.
 
-[Embed](https://gitcdn.xyz/repo/intrnl/discordAdditions/master/darkDiscord/themefile.css) [Screenshots](http://imgur.com/a/JFno2)
+[Embed](https://rawgit.com/intrnl/discordAdditions/master/darkDiscord/themefile.css) [Screenshots](http://imgur.com/a/JFno2)

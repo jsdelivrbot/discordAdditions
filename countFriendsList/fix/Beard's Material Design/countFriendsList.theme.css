@@ -1,5 +1,5 @@
 //META{"name":"countFriendsList","description":"Adds a counter to your friends list","author":"intrnl","version":"0.0"}*//{}
 
-@import url(https://gitcdn.xyz/repo/intrnl/discordAdditions/master/countFriendsList/themefile.css);
+@import url(https://rawgit.com/intrnl/discordAdditions/master/countFriendsList/themefile.css);
 #friends .friends-table .friends-row:before{margin-top:3px;margin-right:0;}
 #friends .friends-table .friends-row:hover:before{margin-top:3px;}
