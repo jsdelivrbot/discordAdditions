@@ -3,6 +3,7 @@
     
     --i-dtl-btnhover: rgba(255,255,255,0.1);
     --i-dtl-closehover: #e81123;
+    --i-dtl-closeactive: #bf0f1d;
     --i-dtl-btnactive: rgba(255,255,255,0.15);
     
     --i-dtl-btnclose: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNiIgaGVpZ2h0PSIyNiI+CiAgPGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgIDxwYXRoIGQ9Ik0xIDFoMjR2MjRIMVYxeiIvPgogICAgPHBhdGggZmlsbD0iI0ZGRiIgZD0iTTIwIDcuNDFMMTguNTkgNiAxMyAxMS41OSA3LjQxIDYgNiA3LjQxIDExLjU5IDEzIDYgMTguNTkgNy40MSAyMCAxMyAxNC40MSAxOC41OSAyMCAyMCAxOC41OSAxNC40MSAxMyAyMCA3LjQxeiIvPgogIDwvZz4KPC9zdmc+);
@@ -25,6 +26,7 @@
 .titlebar .win-buttons .win-close:hover{background-color:var(--i-dtl-closehover);}
 .titlebar .win-buttons button:hover{background-color:var(--i-dtl-btnhover);}
 
+.titlebar .win-buttons .win-close:active{background-color:var(--i-dtl-closeactive);}
 .titlebar .win-buttons button:active{background-color:var(--i-dtl-btnactive);}
 
 .auth-center{top:30px;}
@@ -57,6 +59,7 @@
 .titleBar-3_fDwJ .winButton-U7zAqI.winButtonClose-2rIvsa:hover{background-color:var(--i-dtl-closehover);}
 .titleBar-3_fDwJ .winButton-U7zAqI.winButtonMinMax-bT_gQ1:hover{background-color:var(--i-dtl-btnhover);}
 
+.titleBar-3_fDwJ .winButton-U7zAqI.winButtonClose-2rIvsa:active{background-color:var(--i-dtl-closeactive);}
 .titleBar-3_fDwJ .winButton-U7zAqI.winButtonMinMax-bT_gQ1:active(background-color:var(--i-dtl-btnactive);}
 
 .titleBar-3_fDwJ+.app-XZYfmp .connecting{margin-top:0;}
