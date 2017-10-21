@@ -1981,6 +1981,9 @@ body .sp-picker-container{border-left:0;}
 /* Plugin dependencies: Check for update button */
 #app-mount .bd-pfbtn.bd-updatebtn{left:200px!important;}
 
+/* Plugin dependencies: toast notifications */
+#app-mount .toast{background:var(--dd-dark-4);border:1px solid var(--dd-dark-1);box-shadow:0 2px 25px rgba(0,0,0,0.4);border-radius:0;}
+
 /* Animations */
 #bd-settings-sidebar .ui-tab-bar-item{transition:200ms ease;}
 .avatarDefault-3jtQoc{transition:200ms ease;}
