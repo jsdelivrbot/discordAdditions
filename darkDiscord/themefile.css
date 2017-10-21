@@ -38,17 +38,20 @@
 .title-qAcLxz .status{top:unset;}
 
 /* Notice bar */
-.notice .btn{line-height:20px;margin:0;margin-bottom:5px;margin-left:10px;}
-.notice .notice-dismiss{top:20px;right:20px;}
-.notice strong{font-weight:600;}
-.notice+.notice:after{content:'...';position:absolute;bottom:55px;right:-1px;height:15px;line-height:10px;padding:0 10px;}
-.notice{position:absolute;padding:10px 20px;top:unset;bottom:20px;right:20px;line-height:30px;padding-right:50px;height:30px;}
-.win-buttons.win-buttons-notice{top:0;}
+.notice{bottom:20px;box-sizing:border-box;height:auto;line-height:28px;max-width:calc(100vw-20px*2);min-height:40px;padding:6px 40px 6px 15px;position:absolute;right:20px;z-index:5;}
+.notice .btn{margin:-7px 0 0 10px;line-height:25px;}
+.notice .notice-dismiss{bottom:15px;top:unset;}
+.notice+.notice:after{content:'...';position:absolute;bottom:45px;right:0px;height:15px;line-height:10px;padding:0 10px;background-color:#7298da;}
 
-.theme-dark .notice .btn:hover{background-color:var(--dd-dark-2);color:var(--dd-cbase-1);}
-.theme-dark .notice .btn{border:0;color:var(--dd-cbase-4);}
-.theme-dark .notice+.notice:after{background-color:var(--dd-dark-4);border:1px solid var(--dd-dark-1);box-shadow:0 2px 25px rgba(0,0,0,0.4);}
-.theme-dark .notice{border:1px solid var(--dd-dark-1);background-color:var(--dd-dark-4);box-shadow:0 2px 25px rgba(0,0,0,0.4);}
+.bd-blue .notice+.notice:after{background-color:#3a71c1;}
+.notice.notice-brand+.notice:after{background-color:#7298da;}
+.notice.notice-danger+.notice:after{background-color:#f04747;}
+.notice.notice-enable-notifications{background-color:#43b581;}
+.notice.notice-info+.notice:after{background-color:#4a90e2;}
+.notice.notice-streamer-mode+.notice:after{background-color:#593695;}
+.notice.notice-success+.notice:after{background-color:#43b581;}
+
+#pluginNotice+div .notice:after{content:'...';position:absolute;bottom:45px;right:0px;height:15px;line-height:10px;padding:0 10px;background-color:#4a90e2;}
 
 /* Friends tab */
 #friends .friends-header .tab-bar .tab-bar-item .badge{margin-top:13px;}
