@@ -3,6 +3,7 @@
     
     --i-dtl-btnhover: rgba(255,255,255,0.1);
     --i-dtl-closehover: #f04747;
+    --i-dtl-btnactive: rgba(255,255,255,0.15);
     
     --i-dtl-btnclose: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNiIgaGVpZ2h0PSIyNiI+CiAgPGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgIDxwYXRoIGQ9Ik0xIDFoMjR2MjRIMVYxeiIvPgogICAgPHBhdGggZmlsbD0iI0ZGRiIgZD0iTTIwIDcuNDFMMTguNTkgNiAxMyAxMS41OSA3LjQxIDYgNiA3LjQxIDExLjU5IDEzIDYgMTguNTkgNy40MSAyMCAxMyAxNC40MSAxOC41OSAyMCAyMCAxOC41OSAxNC40MSAxMyAyMCA3LjQxeiIvPgogIDwvZz4KPC9zdmc+);
     --i-dtl-btnmaximize: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNiIgaGVpZ2h0PSIyNiI+CiAgPGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgIDxwYXRoIGQ9Ik0xIDFoMjR2MjRIMVYxeiIvPgogICAgPHBhdGggZmlsbD0iI0ZGRiIgZD0iTTggMTNINnY3aDd2LTJIOHYtNXptLTIgMGgyVjhoNVY2SDZ2N3ptNyA1djJoN3YtN2gtMnY1aC01em0wLTEydjJoNXY1aDJWNmgtN3oiLz4KICA8L2c+Cjwvc3ZnPg);
@@ -24,6 +25,11 @@
 .titlebar .win-buttons .win-close:hover{background-color:var(--i-dtl-closehover);}
 .titlebar .win-buttons button:hover{background-color:var(--i-dtl-btnhover);}
 
+.titlebar .win-buttons button:active{background-color:var(--i-dtl-btnactive);}
+
+.auth-center{top:30px;}
+.auth-tiling-bg{top:30px;}
+.auth-background{top:30px;}
 .base-3AoPqv{border-radius:0;}
 .channels-3g2vYe{border-radius:0;}
 .connecting{margin-top:30px;}
@@ -35,7 +41,6 @@
 .layers{margin-top:30px;}
 .modal-2LIEKY{padding-top:calc(60px - 30px);margin-top:30px;}
 .popout .themed-popout{max-height:calc(100vh - 30px - 48px - 20px)!important;}
-
 
 .titleBar-3_fDwJ .winButton-U7zAqI svg{display:none;}
 
@@ -51,6 +56,8 @@
 
 .titleBar-3_fDwJ .winButton-U7zAqI.winButtonClose-2rIvsa:hover{background-color:var(--i-dtl-closehover);}
 .titleBar-3_fDwJ .winButton-U7zAqI.winButtonMinMax-bT_gQ1:hover{background-color:var(--i-dtl-btnhover);}
+
+.titleBar-3_fDwJ .winButton-U7zAqI.winButtonMinMax-bT_gQ1:active(background-color:var(--i-dtl-btnactive);}
 
 .titleBar-3_fDwJ+.app-XZYfmp .connecting{margin-top:0;}
 .titleBar-3_fDwJ+.app-XZYfmp .layers{margin-top:0;}
