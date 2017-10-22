@@ -73,6 +73,10 @@
 .popout .themed-popout {
     max-height: calc(100vh - var(--i-dtl-titlebarheight) - 48px - 20px) !important;
 }
+.ui-standard-sidebar-view .content-column,
+.ui-standard-sidebar-view .custom-column {
+    min-height: calc(100vh - var(--i-dtl-titlebarheight));
+}
 .modal-2LIEKY {
     margin: var(--i-dtl-titlebarheight);
     padding-top: calc(60px - var(-i-dtl-titlebarheight));
