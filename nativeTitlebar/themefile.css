@@ -78,8 +78,8 @@
     min-height: calc(100vh - var(--i-dtl-titlebarheight));
 }
 .modal-2LIEKY {
-    margin: var(--i-dtl-titlebarheight);
-    padding-top: calc(60px - var(-i-dtl-titlebarheight));
+    margin-top: var(--i-dtl-titlebarheight);
+    padding-top: calc(60px - var(--i-dtl-titlebarheight));
 }
 .header-toolbar .separator.separator-win {
     display: none;
