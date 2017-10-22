@@ -279,6 +279,7 @@
 .channel-textarea-guard button{transition:200ms ease;}
 .channel-textarea-guard{margin-bottom:46px;}
 
+.theme-dark .channel-textarea-guard .countdown-number{background-color:transparent;border:0;box-shadow:0 0;}
 .theme-dark .channel-textarea-guard button:hover{background-color:var(--dd-dark-2);}
 .theme-dark .channel-textarea-guard button{background-color:var(--dd-dark-5);}
 .theme-dark .channel-textarea-guard{color:var(--dd-cbase-2);}
