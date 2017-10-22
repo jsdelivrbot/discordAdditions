@@ -67,7 +67,8 @@
 .titlebar ~ div .app .layers,
 .auth-background,
 .auth-center,
-.auth-tiling-bg {
+.auth-tiling-bg,
+.callout-backdrop {
     margin-top: var(--i-dtl-titlebarheight);
 }
 .popout .themed-popout {
