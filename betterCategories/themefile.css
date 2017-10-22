@@ -4,7 +4,7 @@
 
 .channels-3g2vYe [class*='scroller-']>[class*='container-']>[class*='container']+[class*='container-'] { margin-top: 6px; }
 
-.channels-3g2vYe [class*='scroller-']>[class*='container-']>[class*='container']:first-of-type { padding-top: 0; margin-top: 18px; margin-bottom: 6px; }
+.channels-3g2vYe [class*='scroller-']>[class*='container-']>[class*='container']:first-of-type { padding-top: 0; margin-top: 12px; margin-bottom: 6px; }
 .channels-3g2vYe [class*='scroller-']>[class*='container-']>[class*='container']:first-of-type>[class*='wrapper'] { margin-left: 8px; height: 31.11px; padding: 0 8px; border-radius: 3px; }
 .channels-3g2vYe [class*='scroller-']>[class*='container-']>[class*='container']:first-of-type>[class*='wrapper']>[class*='icon'] { position: relative; margin-left: -3px; margin-top: -4px; height: 31.11px; width: 16px; margin-right: 8px; }
 .channels-3g2vYe [class*='scroller-']>[class*='container-']>[class*='container']:first-of-type>[class*='wrapper']>[class*='name'] { height: 31.11px; line-height: 32px; }
@@ -21,7 +21,7 @@
 
 .channels-wrap [class*='scroller-']>[class*='container-']>[class*='container']+[class*='container-'] { margin-top: 6px; }
 
-.channels-wrap [class*='scroller-']>[class*='container-']>[class*='container']:first-of-type { padding-top: 0; margin-top: 18px; margin-bottom: 6px; }
+.channels-wrap [class*='scroller-']>[class*='container-']>[class*='container']:first-of-type { padding-top: 0; margin-top: 12px; margin-bottom: 6px; }
 .channels-wrap [class*='scroller-']>[class*='container-']>[class*='container']:first-of-type>[class*='wrapper'] { margin-left: 8px; height: 31.11px; padding: 0 8px; border-radius: 3px; }
 .channels-wrap [class*='scroller-']>[class*='container-']>[class*='container']:first-of-type>[class*='wrapper']>[class*='icon'] { position: relative; margin-left: -3px; margin-top: -4px; height: 31.11px; width: 16px; margin-right: 8px; }
 .channels-wrap [class*='scroller-']>[class*='container-']>[class*='container']:first-of-type>[class*='wrapper']>[class*='name'] { height: 31.11px; line-height: 32px; }
