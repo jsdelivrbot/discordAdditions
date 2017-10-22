@@ -101,33 +101,33 @@
 
 /* Stable */
 .titlebar {
-    background-color: var(--i-dtl-bgcolor);
     height: var(--i-dtl-titlebarheight);
+    background-color: var(--i-dtl-bgcolor);
 }
 .titlebar:after {
+    content: '';
+    height: var(--i-dtl-titlebarheight);
+    width: calc(100vw - var(--i-dtl-buttonwidth) * 3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: var(--i-dtl-imgopacity);
     background-position-x: 8px;
     background-position-y: center;
     background-repeat: no-repeat;
-    content: '';
-    height: var(--i-dtl-titlebarheight);
-    left: 0;
-    opacity: var(--i-dtl-imgopacity);
-    position: absolute;
-    top: 0;
-    width: calc(100vw - var(--i-dtl-buttonwidth) * 3);
 }
 .titlebar .win-buttons {
     height: var(--i-dtl-titlebarheight);
-    right: 0;
     top: 0;
+    right: 0;
 }
 .titlebar .win-buttons button {
+    height: var(--i-dtl-titlebarheight);
+    width: var(--i-dtl-buttonwidth);
+    cursor: default;
     background-position: center;
     background-repeat: no-repeat;
     background-size: 20px;
-    cursor: default;
-    height: var(--i-dtl-titlebarheight);
-    width: var(--i-dtl-buttonwidth);
 }
 .titlebar .titlebar-edge {
     height: var(--i-dtl-resizeheight);
@@ -138,14 +138,14 @@
     background-color: var(--i-dtl-bgcolor);
 }
 .titleBar-3_fDwJ:after {
-    -webkit-app-region: no-drag;
     content: '';
     height: var(--i-dtl-resizeheight);
-    left: 0;
+    width: calc(100vw - var(--i-dtl-buttonwidth) * 3);
     position: absolute;
     top: 0;
-    width: calc(100vw - var(--i-dtl-buttonwidth) * 3);
+    left: 0;
     z-index: 3002;
+    -webkit-app-region: no-drag;
 }
 .titleBar-3_fDwJ.typeWindows-15E0Ys {
     height: var(--i-dtl-titlebarheight);
@@ -156,21 +156,21 @@
     display: none;
 }
 .titleBar-3_fDwJ .wordmark-2L03Wr {
+    height: var(--i-dtl-titlebarheight);
+    width: calc(100vw - var(--i-dtl-buttonwidth) * 3);
+    box-sizing: border-box;
+    opacity: var(--i-dtl-imgopacity);
     background-position-x: 8px;
     background-position-y: center;
     background-repeat: no-repeat;
-    box-sizing: border-box;
-    height: var(--i-dtl-titlebarheight);
-    opacity: var(--i-dtl-imgopacity);
-    width: calc(100vw - var(--i-dtl-buttonwidth) * 3);
 }
 .titleBar-3_fDwJ .winButton-U7zAqI {
+    height: var(--i-dtl-titlebarheight);
+    width: var(--i-dtl-buttonwidth);
+    top: 0;
+    cursor: default;
+    transition: 200ms ease;
     background-position: center;
     background-repeat: no-repeat;
     background-size: 20px;
-    cursor: default;
-    height: var(--i-dtl-titlebarheight);
-    top: 0;
-    transition: 200ms ease;
-    width: var(--i-dtl-buttonwidth);
 }
