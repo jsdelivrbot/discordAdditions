@@ -68,7 +68,8 @@
 .auth-background,
 .auth-center,
 .auth-tiling-bg,
-.callout-backdrop {
+.callout-backdrop,
+.upload-area {
     margin-top: var(--i-dtl-titlebarheight);
 }
 .popout .themed-popout {
