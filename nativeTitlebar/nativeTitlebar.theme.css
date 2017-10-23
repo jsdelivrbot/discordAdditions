@@ -1,9 +1,3 @@
 //META{"name":"nativeTitlebar","description":"Adds a titlebar to your Discord app.","author":"intrnl","version":"0.0"}*//{}
 
 @import url(https://rawgit.com/intrnl/discordAdditions/master/nativeTitlebar/themefile.css);
-
-.titlebar:after,
-.titleBar-3_fDwJ .wordmark-2L03Wr {
-    background-image: url(/assets/1c8a54f25d101bdc607cec7228247a9a.svg);
-    background-size: 24px;
-}
