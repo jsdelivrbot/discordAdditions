@@ -11,6 +11,8 @@
     --i-dtl-closehover: #e81123;
     --i-dtl-closeactive: #bf0f1d;
     
+    /* Plugin: TitleforTitlebar */
+    /* Set the offset to the width of the background image you're using */
     --i-dtl-tft-offset: 24px;
     --i-dtl-tft-fontsize: 14px;
 }
