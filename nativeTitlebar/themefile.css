@@ -10,6 +10,9 @@
     --i-dtl-btnactive: rgba(255,255,255,0.15);
     --i-dtl-closehover: #e81123;
     --i-dtl-closeactive: #bf0f1d;
+    
+    --i-dtl-tft-offset: 24px;
+    --i-dtl-tft-fontsize: 14px;
 }
 
 .titlebar:after,
@@ -60,6 +63,17 @@
 }
 .guilds-wrapper .guilds {
     padding: 10px 0 10px 10px;
+}
+
+/* TitleforTitlebar */
+#TitleforTitlebar {
+    height: var(--i-dtl-titlebarheight);
+    top: 0;
+    left: 0;
+    line-height: var(--i-dtl-titlebarheight);
+    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: var(--i-dtl-tft-fontsize);
+    margin-left: calc(8px * 2 + var(--i-dtl-tft-offset));
 }
 
 /* Fixes */
