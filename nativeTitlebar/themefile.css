@@ -4,6 +4,7 @@
     --i-dtl-logoimg: url(https://discordapp.com/assets/93608abbd20d90c13004925014a9fd01.svg);
     --i-dtl-logosize: 60px 19px;
     --i-dtl-logoopacity: .6;
+    --i-dtl-logooffset: 8px;
     
     --i-dtl-btnhover: rgba(255,255,255,0.1);
     --i-dtl-btnactive: rgba(255,255,255,0.15);
@@ -19,8 +20,7 @@
     --i-dtl-titlebarheight: 30px;
     
     /* Plugin: TitleforTitlebar */
-    /* Set the offset to the width of the background image you're using */
-    --i-dtl-tft-offset: 24px;
+    --i-dtl-tft-offset: 40px;
     --i-dtl-tft-fontsize: 14px;
 }
 
@@ -90,7 +90,7 @@
     line-height: var(--i-dtl-titlebarheight);
     font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
     font-size: var(--i-dtl-tft-fontsize);
-    margin-left: calc(8px * 2 + var(--i-dtl-tft-offset));
+    margin-left: var(--i-dtl-tft-offset);
 }
 
 /* Fixes */
@@ -147,7 +147,7 @@
     top: 0;
     left: 0;
     opacity: var(--i-dtl-logoopacity);
-    background-position-x: 8px;
+    background-position-x: var(--i-dtl-logooffset);
     background-position-y: center;
     background-repeat: no-repeat;
 }
@@ -195,7 +195,7 @@
     width: calc(100vw - var(--i-dtl-buttonwidth) * 3);
     box-sizing: border-box;
     opacity: var(--i-dtl-logoopacity);
-    background-position-x: 8px;
+    background-position-x: var(--i-dtl-logooffset);
     background-position-y: center;
     background-repeat: no-repeat;
 }
