@@ -1,15 +1,22 @@
 :root {
     --i-dtl-bgcolor: #282b30;
-    --i-dtl-imgopacity: .6;
     
-    --i-dtl-buttonwidth: 48px;
-    --i-dtl-resizeheight: 6px;
-    --i-dtl-titlebarheight: 30px;
+    --i-dtl-logoimg: url(https://discordapp.com/assets/93608abbd20d90c13004925014a9fd01.svg);
+    --i-dtl-logosize: 60px 19px;
+    --i-dtl-logoopacity: .6;
     
     --i-dtl-btnhover: rgba(255,255,255,0.1);
     --i-dtl-btnactive: rgba(255,255,255,0.15);
     --i-dtl-closehover: #e81123;
     --i-dtl-closeactive: #bf0f1d;
+    
+    --i-dtl-closeimg: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNiIgaGVpZ2h0PSIyNiI+CiAgPGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgIDxwYXRoIGQ9Ik0xIDFoMjR2MjRIMVYxeiIvPgogICAgPHBhdGggZmlsbD0iI0ZGRiIgZD0iTTIwIDcuNDFMMTguNTkgNiAxMyAxMS41OSA3LjQxIDYgNiA3LjQxIDExLjU5IDEzIDYgMTguNTkgNy40MSAyMCAxMyAxNC40MSAxOC41OSAyMCAyMCAxOC41OSAxNC40MSAxMyAyMCA3LjQxeiIvPgogIDwvZz4KPC9zdmc+);
+    --i-dtl-maximizeimg: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNiIgaGVpZ2h0PSIyNiI+CiAgPGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgIDxwYXRoIGQ9Ik0xIDFoMjR2MjRIMVYxeiIvPgogICAgPHBhdGggZmlsbD0iI0ZGRiIgZD0iTTggMTNINnY3aDd2LTJIOHYtNXptLTIgMGgyVjhoNVY2SDZ2N3ptNyA1djJoN3YtN2gtMnY1aC01em0wLTEydjJoNXY1aDJWNmgtN3oiLz4KICA8L2c+Cjwvc3ZnPg);
+    --i-dtl-minimizeimg: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNiIgaGVpZ2h0PSIyNiI+CiAgPGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgIDxwYXRoIGZpbGw9IiNGRkYiIGQ9Ik0xOSAxOXYtMkg3djJoMTJ6Ii8+CiAgICA8cGF0aCBkPSJNMSAyNWgyNFYxSDF2MjR6Ii8+CiAgPC9nPgo8L3N2Zz4=);
+    
+    --i-dtl-buttonwidth: 48px;
+    --i-dtl-resizeheight: 6px;
+    --i-dtl-titlebarheight: 30px;
     
     /* Plugin: TitleforTitlebar */
     /* Set the offset to the width of the background image you're using */
@@ -19,36 +26,43 @@
 
 .titlebar:after,
 .titleBar-3_fDwJ .wordmark-2L03Wr {
-    background-image: url(https://discordapp.com/assets/1c8a54f25d101bdc607cec7228247a9a.svg);
-    background-size: 24px;
+    background-image: var(--i-dtl-logoimg);
+    background-size: var(--i-dtl-logosize);
 }
 
 .titlebar .win-buttons .win-close,
+.titlebar .win-buttons .win-button:nth-of-type(3),
 .titleBar-3_fDwJ div:nth-of-type(2) {
-    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNiIgaGVpZ2h0PSIyNiI+CiAgPGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgIDxwYXRoIGQ9Ik0xIDFoMjR2MjRIMVYxeiIvPgogICAgPHBhdGggZmlsbD0iI0ZGRiIgZD0iTTIwIDcuNDFMMTguNTkgNiAxMyAxMS41OSA3LjQxIDYgNiA3LjQxIDExLjU5IDEzIDYgMTguNTkgNy40MSAyMCAxMyAxNC40MSAxOC41OSAyMCAyMCAxOC41OSAxNC40MSAxMyAyMCA3LjQxeiIvPgogIDwvZz4KPC9zdmc+);
+    background-image: var(--i-dtl-closeimg);
 }
 .titlebar .win-buttons .win-maximise,
+.titlebar .win-buttons .win-button:nth-of-type(2),
 .titleBar-3_fDwJ div:nth-of-type(3) {
-    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNiIgaGVpZ2h0PSIyNiI+CiAgPGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgIDxwYXRoIGQ9Ik0xIDFoMjR2MjRIMVYxeiIvPgogICAgPHBhdGggZmlsbD0iI0ZGRiIgZD0iTTggMTNINnY3aDd2LTJIOHYtNXptLTIgMGgyVjhoNVY2SDZ2N3ptNyA1djJoN3YtN2gtMnY1aC01em0wLTEydjJoNXY1aDJWNmgtN3oiLz4KICA8L2c+Cjwvc3ZnPg);
+    background-image: var(--i-dtl-maximizeimg);
 }
 .titlebar .win-buttons .win-minimize,
+.titlebar .win-buttons .win-button:nth-of-type(1),
 .titleBar-3_fDwJ div:nth-of-type(4) {
-    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNiIgaGVpZ2h0PSIyNiI+CiAgPGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgIDxwYXRoIGZpbGw9IiNGRkYiIGQ9Ik0xOSAxOXYtMkg3djJoMTJ6Ii8+CiAgICA8cGF0aCBkPSJNMSAyNWgyNFYxSDF2MjR6Ii8+CiAgPC9nPgo8L3N2Zz4=);
+    background-image: var(--i-dtl-minimizeimg);
 }
 
 .titlebar .win-buttons button:hover,
+.titlebar .win-buttons .win-button:hover,
 .titleBar-3_fDwJ .winButton-U7zAqI.winButtonMinMax-bT_gQ1:hover {
     background-color: var(--i-dtl-btnhover);
 }
 .titlebar .win-buttons button:active,
+.titlebar .win-buttons .win-button:active,
 .titleBar-3_fDwJ .winButton-U7zAqI.winButtonMinMax-bT_gQ1:active {
     background-color: var(--i-dtl-btnactive);
 }
 .titlebar .win-buttons .win-close:hover,
+.titlebar .win-buttons .win-button:nth-of-type(3):hover,
 .titleBar-3_fDwJ .winButton-U7zAqI.winButtonClose-2rIvsa:hover {
     background-color: var(--i-dtl-closehover);
 }
 .titlebar .win-buttons .win-close:active,
+.titlebar .win-buttons .win-button:nth-of-type(3):active,
 .titleBar-3_fDwJ .winButton-U7zAqI.winButtonClose-2rIvsa:active {
     background-color: var(--i-dtl-closeactive);
 }
@@ -59,6 +73,7 @@
 }
 .chat>.title-wrap {
     min-height: 48px;
+    height: 48px;
 }
 .channels-wrap .header-1tSljs {
     height: 48px;
@@ -99,7 +114,8 @@
     margin-top: var(--i-dtl-titlebarheight);
     padding-top: calc(60px - var(--i-dtl-titlebarheight));
 }
-.header-toolbar .separator.separator-win {
+.header-toolbar .separator.separator-win,
+.windowsWrapper-eHsRZV {
     display: none;
 }
 .tooltip,
@@ -114,6 +130,9 @@
     height: 100vh;
     width: 100vw;
 }
+.nativeHeaderBar-2lSv8F {
+    -webkit-app-region: no-drag;
+}
 
 /* Stable */
 .titlebar {
@@ -127,7 +146,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    opacity: var(--i-dtl-imgopacity);
+    opacity: var(--i-dtl-logoopacity);
     background-position-x: 8px;
     background-position-y: center;
     background-repeat: no-repeat;
@@ -175,7 +194,7 @@
     height: var(--i-dtl-titlebarheight);
     width: calc(100vw - var(--i-dtl-buttonwidth) * 3);
     box-sizing: border-box;
-    opacity: var(--i-dtl-imgopacity);
+    opacity: var(--i-dtl-logoopacity);
     background-position-x: 8px;
     background-position-y: center;
     background-repeat: no-repeat;
@@ -189,4 +208,21 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: 20px;
+}
+
+/* Canary 2 */
+.titlebar .win-buttons .win-button {
+    height: var(--i-dtl-titlebarheight);
+    width: var(--i-dtl-buttonwidth);
+    cursor: default;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    transition: 200ms ease;
+}
+.titlebar .win-buttons .win-button g {
+    display: none;
+}
+.titlebar .win-buttons .win-button.iconInactive-WWHQEI {
+    opacity: 1;
 }
