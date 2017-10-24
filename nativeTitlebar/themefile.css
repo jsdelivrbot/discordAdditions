@@ -20,7 +20,7 @@
     --i-dtl-titlebarheight: 30px;
     
     /* Plugin: TitleforTitlebar */
-    --i-dtl-tft-offset: 40px;
+    --i-dtl-tft-offset: 75px;
     --i-dtl-tft-fontsize: 14px;
 }
 
@@ -83,7 +83,7 @@
 }
 
 /* TitleforTitlebar */
-#TitleforTitlebar {
+#app-mount #TitleforTitlebar {
     height: var(--i-dtl-titlebarheight);
     top: 0;
     left: 0;
