@@ -122,6 +122,8 @@
 .theme-dark #friends .friends-table .friend-table-add-wrapper .friends-table-add .add-friend-input-wrapper:hover{border-color:#040405;}
 .theme-dark #friends .friends-table .friend-table-add-wrapper .friends-table-add .add-friend-input-wrapper{background-color:var(--dd-dark-3);}
 
+/* Activity feed */
+
 /* Guilds list */
 .guilds-wrapper .guilds .guild.active .friends-icon{cursor:default;}
 .guilds-wrapper .guilds .guild.selected .avatar-small{cursor:default;}
