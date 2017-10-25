@@ -215,20 +215,3 @@
     background-repeat: no-repeat;
     background-size: 20px;
 }
-
-/* Canary 2 */
-.titlebar .win-buttons .win-button {
-    height: var(--i-dtl-titlebarheight);
-    width: var(--i-dtl-buttonwidth);
-    cursor: default;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 20px;
-    transition: 200ms ease;
-}
-.titlebar .win-buttons .win-button g {
-    display: none;
-}
-.titlebar .win-buttons .win-button.iconInactive-WWHQEI {
-    opacity: 1;
-}
