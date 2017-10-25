@@ -3,12 +3,6 @@
     src: url('https://cors-anywhere.herokuapp.com/https://nirewen.s-ul.eu/WJJ3bKJl.ttf');
 }
 
-.chat.private>.title-wrap>.headerBar-cxbhPD>.channel-topic:before{display:none;}
-.chat.private>.title-wrap>.headerBar-cxbhPD>.channel-topic{visibility:visible;}
-.chat>.title-wrap.title-wrap-dark>.headerBar-cxbhPD>.channel-topic:before{background-color:transparent;}
-.chat>.title-wrap>.headerBar-cxbhPD>.channel-topic:before{background-color:transparent;content:'';font-family:'Segoe MDL2 Assets';font-size:85%;text-align:center;visibility:visible;width:22px;}
-.chat>.title-wrap>.headerBar-cxbhPD>.channel-topic{visibility:hidden;}
-
 .chat.private>.titleWrapper-3Vi_wz .topic-1KFf6J:before{display:none;}
 .chat.private>.titleWrapper-3Vi_wz .topic-1KFf6J{visibility:visible;}
 .chat>.titleWrapper-3Vi_wz .topic-1KFf6J:before{background-color:transparent;content:'';font-family:'Segoe MDL2 Assets';font-size:85%;text-align:center;visibility:visible;width:22px;}
