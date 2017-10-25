@@ -123,6 +123,7 @@
 .theme-dark #friends .friends-table .friend-table-add-wrapper .friends-table-add .add-friend-input-wrapper{background-color:var(--dd-dark-3);}
 
 /* Activity feed */
+.theme-dark .activityFeed-HeiGwL{background-color:var(--dd-dark-6);}
 
 /* Guilds list */
 .guilds-wrapper .guilds .guild.active .friends-icon{cursor:default;}
