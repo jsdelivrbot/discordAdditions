@@ -40,7 +40,7 @@
 .title-qAcLxz .status{top:unset;}
 
 /* Notice bar */
-.notice{bottom:20px;box-sizing:border-box;height:auto;line-height:28px;max-width:calc(100vw-20px*2);min-height:40px;padding:6px 40px 6px 15px;position:absolute;right:20px;z-index:5;}
+.notice{bottom:20px;box-sizing:border-box;height:auto;line-height:28px;max-width:calc(100vw-20px*2);min-height:40px;padding:6px 40px 6px 15px;position:absolute;right:20px;z-index:5;border-radius:0;}
 .notice .btn{margin:-7px 0 0 10px;line-height:25px;}
 .notice .notice-dismiss{bottom:15px;top:unset;}
 .notice+.notice:after{content:'...';position:absolute;bottom:45px;right:0px;height:15px;line-height:10px;padding:0 10px;background-color:#7298da;}
