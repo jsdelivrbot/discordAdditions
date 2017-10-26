@@ -129,14 +129,14 @@
 .activity-3tgXuD{border-radius:0;}
 
 .theme-dark .activity-3tgXuD .body-2WmNzl{background-color:var(--dd-dark-5);}
-.theme-dark .activity-3tgXuD .header-34ZDfM{background-color:var(--dd-dark-4);}
-.theme-dark .activity-3tgXuD .newsIconCircle-2mzNOD{background-color:var(--dd-dark-3);}
-.theme-dark .activity-3tgXuD .content-1RjmSK{background-color:var(--dd-dark-5);}
 .theme-dark .activity-3tgXuD .content-1RjmSK:hover{background-color:var(--dd-dark-4);}
-.theme-dark .activityFeed-HeiGwL{background-color:var(--dd-dark-6);}
-.theme-dark .activity-3tgXuD .username-2-hbXu{color:var(--dd-cbase-1);}
+.theme-dark .activity-3tgXuD .content-1RjmSK{background-color:var(--dd-dark-5);}
+.theme-dark .activity-3tgXuD .header-34ZDfM{background-color:var(--dd-dark-4);}
 .theme-dark .activity-3tgXuD .nameTag-RG5DEB{color:var(--dd-cbase-4);}
+.theme-dark .activity-3tgXuD .newsIconCircle-2mzNOD{background-color:var(--dd-dark-3);}
 .theme-dark .activity-3tgXuD .playTime-1sIPBr{color:var(--dd-cbase-4);}
+.theme-dark .activity-3tgXuD .username-2-hbXu{color:var(--dd-cbase-1);}
+.theme-dark .activityFeed-HeiGwL{background-color:var(--dd-dark-6);}
 
 /* Guilds list */
 .guilds-wrapper .guilds .guild.active .friends-icon{cursor:default;}
