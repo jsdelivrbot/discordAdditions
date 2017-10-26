@@ -1,3 +1,17 @@
-.channel-members-wrap{background:rgba(0,0,0,0);height:100%;margin-left:100%;position:absolute!important;right:-150px;transition:.5s;z-index:1;}
-.channel-members-wrap:hover{background:rgba(0,0,0,0.3);right:0;transition:.5s;}
-.chat:not(.private) .content{padding-right:90px;}
+.channel-members-wrap {
+    background: rgba(0, 0, 0, 0);
+    height: 100%;
+    margin-left: 100%;
+    position: absolute !important;
+    right: -150px;
+    transition: .5s;
+    z-index: 1;
+}
+.channel-members-wrap:hover {
+    background: rgba(0, 0, 0, 0.3);
+    right: 0;
+    transition: .5s;
+}
+.chat:not(.private) .content {
+    padding-right: 90px;
+}
