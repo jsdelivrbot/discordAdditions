@@ -1,4 +1,4 @@
-.notice {
+#app-mount .notice {
     position: absolute;
     top: 48px;
     bottom: unset;
@@ -7,6 +7,6 @@
     width: calc(100vw - 70px);
     border-radius: 0;
 }
-.notice.notice-streamer-mode {
+#app-mount .notice.notice-streamer-mode {
     top: 70px;
 }
