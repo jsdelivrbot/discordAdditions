@@ -14,5 +14,6 @@ Additions for Discord.
 - [hiddenAccountEmail](https://github.com/intrnl/discordAdditions/tree/master/hiddenAccountEmail) - hides your email address when not hovered.
 - [hideChannelDescription](https://github.com/intrnl/discordAdditions/tree/master/hideChannelDescription) - tucks away the channel description to a dropdown icon.
 - [nativeTitlebar](https://github.com/intrnl/discordAdditions/tree/master/nativeTitlebar) - brings Windows styled titlebars to Discord.
+- [revertTitlebar](https://github.com/intrnl/discordAdditions/tree/master/revertTitlebar) - brings back the old window controls.
 - [smallMemberList](https://github.com/intrnl/discordAdditions/tree/master/smallMemberList) - tucks away your member list to the side when not hovered.
 - [windowedUserSettings](https://github.com/intrnl/discordAdditions/tree/master/windowedUserSettings) - turns the full screen user settings into a windowed one.
