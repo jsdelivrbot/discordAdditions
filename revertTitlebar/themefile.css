@@ -67,26 +67,3 @@ div[class*="titleBar-"] div:nth-of-type(4) {
 div[class*="base-"] div[class*="channels-"] {
     border-radius: 0;
 }
-
-.notice {
-    line-height: 48px;
-    border-radius: 0;
-}
-.notice:after {
-    content: '';
-    position: absolute;
-    width: 1px;
-    height: 22px;
-    top: 13px;
-    right: 106px;
-    background-color: hsla(240,6%,97%,.1);
-}
-.notice .btn {
-    margin-top: 5px;
-}
-.notice .notice-dismiss {
-    height: 48px;
-    top: 0px;
-    right: 105px;
-    background-position: center;
-}
