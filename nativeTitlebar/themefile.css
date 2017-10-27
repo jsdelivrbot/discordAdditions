@@ -128,9 +128,6 @@
 .context-menu {
     z-index: 3005;
 }
-.guilds-wrapper .guilds {
-    padding: 10px 0 10px 10px;
-}
 #app-mount {
     position: fixed;
     height: 100vh;
