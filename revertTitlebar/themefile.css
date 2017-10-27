@@ -61,10 +61,3 @@ div[class*="titleBar-"] div:nth-of-type(4) {
     height: 22px;
     background-color: hsla(240,6%,97%,.1);
 }
-
-.guilds-wrapper+div[class*="base-"] {
-    border-radius: 0;
-}
-div[class*="base-"] div[class*="channels-"] {
-    border-radius: 0;
-}
