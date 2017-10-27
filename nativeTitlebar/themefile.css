@@ -81,12 +81,6 @@
 .guilds-wrapper .guilds {
     padding: 10px 0 10px 10px;
 }
-.headerBar-cxbhPD {
-    height: 48px;
-    max-width: 100%;
-    box-sizing: border-box;
-    padding: 11px 8px 11px 20px;
-}
 
 /* TitleforTitlebar */
 #app-mount #TitleforTitlebar {
