@@ -62,9 +62,6 @@ div[class*="titleBar-"] div:nth-of-type(4) {
     background-color: hsla(240,6%,97%,.1);
 }
 
-.guilds-wrapper .guilds {
-    padding: 18px 0 18px 10px;
-}
 .guilds-wrapper+div[class*="base-"] {
     border-radius: 0;
 }
