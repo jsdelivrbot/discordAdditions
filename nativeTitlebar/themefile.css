@@ -67,21 +67,6 @@
     background-color: var(--i-dtl-closeactive);
 }
 
-/* Appearances */
-.base-3AoPqv, .channels-3g2vYe {
-    border-radius: 0;
-}
-.chat>.title-wrap {
-    min-height: 48px;
-    height: 48px;
-}
-.channels-wrap .header-1tSljs {
-    height: 48px;
-}
-.guilds-wrapper .guilds {
-    padding: 10px 0 10px 10px;
-}
-
 /* TitleforTitlebar */
 #app-mount #TitleforTitlebar {
     height: var(--i-dtl-titlebarheight);
