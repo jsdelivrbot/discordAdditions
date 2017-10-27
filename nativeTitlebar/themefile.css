@@ -64,8 +64,6 @@
 }
 
 /* Fixes */
-.titlebar ~ div .connecting,
-.titlebar ~ div .app .layers,
 .auth-background,
 .auth-center,
 .auth-tiling-bg,
