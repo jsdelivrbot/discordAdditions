@@ -24,45 +24,30 @@
     --i-dtl-tft-fontsize: 14px;
 }
 
-.titlebar:after,
 .titleBar-3_fDwJ .wordmark-2L03Wr {
     background-image: var(--i-dtl-logoimg);
     background-size: var(--i-dtl-logosize);
 }
 
-.titlebar .win-buttons .win-close,
-.titlebar .win-buttons .win-button:nth-of-type(3),
 .titleBar-3_fDwJ div:nth-of-type(2) {
     background-image: var(--i-dtl-closeimg);
 }
-.titlebar .win-buttons .win-maximise,
-.titlebar .win-buttons .win-button:nth-of-type(2),
 .titleBar-3_fDwJ div:nth-of-type(3) {
     background-image: var(--i-dtl-maximizeimg);
 }
-.titlebar .win-buttons .win-minimize,
-.titlebar .win-buttons .win-button:nth-of-type(1),
 .titleBar-3_fDwJ div:nth-of-type(4) {
     background-image: var(--i-dtl-minimizeimg);
 }
 
-.titlebar .win-buttons button:hover,
-.titlebar .win-buttons .win-button:hover,
 .titleBar-3_fDwJ .winButton-U7zAqI.winButtonMinMax-bT_gQ1:hover {
     background-color: var(--i-dtl-btnhover);
 }
-.titlebar .win-buttons button:active,
-.titlebar .win-buttons .win-button:active,
 .titleBar-3_fDwJ .winButton-U7zAqI.winButtonMinMax-bT_gQ1:active {
     background-color: var(--i-dtl-btnactive);
 }
-.titlebar .win-buttons .win-close:hover,
-.titlebar .win-buttons .win-button:nth-of-type(3):hover,
 .titleBar-3_fDwJ .winButton-U7zAqI.winButtonClose-2rIvsa:hover {
     background-color: var(--i-dtl-closehover);
 }
-.titlebar .win-buttons .win-close:active,
-.titlebar .win-buttons .win-button:nth-of-type(3):active,
 .titleBar-3_fDwJ .winButton-U7zAqI.winButtonClose-2rIvsa:active {
     background-color: var(--i-dtl-closeactive);
 }
