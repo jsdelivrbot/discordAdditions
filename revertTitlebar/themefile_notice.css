@@ -1,10 +1,12 @@
 .notice {
     position: absolute;
-    top: 0;
+    top: 48px;
     bottom: unset;
     right: 0;
     left: unset;
     width: calc(100vw - 70px);
     border-radius: 0;
-    margin-top: 70px;
+}
+.notice.notice-streamer-mode {
+    top: 70px;
 }
