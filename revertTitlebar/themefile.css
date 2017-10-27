@@ -70,6 +70,7 @@ div[class*="base-"] div[class*="channels-"] {
 
 .notice {
     line-height: 48px;
+    border-radius: 0;
 }
 .notice:after {
     content: '';
@@ -81,9 +82,11 @@ div[class*="base-"] div[class*="channels-"] {
     background-color: hsla(240,6%,97%,.1);
 }
 .notice .btn {
-    margin-top: 0;
+    margin-top: 5px;
 }
 .notice .notice-dismiss {
-    top: 19px;
-    right: 120px;
+    height: 48px;
+    top: 0px;
+    right: 105px;
+    background-position: center;
 }
