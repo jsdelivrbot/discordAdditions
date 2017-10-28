@@ -95,6 +95,7 @@
 /* Titlebar */
 .titleBar-3_fDwJ {
     background-color: var(--i-dtl-bgcolor);
+    padding-top: 0;
 }
 .titleBar-3_fDwJ:after {
     content: '';
