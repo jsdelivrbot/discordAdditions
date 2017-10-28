@@ -1571,6 +1571,17 @@
 .bd-minimal .channels-3g2vYe{width:210px;}
 .bd-minimal .channels-wrap{width:210px;}
 .bd-minimal .guilds-wrapper{width:40px;}
+.bd-minimal .channel-members h2{margin-bottom:9px;margin-top:29px;padding-left:12px;}
+.bd-minimal .channel-members .avatar-small{max-height:30px;max-width:30px;background-size:30px;}
+.bd-minimal .channel-members .avatar-small .status{height:10px;width:10px;}
+
+.bd-minimal .userPopout-4pfA0d .avatarWrapperNormal-1wU7gX{position:absolute;left:16px;top:16px;margin-bottom:0;}
+.bd-minimal .userPopout-4pfA0d .avatar-1BXaQj{height:40px;width:40px;}
+.bd-minimal .userPopout-4pfA0d .headerText-3tKBWq{width:100%;min-height:41px;align-items:flex-start;}
+.bd-minimal .userPopout-4pfA0d .headerName-2N8Pdz{margin-left:55px;text-align:left;}
+.bd-minimal .userPopout-4pfA0d .headerTagNormal-KyD3_J{margin-left:55px;text-align:left;}
+.bd-minimal .userPopout-4pfA0d .headerActivityText-3qBQRo{margin-left:55px;text-align:left;}
+.bd-minimal .userPopout-4pfA0d .avatarStatus-1g8f0K{height:10px;width:10px;}
 
 /* BetterDiscord: BD Blue */
 .bd-blue *[style*="background-color: #7289da"]{background-color: #3a71c1 !important;}
