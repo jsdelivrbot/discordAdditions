@@ -1,6 +1,6 @@
 #app-mount .notice {
     position: absolute;
-    top: 0;
+    top: unset;
     bottom: unset;
     right: 0;
     left: unset;
@@ -10,9 +10,6 @@
     text-align: left;
     padding-left: 22px;
     border-radius: 0;
-}
-#app-mount .notice.notice-streamer-mode {
-    top: 22px;
 }
 #app-mount .notice .notice-dismiss {
     right: 108px;
