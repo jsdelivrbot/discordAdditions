@@ -1,0 +1,33 @@
+#app-mount .notice {
+    position: absolute;
+    top: 0;
+    bottom: unset;
+    right: 0;
+    left: unset;
+    width: calc(100vw - 332px);
+    height: 47.99px;
+    line-height: 47.99px;
+    text-align: left;
+    padding-left: 22px;
+    border-radius: 0;
+}
+#app-mount .notice.notice-streamer-mode {
+    top: 22px;
+}
+#app-mount .notice .notice-dismiss {
+    right: 108px;
+    height: 47.99px;
+    background-position: center;
+}
+#app-mount .notice .btn {
+    top: 12px;
+}
+#app-mount .notice:after {
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 22px;
+    top: 13px;
+    right: 106px;
+    background-color: hsla(240,6%,97%,.1);
+}
