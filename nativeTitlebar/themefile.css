@@ -82,10 +82,6 @@
     margin-top: var(--i-dtl-titlebarheight);
     padding-top: calc(60px - var(--i-dtl-titlebarheight));
 }
-.header-toolbar .separator.separator-win,
-.windowsWrapper-eHsRZV {
-    display: none;
-}
 .tooltip,
 .context-menu {
     z-index: 3005;
