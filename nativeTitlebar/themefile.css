@@ -64,13 +64,6 @@
 }
 
 /* Fixes */
-.auth-background,
-.auth-center,
-.auth-tiling-bg,
-.callout-backdrop,
-.upload-area {
-    margin-top: var(--i-dtl-titlebarheight);
-}
 .popout .themed-popout {
     max-height: calc(100vh - var(--i-dtl-titlebarheight) - 48px - 20px) !important;
 }
