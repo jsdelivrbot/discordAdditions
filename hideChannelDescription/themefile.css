@@ -5,3 +5,5 @@
 
 .chat.private>.titleWrapper-3Vi_wz .topic-1KFf6J:before{display:none;}
 .chat.private>.titleWrapper-3Vi_wz .topic-1KFf6J{visibility:visible;}
+.chat>.titleWrapper-3Vi_wz .topic-1KFf6J:before{background-color:transparent;content:'';font-family:'Segoe MDL2 Assets';font-size:85%;text-align:center;visibility:visible;width:22px;-webkit-app-region:no-drag;}
+.chat>.titleWrapper-3Vi_wz .topic-1KFf6J{visibility:hidden;}
