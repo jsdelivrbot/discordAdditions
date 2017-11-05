@@ -17,3 +17,7 @@ Additions for Discord.
 - [revertTitlebar](https://github.com/intrnl/discordAdditions/tree/master/revertTitlebar) - brings back the old window controls.
 - [smallMemberList](https://github.com/intrnl/discordAdditions/tree/master/smallMemberList) - tucks away your member list to the side when not hovered.
 - [windowedUserSettings](https://github.com/intrnl/discordAdditions/tree/master/windowedUserSettings) - turns the full screen user settings into a windowed one.
+
+## Got an issue?
+
+While it's appreciated, I think it's better if you help contribute to fixing it by doing a pull request rather than just opening an issue about it.
