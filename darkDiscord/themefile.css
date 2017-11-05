@@ -206,14 +206,11 @@
 .theme-dark .wrapper-2ldvyE{background-color:var(--dd-dark-5);color:var(--dd-cbase-2);}
 
 /* Channel notices */
-.channel-notices .channel-notice .message .btn{border:0;transition:200ms ease;}
-.channel-notices .channel-notice{box-shadow:0 0;}
+.notice-3w3nb0 .button-2P2dgR{transition:200ms ease;}
 
-.theme-dark .channel-notices .channel-notice .message .btn:hover{background-color:var(--dd-dark-2);}
-.theme-dark .channel-notices .channel-notice .message .btn{background-color:var(--dd-dark-5);}
-.theme-dark .channel-notices .channel-notice.invite{background-color:var(--dd-dark-4);}
-.theme-dark .channel-notices .channel-notice.quickswitcher-notice{background-color:var(--dd-dark-4);}
-.theme-dark .channel-notices .channel-notice{border-bottom:1px solid var(--dd-dark-2);}
+.theme-dark .notice-3w3nb0{border-bottom:1px solid var(--dd-dark-2);background-color:var(--dd-dark-4);box-shadow:0 0;}
+.theme-dark .notice-3w3nb0 .button-2P2dgR{background-color:var(--dd-dark-3);}
+.theme-dark .notice-3w3nb0 .button-2P2dgR:hover{background-color:var(--dd-dark-1);}
 
 /* Guild member list */
 .theme-dark .channel-members .member.popout-open{background:var(--dd-dark-2);}
