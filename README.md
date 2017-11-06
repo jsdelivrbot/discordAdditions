@@ -2,6 +2,8 @@
 
 Additions for Discord.
 
+[Support server, etc.](https://discord.gg/NUVqeFm)
+
 ## Themes
 
 - [betterCategories](https://github.com/intrnl/discordAdditions/tree/master/betterCategories) - makes the channel categories dropdown larger.
