@@ -1807,29 +1807,10 @@
 #app-mount .serverhider-modal .server-entry{border-bottom:0;border-top:0;}
 
 /* Plugin: ServerFolders */
-#app-mount .serverfolders-modal .btn+.btn{margin-right:5px;}
-#app-mount .serverfolders-modal .btn:hover{background-color:var(--dd-dark-1);}
-#app-mount .serverfolders-modal .btn{background-color:var(--dd-dark-3);min-height:32px;min-width:65px;padding:10px;transition:200ms ease;}
-#app-mount .serverfolders-modal .form-actions{background-color:var(--dd-dark-4);padding:10px;}
-#app-mount .serverfolders-modal .form-header header{color:var(--dd-cbase-1);}
-#app-mount .serverfolders-modal .form-header{background-color:var(--dd-dark-4);}
-#app-mount .serverfolders-modal .form-inner .form-tab .form-tablinks.active{background-color:transparent;border-color:#7298da;cursor:default;color:var(--dd-cbase-1);}
-#app-mount .serverfolders-modal .form-inner .form-tab .form-tablinks:hover:not(.active){background-color:transparent;border-color:var(--dd-dark-0);color:var(--dd-cbase-4);}
-#app-mount .serverfolders-modal .form-inner .form-tab .form-tablinks{border-bottom:3px solid transparent;border-radius:0;box-sizing:border-box;height:55.56px;padding:20px 10px;transition:200ms;font-size:14px;line-height:14px;font-weight:normal;cursor:pointer;color:var(--dd-cbase-2);}
-#app-mount .serverfolders-modal .form-inner .form-tabcontent{background-color:transparent;border-radius:0;height:230px;margin-top:55.56px;padding-bottom:0;}
-#app-mount .serverfolders-modal .form-inner .form-tab{background-color:transparent;height:55.56px;}
-#app-mount .serverfolders-modal .form-inner [class*='ui-color-picker-swatch']{margin-left:5px;}
-#app-mount .serverfolders-modal .form-inner [class^="icons"]{margin:0;width:auto;}
-#app-mount .serverfolders-modal .form-inner [class^="swatches"]{margin:0;width:auto;}
-#app-mount .serverfolders-modal .form-inner [class^="ui-icon-picker-icon"]{border:0;width:65px;height:65px;background-size:95%;border-radius:3px;}
-#app-mount .serverfolders-modal .form-inner{margin:0;}
-#app-mount .serverfolders-modal .modal-inner{background-color:var(--dd-dark-4);border:1px solid var(--dd-dark-1);border-radius:0;box-shadow:0 0;height:auto;width:525px;}
-#app-mount .serverfolders-modal .modal{max-height:100vh;min-height:500px;}
-#app-mount .serverfolders-modal input:focus{border-color:#7298da;}
-#app-mount .serverfolders-modal input:hover:not(:focus){border-color:#040405;}
-#app-mount .serverfolders-modal input{background-color:var(--dd-dark-3);margin-top:8px;}
-.bd-blue #app-mount .serverfolders-modal .form-inner .form-tab .form-tablinks.active{border-color:#3a71c1;}
-.bd-blue #app-mount .serverfolders-modal input:focus{border-color:#3a71c1;}
+#app-mount .guilds-wrapper.folderopen{width:70px!important;}
+#app-mount .foldercontainer{top:20px;left:90px!important;border:1px solid;box-sizing:border-box;max-height:calc(100vh - 40px);}
+
+#app-mount .theme-dark .foldercontainer{background-color:var(--dd-dark-4);border-color:var(--dd-dark-1);box-shadow:0 2px 25px rgba(0,0,0,0.4);}
 
 /* Plugin: Owner Tags */
 .kawaii-tag{padding:1px 4px;}
