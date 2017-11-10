@@ -2022,13 +2022,24 @@ body .sp-picker-container{border-left:0;}
 
 /* BetterDiscord (Zerebos): Startup Error Modal */
 .bd-modal-wrapper .bd-modal-inner{border-radius:0;}
-.bd-modal-wrapper .header{background-color:transparent;box-shadow:0 0;padding:20px;}
-.bd-modal-wrapper .footer{background-color:transparent;box-shadow:0 0;padding:10px;}
+.bd-modal-wrapper .errors{padding:0;}
 .bd-modal-wrapper .footer button{min-width:65px;transition:200ms ease;}
+.bd-modal-wrapper .footer{background-color:transparent;box-shadow:0 0;padding:10px;}
+.bd-modal-wrapper .header{background-color:transparent;box-shadow:0 0;padding:20px;text-transform:uppercase;font-weight:600;letter-spacing:.3px;}
+.bd-modal-wrapper .scroller{padding:20px;}
+.bd-modal-wrapper .tab-bar-container .tab-bar-item{padding:20px 10px;margin:0;min-width:40px;opacity:1;}
+.bd-modal-wrapper .tab-bar-container{padding:0 20px;box-shadow:0 0;}
+.bd-modal-wrapper .table-header{margin:3px 20px 0 20px;}
 
-.theme-dark~.bd-modal-wrapper .footer button{background-color:var(--dd-dark-3);}
-.theme-dark~.bd-modal-wrapper .footer button:hover{background-color:var(--dd-dark-1);}
+.bd-blue .theme-dark~.bd-modal-wrapper .tab-bar-container .tab-bar-item.selected{border-bottom:3px solid #3a71c1;}
+.theme-dark~.bd-modal-wrapper .bd-modal-body{background-color:var(--dd-dark-4);}
 .theme-dark~.bd-modal-wrapper .bd-modal-inner{background-color:var(--dd-dark-4);border:1px solid var(--dd-dark-1);}
+.theme-dark~.bd-modal-wrapper .footer button:hover{background-color:var(--dd-dark-1);}
+.theme-dark~.bd-modal-wrapper .footer button{background-color:var(--dd-dark-3);}
+.theme-dark~.bd-modal-wrapper .tab-bar-container .tab-bar-item.selected{border-bottom:3px solid #7298da;color:var(--dd-cbase-1)!important;}
+.theme-dark~.bd-modal-wrapper .tab-bar-container .tab-bar-item:hover:not(.selected){border-bottom:3px solid var(--dd-dark-0);color:var(--dd-cbase-4)!important;}
+.theme-dark~.bd-modal-wrapper .tab-bar-container .tab-bar-item{color:var(--dd-cbase-2)!important;}
+.theme-dark~.bd-modal-wrapper .tab-bar-container{background-color:var(--dd-dark-4);}
 
 /* Animations */
 #bd-settings-sidebar .ui-tab-bar-item{transition:200ms ease;}
