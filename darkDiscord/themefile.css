@@ -1532,6 +1532,7 @@
 #app-mount.bda-dark .emoji-picker .diversity-selector .popout{background:var(--dd-dark-4);border-color:var(--dd-dark-1);}
 #app-mount.bda-dark .emoji-picker .header .search-bar{background-color:var(--dd-dark-4);}
 #app-mount.bda-dark .emoji-picker .header{background-color:var(--dd-dark-4);}
+#app-mount.bda-dark .emoji-picker .scroller .emoji-item.selected{background-position:50%;background-repeat:no-repeat;background-size:contain;}
 #app-mount.bda-dark .emoji-picker{border-top:1px solid var(--dd-dark-1);background-color:var(--dd-dark-4);}
 
 #app-mount.bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar-thumb{background-color:var(--dd-dark-0)!important;}
@@ -2031,7 +2032,22 @@ body .sp-picker-container{border-left:0;}
 #app-mount #pluginNotice{-webkit-app-region:no-drag;}
 
 /* Plugin dependencies: toast notifications */
-#app-mount .toast{background:var(--dd-dark-4);border:1px solid var(--dd-dark-1);box-shadow:0 2px 25px rgba(0,0,0,0.4);border-radius:0;}
+#app-mount .bd-toast{border-radius:0;}
+#app-mount .bd-toasts{left:0!important;right:0!important;bottom:0!important;top:0!important;width:100%!important;height:100%!important;padding:20px;box-sizing:border-box;}
+#app-mount .toast{border-radius:0;}
+
+#app-mount .theme-dark .bd-toast{background:var(--dd-dark-4);border:1px solid var(--dd-dark-1);box-shadow:0 2px 25px rgba(0,0,0,0.4);}
+#app-mount .theme-dark .toast{background:var(--dd-dark-4);border:1px solid var(--dd-dark-1);box-shadow:0 2px 25px rgba(0,0,0,0.4);}
+
+/* BetterDiscord (Zerebos): Startup Error Modal */
+.bd-modal-wrapper .bd-modal-inner{border-radius:0;}
+.bd-modal-wrapper .header{background-color:transparent;box-shadow:0 0;padding:20px;}
+.bd-modal-wrapper .footer{background-color:transparent;box-shadow:0 0;padding:10px;}
+.bd-modal-wrapper .footer button{min-width:65px;transition:200ms ease;}
+
+.theme-dark~.bd-modal-wrapper .footer button{background-color:var(--dd-dark-3);}
+.theme-dark~.bd-modal-wrapper .footer button:hover{background-color:var(--dd-dark-1);}
+.theme-dark~.bd-modal-wrapper .bd-modal-inner{background-color:var(--dd-dark-4);border:1px solid var(--dd-dark-1);}
 
 /* Animations */
 #bd-settings-sidebar .ui-tab-bar-item{transition:200ms ease;}
