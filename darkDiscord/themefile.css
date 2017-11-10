@@ -1069,8 +1069,8 @@
 #user-profile-modal .tab-bar{padding-top:0;}
 #user-profile-modal{border-radius:0;}
 
-.theme-dark #user-profile-modal .bot-tag{background:rgba(0,0,0,.3);}
 .bd-blue .theme-dark #user-profile-modal .tab-bar .tab-bar-item.selected{border-color:#3a71c1;}
+.theme-dark #user-profile-modal .bot-tag{background:rgba(0,0,0,.3);}
 .theme-dark #user-profile-modal .actions .btn.add-friend:hover{background-color:#43b581;}
 .theme-dark #user-profile-modal .actions .btn.add-friend{background-color:var(--dd-dark-3);}
 .theme-dark #user-profile-modal .actions .btn.disabled:hover{background:var(--dd-dark-3);}
