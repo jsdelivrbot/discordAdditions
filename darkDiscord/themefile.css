@@ -1459,7 +1459,7 @@
 .theme-dark #bd-settingspane-container .bda-slist .bda-right button{background-color:var(--dd-dark-3);}
 .theme-dark #bd-settingspane-container .bda-slist li:nth-child(odd){background-color:var(--dd-dark-4);}
 .theme-dark #bd-settingspane-container .bda-slist li{background-color:var(--dd-dark-4);}
-.theme-dark #bd-settingspane-container .bda-slist{color:var(--dd-cbase-4);}
+.theme-dark #bd-settingspane-container .bda-slist{color:var(--dd-cbase-1);}
 .theme-dark #bd-settingspane-container .bd-pfbtn{background:var(--dd-dark-3);}
 .theme-dark #bd-settingspane-container .bd-pfbtn:hover{background:var(--dd-dark-1);}
 
@@ -1478,7 +1478,9 @@
 #bd-settingspane-container .bda-slist li[class*='settings-closed']{box-sizing:border-box;border-radius:0;margin-bottom:0;}
 #bd-settingspane-container .bda-slist li[class*='settings-open'] .plugin-settings li:not([class]):last-of-type{border-bottom:0;}
 #bd-settingspane-container .bda-slist li[class*='settings-open'] .plugin-settings li:not([class]){min-height:unset;padding:8px 0;margin:0;border-radius:0;border-bottom:1px solid;}
+#bd-settingspane-container .bda-slist>li:-webkit-any(.settings-open,.settings-closed){border:0;border-bottom:1px solid;}
 
+.theme-dark #bd-settingspane-container .bda-slist>li:-webkit-any(.settings-open,.settings-closed){border-color:hsla(218,5%,47%,.3);}
 .theme-dark #bd-settingspane-container .bda-slist li[class*='settings-closed'] .bda-footer button:not([disabled]):hover{background-color:var(--dd-dark-1);}
 .theme-dark #bd-settingspane-container .bda-slist li[class*='settings-closed'] .bda-footer button{background-color:var(--dd-dark-3);}
 .theme-dark #bd-settingspane-container .bda-slist li[class*='settings-closed'] .bda-header .bda-header-title{color:var(--dd-cbase-1);}
@@ -1936,6 +1938,10 @@ body .sp-picker-container{border-left:0;}
 .theme-dark~.bd-modal-wrapper .tab-bar-container .tab-bar-item:hover:not(.selected){border-bottom:3px solid var(--dd-dark-0);color:var(--dd-cbase-4)!important;}
 .theme-dark~.bd-modal-wrapper .tab-bar-container .tab-bar-item{color:var(--dd-cbase-2)!important;}
 .theme-dark~.bd-modal-wrapper .tab-bar-container{background-color:var(--dd-dark-4);}
+
+/* BetterDiscord (Zerebos): Specific plugin settings */
+#plugin-settings-EditUsers label[style="color:grey; font-size:20px; margin-bottom:5px;"]{font-size:16px!important;line-height:20px!important;margin-bottom:8px!important;text-transform:uppercase;font-weight:600;letter-spacing:.3px;}
+.theme-dark #plugin-settings-EditUsers *{color:var(--dd-cbase-1)!important;}
 
 /* Animations */
 #bd-settings-sidebar .ui-tab-bar-item{transition:200ms ease;}
