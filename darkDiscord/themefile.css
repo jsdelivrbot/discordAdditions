@@ -318,11 +318,13 @@
 .message-group{border-bottom:0;padding:12px 0;margin-right:13px;}
 
 .message-group .btn-option{opacity:0;transition:opacity .2s ease;visibility:visible!important;}
-.message-group .btn-quote{opacity:0;transition:opacity .2s ease;visibility:visible!important;}
+.message-group .btn-quote{opacity:0!important;transition:opacity .2s ease;visibility:visible!important;}
 .message-group .btn-reaction{opacity:0;transition:opacity .2s ease;visibility:visible!important;}
 .message-group .comment>div:hover .btn-option{opacity:0.4;}
+.message-group .comment>div:hover .btn-quote{opacity:0.4!important;}
 .message-group .comment>div:hover .btn-reaction{opacity:0.4;}
 .message-group .system-message>div:hover .btn-option{opacity:0.4;}
+.message-group .system-message>div:hover .btn-quote{opacity:0.4!important;}
 .message-group .system-message>div:hover .btn-reaction{opacity:0.4;}
 
 .bd-blue .theme-dark .message-group .comment .markup .mention:hover{background-color:#3a71c1;color:var(--dd-cbase-1);}
