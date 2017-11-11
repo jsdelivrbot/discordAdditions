@@ -1746,22 +1746,6 @@
 .theme-dark .quote-msg{background-color:var(--dd-dark-4);}
 
 /* Plugin: EmojiStatistics */
-#app-mount #emojistatistics-scrolldiv::-webkit-scrollbar-thumb{background-color:var(--dd-dark-0);visibility:hidden;}
-#app-mount #emojistatistics-scrolldiv:hover::-webkit-scrollbar-thumb{visibility:visible;}
-#app-mount .emojistatistics-modal .btn:hover{background-color:var(--dd-dark-1);}
-#app-mount .emojistatistics-modal .btn{background-color:var(--dd-dark-3);min-height:32px;min-width:65px;padding:10px;}
-#app-mount .emojistatistics-modal .emojiserver-entry .modal-emojiserver-icon{background-color:var(--dd-dark-2);color:var(--dd-cbase-1);font-weight:400;}
-#app-mount .emojistatistics-modal .emojiserver-entry{border-bottom:0;border-top:0;}
-#app-mount .emojistatistics-modal .form-actions{background-color:var(--dd-dark-4);box-shadow:0 0;padding:10px;}
-#app-mount .emojistatistics-modal .form-header header{color:var(--dd-cbase-1);}
-#app-mount .emojistatistics-modal .form-header{background-color:var(--dd-dark-4);box-shadow:0 0;}
-#app-mount .emojistatistics-modal .form-inner{padding-right:13px;}
-#app-mount .emojistatistics-modal .form-titles{padding-right:13px;}
-#app-mount .emojistatistics-modal .modal-inner{background-color:var(--dd-dark-4);border:1px solid var(--dd-dark-1);border-radius:0;}
-#app-mount .emojistatistics-modal .modal{max-height:100vh;min-height:500px;}
-#app-mount .emojistatistics-modal .titles-entry .modal-titlesicon-label{visibility:hidden;}
-#app-mount .emojistatistics-modal .titles-entry .modal-titlesservername-label{visibility:hidden;}
-
 #app-mount .emoji-tooltip{position:absolute;}
 #app-mount .emojistatistics-button{cursor:pointer;}
 
