@@ -1994,18 +1994,6 @@ body .sp-input:hover:not(:focus){border-color:#040405;}
 body .sp-input{transition:200ms ease;padding:10px;color:var(--dd-cbase-1);border:1px solid rgba(0,0,0,.3);background-color:var(--dd-dark-3);font:normal 16px Whitney,Helvetica Neue,Helvetica,Arial,sans-serif!important;}
 body .sp-picker-container{border-left:0;}
 
-/* Plugin dependencies: DevilBro's color picker */
-#app-mount .colorpicker-modal .callout-backdrop{opacity:0.5!important;}
-#app-mount .colorpicker-modal .modal-inner .colorpicker-container .colorpicker-color{margin-right:8px;}
-#app-mount .colorpicker-modal .modal-inner .colorpicker-container .colorpicker-slider{margin-right:30px;}
-#app-mount .colorpicker-modal .modal-inner .colorpicker-container [class^='colorpicker-preview-']{border:0;}
-#app-mount .colorpicker-modal .modal-inner .colorpicker-container{border-radius:0;background-color:transparent;padding:0;}
-#app-mount .colorpicker-modal .modal-inner .colorpicker-inputs input:focus{outline:none;}
-#app-mount .colorpicker-modal .modal-inner .colorpicker-inputs input{background-color:var(--dd-dark-3);color:var(--dd-cbase-1);border:1px solid rgba(0,0,0,.3);}
-#app-mount .colorpicker-modal .modal-inner .colorpicker-inputs label{color:var(--dd-cbase-2);}
-#app-mount .colorpicker-modal .modal-inner .colorpicker-inputs{border-radius:0;background-color:var(--dd-dark-4);}
-#app-mount .colorpicker-modal .modal-inner{border-radius:0;padding:20px;width:450px;background-color:var(--dd-dark-4);border:1px solid var(--dd-dark-1);}
-
 /* Plugin dependencies: Check for update button */
 #app-mount .bd-pfbtn.bd-updatebtn{left:200px!important;}
 
