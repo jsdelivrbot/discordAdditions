@@ -1777,21 +1777,6 @@
 #app-mount #files_directDownload{left:20px;right:20px;z-index:3;}
 #app-mount .theme-dark #files_directDownload .file{background-color:var(--dd-dark-4);border:1px solid var(--dd-dark-1);}
 
-/* Plugin: EditChannels */
-#app-mount .editchannels-modal .btn-cancel{margin-left:5px;}
-#app-mount .editchannels-modal .btn:hover{background-color:var(--dd-dark-1);}
-#app-mount .editchannels-modal .btn{background-color:var(--dd-dark-3);min-height:32px;min-width:65px;padding:10px;transition:200ms ease;}
-#app-mount .editchannels-modal .form-actions{background-color:var(--dd-dark-4);box-shadow:0 0;padding:10px;}
-#app-mount .editchannels-modal .form-header header{color:var(--dd-cbase-1);}
-#app-mount .editchannels-modal .form-header{background-color:var(--dd-dark-4);box-shadow:0 0;}
-#app-mount .editchannels-modal .form-inner [class*='ui-color-picker-swatch']{margin-left:5px;}
-#app-mount .editchannels-modal .modal-inner{background-color:var(--dd-dark-4);border:1px solid var(--dd-dark-1);border-radius:0;}
-#app-mount .editchannels-modal .modal{max-height:100vh;min-height:500px;}
-#app-mount .editchannels-modal input:focus{border-color:#7298da;}
-#app-mount .editchannels-modal input:hover:not(:focus){border-color:#040405;}
-#app-mount .editchannels-modal input{background-color:var(--dd-dark-3);margin-top:8px;}
-.bd-blue #app-mount .editchannels-modal input:focus{border-color:#3a71c1;}
-
 /* Plugin: ServerFolders */
 #app-mount .guilds-wrapper.folderopen{width:70px!important;}
 #app-mount .foldercontainer{top:20px;left:90px!important;border:1px solid;box-sizing:border-box;max-height:calc(100vh - 40px);}
