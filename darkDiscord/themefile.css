@@ -1467,6 +1467,21 @@
 .theme-dark #bd-settings-sidebar .ui-tab-bar-item.selected{background-color:var(--dd-dark-2);}
 .theme-dark #bd-settings-sidebar .ui-tab-bar-item:hover:not(.selected){background-color:var(--dd-dark-5);}
 
+#bd-settingspane-container .bda-slist li[class*='settings-closed'] .bda-footer button:disabled{cursor:default;}
+#bd-settingspane-container .bda-slist li[class*='settings-closed'] .bda-footer button{min-width:65px;min-height:32px;border-radius:3px;transition:200ms ease;margin-top:10px;}
+#bd-settingspane-container .bda-slist li[class*='settings-closed'] .bda-footer{border-top:0;padding-top:0;}
+#bd-settingspane-container .bda-slist li[class*='settings-closed'] .bda-header .bda-header-title{font-size:16px;font-weight:500;line-height:24px;}
+#bd-settingspane-container .bda-slist li[class*='settings-closed'] .bda-header .ui-switch-wrapper{margin:0;}
+#bd-settingspane-container .bda-slist li[class*='settings-closed'] .bda-header{border-bottom:0;}
+#bd-settingspane-container .bda-slist li[class*='settings-closed']{box-sizing:border-box;border-radius:0;margin-bottom:0;}
+#bd-settingspane-container .bda-slist li[class*='settings-open'] .plugin-settings li:not([class]):last-of-type{border-bottom:0;}
+#bd-settingspane-container .bda-slist li[class*='settings-open'] .plugin-settings li:not([class]){min-height:unset;padding:8px 0;margin:0;border-radius:0;border-bottom:1px solid;}
+
+.theme-dark #bd-settingspane-container .bda-slist li[class*='settings-closed'] .bda-footer button:not([disabled]):hover{background-color:var(--dd-dark-1);}
+.theme-dark #bd-settingspane-container .bda-slist li[class*='settings-closed'] .bda-footer button{background-color:var(--dd-dark-3);}
+.theme-dark #bd-settingspane-container .bda-slist li[class*='settings-closed'] .bda-header .bda-header-title{color:var(--dd-cbase-1);}
+.theme-dark #bd-settingspane-container .bda-slist li[class*='settings-open'] .plugin-settings li:not([class]){border-color:hsla(218,5%,47%,.3);}
+
 /* BetterDiscord: Plugin Settings */
 #bd-settingspane-container .bda-slist li>div:nth-of-type(2):not(.bda-right) .plugin-controls .plugin-setting-input-container{margin-top:0;}
 #bd-settingspane-container .bda-slist li>div:nth-of-type(2):not(.bda-right) .plugin-controls .plugin-setting-input-row h3{line-height:23.99px;}
