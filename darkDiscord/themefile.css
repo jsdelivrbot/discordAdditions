@@ -1615,6 +1615,7 @@
 .bd-blue *[style*="background-color: #7289da"]{background-color: #3a71c1 !important;}
 .bd-blue *[style*="background-color: #7298da"]{background-color: #3a71c1 !important;}
 .bd-blue *[style*="background-color: rgb(114, 137, 218)"]{background-color: #3a71c1 !important;}
+.bd-blue .member-roles .member-role[style*="background-color: rgb(114, 137, 218)"]{background-color:rgb(114, 137, 218)!important;}
 
 /* DiscordInjections: Settings */
 .di-settings-menu-wrapper .button-2t3of8{min-height:32px;min-width:65px;}
