@@ -1843,27 +1843,6 @@
 .theme-dark #ThemeMGR_CSSTextArea:hover:not(:focus){border-color:#040405;}
 .theme-dark #ThemeMGR_CSSTextArea{background-color:var(--dd-dark-3);border:1px solid rgba(0,0,0,.3);color:var(--dd-cbase-1);}
 
-/* Plugin: EditServers */
-#app-mount .editservers-modal .btn:hover{background-color:var(--dd-dark-1);}
-#app-mount .editservers-modal .btn{background-color:var(--dd-dark-3);min-height:32px;min-width:65px;padding:10px;transition:200ms ease;}
-#app-mount .editservers-modal .form-actions .btn+.btn{margin-right:5px;}
-#app-mount .editservers-modal .form-actions{background-color:var(--dd-dark-4);box-shadow:0 0;padding:10px;}
-#app-mount .editservers-modal .form-header header{color:var(--dd-cbase-1);}
-#app-mount .editservers-modal .form-header{background-color:var(--dd-dark-4);box-shadow:0 0;display:none;}
-#app-mount .editservers-modal .form-inner .form-tab .form-tablinks.active{background-color:transparent;border-color:#7298da;color:var(--dd-cbase-1);cursor:default;}
-#app-mount .editservers-modal .form-inner .form-tab .form-tablinks:hover:not(.active){background-color:transparent;border-color:var(--dd-dark-0);color:var(--dd-cbase-4);}
-#app-mount .editservers-modal .form-inner .form-tab .form-tablinks{border-bottom:3px solid transparent;border-radius:0;box-sizing:border-box;height:55.56px;padding:20px 10px;transition:200ms;cursor:pointer;color:var(--dd-cbase-2);font-size:14px;line-height:14px;font-weight:500;}
-#app-mount .editservers-modal .form-inner .form-tabcontent{background-color:transparent;border-radius:0;height:230px;margin-top:55.56px;padding-bottom:0;}
-#app-mount .editservers-modal .form-inner .form-tab{background-color:transparent;height:55.56px;}
-#app-mount .editservers-modal .form-inner .inputs{margin:0;width:auto;}
-#app-mount .editservers-modal .form-inner input:focus{border-color:#7298da;}
-#app-mount .editservers-modal .form-inner input:hover:not(:focus){border-color:#040405;}
-#app-mount .editservers-modal .form-inner input{background-color:var(--dd-dark-3);margin:8px 5% 8px 0;}
-#app-mount .editservers-modal .form-inner{height:auto;margin:0;}
-#app-mount .editservers-modal .modal-inner{background-color:var(--dd-dark-4);border:1px solid var(--dd-dark-1);border-radius:0;box-shadow:0 0;}
-.bd-blue #app-mount .editservers-modal .form-inner .form-tab .form-tablinks.active{border-color:#3a71c1;}
-.bd-blue #app-mount .editservers-modal .form-inner input:focus{border-color:#3a71c1;}
-
 /* Plugin: ReadAllNotificationsButton */
 #app-mount .theme-dark #RANbutton:hover{background-color:var(--dd-dark-2);}
 #app-mount .theme-dark #RANbutton{background-color:var(--dd-dark-4);}
