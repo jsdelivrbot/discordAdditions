@@ -56,7 +56,6 @@
 #pluginNotice+div .notice:after{content:'...';position:absolute;bottom:45px;right:0px;height:15px;line-height:10px;padding:0 10px;background-color:#4a90e2;}
 
 /* Friends tab */
-
 #friends .tab-bar .tab-bar-item .badge{margin-top:13px;}
 #friends .tab-bar .tab-bar-item{height:39px;line-height:43px;border-radius:0;margin:0;padding:2px 10px;border-bottom:3px solid transparent;}
 #friends .tab-bar .tab-bar-separator{margin:0 10px;width:0;border-left:1px solid hsla(0,0%,100%,.1);}
@@ -812,7 +811,8 @@
 
 .modal-3HOjGZ .header-3sp3cE .guildName-1u0hy7{cursor:default;}
 
-.divider-1G01Z9{height:1.1px;}
+.divider-1G01Z9{height:0px;border-bottom:1px solid;}
+.theme-dark .divider-1G01Z9{border-color:hsla(218,5%,47%,.3);}
 
 /* Add game popout */
 .add-game-popout .cancel-button{margin-right:5px;}
@@ -1290,11 +1290,12 @@
 .theme-dark .search-results-wrap .search-result.expanded{border:0;}
 
 /* User Settings */
-.side-2nYO0F .separator-3z7STW{height:1.1px;}
+.side-2nYO0F .separator-3z7STW{height:0;border-bottom:1px solid;}
 .ui-standard-sidebar-view .btn-close{border:0;}
 .ui-standard-sidebar-view .header-1-f9X5{cursor:default;}
 
 .bd-blue .theme-dark .ui-standard-sidebar-view .itemBrand-mC9YR4{color:#3a71c1;}
+.theme-dark .side-2nYO0F .separator-3z7STW{border-color:hsla(218,5%,47%,.3);}
 .theme-dark .ui-standard-sidebar-view .btn-close:hover{background-color:var(--dd-dark-5);}
 .theme-dark .ui-standard-sidebar-view .content-region{background:var(--dd-dark-4);}
 .theme-dark .ui-standard-sidebar-view .itemBrand-mC9YR4:hover{background-color:var(--dd-dark-5);}
