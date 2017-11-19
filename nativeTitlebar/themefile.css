@@ -16,6 +16,7 @@
     --i-dtl-closeimg: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIiIGhlaWdodD0iMTIiIHZpZXdCb3g9IjAgMCAxMiAxMiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+PHBvbHlnb24gZmlsbD0iI2ZmZmZmZiIgZmlsbC1ydWxlPSJldmVub2RkIiBwb2ludHM9IjExIDEuNTc2IDYuNTgzIDYgMTEgMTAuNDI0IDEwLjQyNCAxMSA2IDYuNTgzIDEuNTc2IDExIDEgMTAuNDI0IDUuNDE3IDYgMSAxLjU3NiAxLjU3NiAxIDYgNS40MTcgMTAuNDI0IDEiPjwvcG9seWdvbj48L3N2Zz4=);
     
     --i-dtl-buttonwidth: 48px;
+    --i-dtl-buttonimgsize: 12px;
     --i-dtl-resizeheight: 6px;
     --i-dtl-titlebarheight: 30px;
     
@@ -125,5 +126,5 @@
     transition: 200ms ease;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 12px;
+    background-size: var(--i-dtl-buttonimgsize);
 }
