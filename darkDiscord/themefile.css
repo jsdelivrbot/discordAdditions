@@ -236,18 +236,22 @@
 .theme-dark .search-bar{background-color:var(--dd-dark-4);}
 
 /* DM list */
-.private-channels .channel.selected a{cursor:default;}
 .private-channels .channel a{transition:200ms ease;}
+.private-channels .channel.selected a{cursor:default;}
+.private-channels .status{transition:200ms ease;}
 
+.bd-blue .private-channels .channel.selected .icon-friends{background-color:transparent;}
 .theme-dark .private-channels .channel .channel-name{color:var(--dd-cbase-2);opacity:1;}
+.theme-dark .private-channels .channel.selected .channel-activity{color:var(--dd-cbase-4);}
 .theme-dark .private-channels .channel.selected .channel-name{color:var(--dd-cbase-1);}
+.theme-dark .private-channels .channel.selected .status{border-color:var(--dd-dark-2);}
 .theme-dark .private-channels .channel.selected a{background-color:var(--dd-dark-2);}
 .theme-dark .private-channels .channel:hover:not(.selected) .channel-activity{color:var(--dd-cbase-4);}
 .theme-dark .private-channels .channel:hover:not(.selected) .channel-name{color:var(--dd-cbase-1);}
+.theme-dark .private-channels .channel:hover:not(.selected) .status{border-color:var(--dd-dark-5);}
 .theme-dark .private-channels .channel:hover:not(.selected) a{background-color:var(--dd-dark-5);}
+.theme-dark .private-channels .status{border-color:var(--dd-dark-4);}
 .theme-dark .private-channels{background-color:var(--dd-dark-4);}
-
-.bd-blue .private-channels .channel.selected .icon-friends{background-color:transparent;}
 
 /* DM calls */
 .theme-dark .private-channel-call{background-color:var(--dd-dark-3);}
@@ -419,13 +423,17 @@
 .theme-dark .reaction{background:var(--dd-dark-5);}
 
 /* Chat blocked button */
+.message-group-blocked .message-group-blocked-btn{border-radius:3px;}
+.message-group-blocked .message-group{margin:0 15px;}
 .message-group-blocked.revealed{border:0;}
 .message-group-blocked{border:0;margin-left:20px;margin-right:13px;}
 
 .theme-dark .friends-table .messages .message-group-blocked .message-group-blocked-btn:hover{background:var(--dd-dark-4);}
 .theme-dark .friends-table .messages .message-group-blocked .message-group-blocked-btn{background:var(--dd-dark-5);}
+.theme-dark .friends-table .messages .message-group-blocked{background:transparent;border-color:transparent;}
 .theme-dark .messages-wrapper .messages .message-group-blocked .message-group-blocked-btn:hover{background:var(--dd-dark-4);}
 .theme-dark .messages-wrapper .messages .message-group-blocked .message-group-blocked-btn{background:var(--dd-dark-5);}
+.theme-dark .messages-wrapper .messages .message-group-blocked{background:transparent;border-color:transparent;}
 
 /* Chat blocked messages */
 .theme-dark .friends-table .messages .message-group-blocked.revealed{background:var(--dd-dark-5);}
@@ -1059,6 +1067,8 @@
 #user-profile-modal .actions .btn{transition:200ms ease;min-height:36px;min-width:65px;padding:10px;line-height:normal;}
 #user-profile-modal .avatar-profile{background-size:contain;height:100px;width:100px;}
 #user-profile-modal .avatar-wrapper{background-color:transparent;left:20px;top:30px;}
+#user-profile-modal .bot-tag{padding:1px 4px;}
+#user-profile-modal .botTagRegular-288-ZL{padding:1px 4px;}
 #user-profile-modal .guilds .guild{padding:10px;}
 #user-profile-modal .guilds .section .connected-accounts .connected-account a .connected-account-open-icon{margin-right:7px;margin-left:14px;}
 #user-profile-modal .guilds .section .connected-accounts .connected-account{border:0;width:225px;padding:8px}
@@ -1078,14 +1088,17 @@
 #user-profile-modal{border-radius:0;}
 
 .bd-blue .theme-dark #user-profile-modal .tab-bar .tab-bar-item.selected{border-color:#3a71c1;}
-.theme-dark #user-profile-modal .bot-tag{background:rgba(0,0,0,.3);}
 .theme-dark #user-profile-modal .actions .btn.add-friend:hover{background-color:#43b581;}
 .theme-dark #user-profile-modal .actions .btn.add-friend{background-color:var(--dd-dark-3);}
 .theme-dark #user-profile-modal .actions .btn.disabled:hover{background:var(--dd-dark-3);}
 .theme-dark #user-profile-modal .actions .btn.disabled{background:var(--dd-dark-3);opacity:.5;color:var(--dd-cbase-1);border:0;}
 .theme-dark #user-profile-modal .actions .btn.reject-friend:hover{background-color:var(--dd-dark-1);}
 .theme-dark #user-profile-modal .actions .btn.reject-friend{background-color:var(--dd-dark-3);}
+.theme-dark #user-profile-modal .actions .btn.send-message:hover{background-color:#43b581;}
+.theme-dark #user-profile-modal .actions .btn.send-message{background-color:var(--dd-dark-3);}
 .theme-dark #user-profile-modal .avatar-profile .status{border-color:var(--dd-dark-4);}
+.theme-dark #user-profile-modal .bot-tag{background:rgba(0,0,0,.4);}
+.theme-dark #user-profile-modal .botTagRegular-288-ZL{background:rgba(0,0,0,.4);color:var(--dd-cbase-2);}
 .theme-dark #user-profile-modal .empty .empty-text{color:var(--dd-cbase-4);}
 .theme-dark #user-profile-modal .empty{background-color:var(--dd-dark-4);}
 .theme-dark #user-profile-modal .guilds .guild .guild-nick{color:var(--dd-cbase-4);}
@@ -1097,10 +1110,10 @@
 .theme-dark #user-profile-modal .guilds .section .connected-accounts .connected-account{background-color:var(--dd-dark-3);}
 .theme-dark #user-profile-modal .guilds .section .content-P9ThHS{color:var(--dd-cbase-4);}
 .theme-dark #user-profile-modal .guilds .section .details-vSFjFG{color:var(--dd-cbase-4);}
-.theme-dark #user-profile-modal .guilds .section [name='Gamepad'] .headerIconForeground-2QFL0Z{fill:var(--dd-cbase-1);}
 .theme-dark #user-profile-modal .guilds .section .headerText-2CVBxK{color:var(--dd-cbase-1);}
 .theme-dark #user-profile-modal .guilds .section .name-8onsv0{color:var(--dd-cbase-1);}
 .theme-dark #user-profile-modal .guilds .section .section-header{color:var(--dd-cbase-1);}
+.theme-dark #user-profile-modal .guilds .section [name='Gamepad'] .headerIconForeground-2QFL0Z{fill:var(--dd-cbase-1);}
 .theme-dark #user-profile-modal .header .header-info .header-info-inner .activity{color:var(--dd-cbase-4);}
 .theme-dark #user-profile-modal .header .header-info .header-info-inner .discord-tag .discriminator{color:var(--dd-cbase-4);}
 .theme-dark #user-profile-modal .header .header-info .header-info-inner .discord-tag{color:var(--dd-cbase-1);}
@@ -1145,6 +1158,7 @@
 .protip{color:var(--dd-cbase-4);}
 
 /* User popout */
+.userPopout-4pfA0d .actions-KtSKFK{margin-bottom:20px;}
 .userPopout-4pfA0d .avatarHint-2i5XWK{font-weight:600;margin:0;}
 .userPopout-4pfA0d .avatarNormal-3luwna{border:0;}
 .userPopout-4pfA0d .avatarStatusNormal-1OXVjG{height:15px;width:15px;}
@@ -1162,7 +1176,6 @@
 .userPopout-4pfA0d .headerTagNormal-KyD3_J{margin-bottom:0;}
 .userPopout-4pfA0d .note textarea{padding:0;}
 .userPopout-4pfA0d .protip{display:none;}
-.userPopout-4pfA0d .actions-KtSKFK{margin-bottom:20px;}
 .userPopout-4pfA0d{border-radius:0;width:255px;}
 
 .theme-dark .userPopout-4pfA0d .avatarStatusNormal-1OXVjG{border-color:var(--dd-dark-4);}
@@ -1790,10 +1803,21 @@
 #app-mount .theme-dark #files_directDownload .file{background-color:var(--dd-dark-4);border:1px solid var(--dd-dark-1);}
 
 /* Plugin: ServerFolders */
-#app-mount .guilds-wrapper.folderopen{width:70px!important;}
 #app-mount .foldercontainer{top:20px;left:90px!important;border:1px solid;box-sizing:border-box;max-height:calc(100vh - 40px);}
+#app-mount .guilds-wrapper .guilds .guild.folder.closed .guild-inner{animation-name:serverfolders-unfocused;animation-duration:.2s;animation-timing-function:ease;border-radius:25px!important;}
+#app-mount .guilds-wrapper .guilds .guild.folder.closed:hover .guild-inner{animation-name:serverfolders-focused;animation-duration:.2s;animation-timing-function:cubic-bezier(0.175, 0.885, 0.32, 1.275);border-radius:15px!important;}
+#app-mount .guilds-wrapper .guilds .guild.folder.open .guild-inner{border-radius:15px!important;}
+#app-mount .guilds-wrapper.folderopen{width:70px!important;}
 
 #app-mount .theme-dark .foldercontainer{background-color:var(--dd-dark-4);border-color:var(--dd-dark-1);box-shadow:0 2px 25px rgba(0,0,0,0.4);}
+#app-mount .theme-dark .guilds-wrapper .guilds .guild.folder.open .avatar-small{background-color:var(--dd-dark-0);}
+
+@keyframes serverfolders-focused {
+    from { border-radius: 25px; }
+}
+@keyframes serverfolders-unfocused {
+    from { border-radius: 15px; }
+}
 
 /* Plugin: Owner Tags */
 .kawaii-tag{padding:1px 4px;}
