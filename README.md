@@ -1,8 +1,6 @@
 # discordAdditions
 
-Additions for Discord.
-
-[Support server, etc.](https://discord.gg/NUVqeFm)
+A collection of CSS themes that you can use to customize your Discord client at will.
 
 ## Themes
 
@@ -20,6 +18,14 @@ Additions for Discord.
 - [smallMemberList](https://github.com/intrnl/discordAdditions/tree/master/smallMemberList) - tucks away your member list to the side when not hovered.
 - [windowedUserSettings](https://github.com/intrnl/discordAdditions/tree/master/windowedUserSettings) - turns the full screen user settings into a windowed one.
 
+## Installation
+
+### BetterDiscord
+Download the respective theme's `.theme.css` file and put it into your theme folder, then reload Discord to see it appear on settings.
+
+### BeautifulDiscord, etc.
+Use [GitCDN](https://gitcdn.xyz) or [RawGit](https://rawgit.com) and paste in the URL of the respective theme's raw theme file (the ones that doesn't have the `.theme.css` extension), then import the resulting URL given. (Be sure to grab the development URL if you're using RawGit)
+
 ## Got an issue?
 
-While it's appreciated, I think it's better if you help contribute to fixing it by doing a pull request rather than just opening an issue about it.
+While it is appreciated that you actually reported the issue, not everyone is able to fix the issue on time whether it's because of being busy or for some other reasons. It is more appreciated if you can help by doing a pull request instead.
