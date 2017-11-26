@@ -13,6 +13,7 @@ A collection of CSS themes that you can use to customize your Discord client at 
 - [discordNotoEmojis](https://github.com/intrnl/discordAdditions/tree/master/discordNotoEmojis) - replaces Discord's default twemoji (twitter emoji) with Noto (blobs) equivalents.
 - [hiddenAccountEmail](https://github.com/intrnl/discordAdditions/tree/master/hiddenAccountEmail) - hides your email address when not hovered.
 - [hideChannelDescription](https://github.com/intrnl/discordAdditions/tree/master/hideChannelDescription) - tucks away the channel description to a dropdown icon.
+- [macTitlebar](https://github.com/intrnl/discordAdditions/tree/master/macTitlebar) - brings macOS-styled titlebars to Discord.
 - [nativeTitlebar](https://github.com/intrnl/discordAdditions/tree/master/nativeTitlebar) - brings Windows styled titlebars to Discord.
 - [revertTitlebar](https://github.com/intrnl/discordAdditions/tree/master/revertTitlebar) - brings back the old window controls.
 - [smallMemberList](https://github.com/intrnl/discordAdditions/tree/master/smallMemberList) - tucks away your member list to the side when not hovered.
