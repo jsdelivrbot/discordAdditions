@@ -47,6 +47,8 @@
     background-repeat: no-repeat;
     opacity: 1;
     cursor: default;
+    pointer-events: auto;
+    -webkit-app-region: no-drag;
 }
 .titleBar-3_fDwJ .wordmark-2L03Wr,
 .titleBar-3_fDwJ .winButton-U7zAqI svg {
