@@ -97,7 +97,7 @@
     z-index: 999999;
     -webkit-app-region: no-drag;
 }
-.backdrop-2ohBEd,
+.backdrop-2ohBEd:before,
 .layer .ui-standard-sidebar-view:before {
     content: '';
     display: block;
