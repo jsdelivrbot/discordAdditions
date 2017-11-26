@@ -55,6 +55,7 @@
 
 .titleBar-3_fDwJ div:nth-of-type(2) {
     background-color: #fc615d;
+    order: 1;
 }
 .titleBar-3_fDwJ div:nth-of-type(2):active {
     background-color: #ca4e4a;
@@ -64,6 +65,7 @@
 }
 .titleBar-3_fDwJ div:nth-of-type(3) {
     background-color: #34c749;
+    order: 3;
 }
 .titleBar-3_fDwJ div:nth-of-type(3):active {
     background-color: #2a9f3a;
@@ -73,6 +75,7 @@
 }
 .titleBar-3_fDwJ div:nth-of-type(4) {
     background-color: #fdbc40;
+    order: 2;
 }
 .titleBar-3_fDwJ div:nth-of-type(4):active {
     background-color: #ca9633;
