@@ -3,12 +3,14 @@
 }
 .headerBar-cxbhPD,
 .title-qAcLxz,
-.titleCall-3X0yGQ {
+.titleCall-3X0yGQ,
+.notice {
     -webkit-app-region: drag;
 }
 .headerBar-cxbhPD:before,
 .title-qAcLxz:before,
-.titleCall-3X0yGQ:before {
+.titleCall-3X0yGQ:before,
+.notice:before {
     content: '';
     display: block;
     height: 4px;
