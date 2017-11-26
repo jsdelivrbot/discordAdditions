@@ -21,6 +21,21 @@
     z-index: 999999;
     -webkit-app-region: no-drag;
 }
+.backdrop-2ohBEd {
+    -webkit-app-region: no-drag;
+}
+.backdrop-2ohBEd,
+.layer .ui-standard-sidebar-view:before {
+    content: '';
+    display: block;
+    height: calc(32px - 4px);
+    width: calc(100vw - 72px);
+    position: absolute;
+    top: 4px;
+    right: 0;
+    z-index: 3001;
+    -webkit-app-region: drag;
+}
 
 .titleBar-3_fDwJ {
     display: flex;
