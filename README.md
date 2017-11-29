@@ -5,6 +5,7 @@ A collection of CSS themes that you can use to customize your Discord client at 
 ## Themes
 
 - [betterCategories](https://github.com/intrnl/discordAdditions/tree/master/betterCategories) - makes the channel categories dropdown larger.
+- [betterNotices](https://github.com/intrnl/discordAdditions/tree/master/betterNotices) - better looking notice bars.
 - [betterVoiceChannels](https://github.com/intrnl/discordAdditions/tree/master/betterVoiceChannels) - makes voice channels behave like text channels when hovered and connected.
 - [classicChannelList](https://github.com/intrnl/discordAdditions/tree/master/classicChannelList) - attempts to bring back how the channel list used to look like, with minor changes.
 - [codeblockLangIdentifier](https://github.com/intrnl/discordAdditions/tree/master/codeblockLangIdentifier) - adds language identifier to the top of code blocks.
