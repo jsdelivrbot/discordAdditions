@@ -1119,8 +1119,10 @@
 
 /* User popout */
 .userPopout-4pfA0d .actions-KtSKFK{margin-bottom:20px;}
+.userPopout-4pfA0d .activity-AFBUEw{margin-top:15px;margin-bottom:-20px;margin-left:-15px;margin-right:-15px;padding:15px;}
 .userPopout-4pfA0d .avatarHint-2i5XWK{font-weight:600;margin:0;}
 .userPopout-4pfA0d .avatarNormal-3luwna{border:0;}
+.userPopout-4pfA0d .avatarStatus-1g8f0K{box-shadow:0 0;}
 .userPopout-4pfA0d .avatarStatusNormal-1OXVjG{height:15px;width:15px;}
 .userPopout-4pfA0d .avatarStreaming-1ZydJV{border:0;}
 .userPopout-4pfA0d .avatarWrapperNormal-1wU7gX{margin-bottom:10px;}
@@ -1133,13 +1135,20 @@
 .userPopout-4pfA0d .headerLive-2dDMvp{margin-top:15px;width:calc(100% + 30px);}
 .userPopout-4pfA0d .headerName-2N8Pdz{font-weight:600;margin-bottom:0;}
 .userPopout-4pfA0d .headerStreaming-3F-wjT{padding-bottom:0;}
+.userPopout-4pfA0d .headerTagNoNickname-26rERL{font-weight:600;}
 .userPopout-4pfA0d .headerTagNormal-KyD3_J{margin-bottom:0;}
+.userPopout-4pfA0d .headerTagUsernameNoNickname-1gGsAP{font-weight:600;}
+.userPopout-4pfA0d .headerTop-1QGMLs{padding:0;}
+.userPopout-4pfA0d .nameTag-26T3kW{font-weight:600;font-size:16px;line-height:20px;}
 .userPopout-4pfA0d .note textarea{padding:0;}
+.userPopout-4pfA0d .note-3Zfyi2{margin-left:0;}
 .userPopout-4pfA0d .protip{display:none;}
 .userPopout-4pfA0d{border-radius:0;width:255px;}
 
+.theme-dark .userPopout-4pfA0d .activity-AFBUEw{background-color:transparent;}
 .theme-dark .userPopout-4pfA0d .avatarStatusNormal-1OXVjG{border-color:var(--dd-dark-4);}
 .theme-dark .userPopout-4pfA0d .body-3rkFrF{background-color:var(--dd-dark-4);}
+.theme-dark .userPopout-4pfA0d .bodyTitle-yehI7c{color:var(--dd-cbase-4);}
 .theme-dark .userPopout-4pfA0d .bodyTitleText-hSiL7d{color:var(--dd-cbase-4);}
 .theme-dark .userPopout-4pfA0d .botTagInvert-gorWR_{background:rgba(0,0,0,.4);color:var(--dd-cbase-4);}
 .theme-dark .userPopout-4pfA0d .content-P9ThHS{color:var(--dd-cbase-4);}
@@ -1147,6 +1156,7 @@
 .theme-dark .userPopout-4pfA0d .footer-2J5zqP{background-color:var(--dd-dark-4);}
 .theme-dark .userPopout-4pfA0d .headerActivityText-3qBQRo{color:var(--dd-cbase-4);}
 .theme-dark .userPopout-4pfA0d .headerNormal-1cioxU{background:var(--dd-dark-4);}
+.theme-dark .userPopout-4pfA0d .headerPlaying-2eYqm9{background-color:var(--dd-dark-4);}
 .theme-dark .userPopout-4pfA0d .headerTagNormal-KyD3_J{color:var(--dd-cbase-4);}
 .theme-dark .userPopout-4pfA0d .headerText-2CVBxK{color:var(--dd-cbase-4);}
 .theme-dark .userPopout-4pfA0d .name-8onsv0{color:var(--dd-cbase-4);}
