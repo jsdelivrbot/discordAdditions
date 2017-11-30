@@ -49,7 +49,7 @@
     background-color: #ca4e4a;
 }
 .titleBar-3_fDwJ div:nth-of-type(2) svg {
-    background-image: url(data:image/svg+xml;base64,PHN2ZyB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDYuNCA2LjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPg0KICAgIDxwb2x5Z29uIGZpbGw9IiM0ZDAwMDAiIHBvaW50cz0iNi40LDAuOCA1LjYsMCAzLjIsMi40IDAuOCwwIDAsMC44IDIuNCwzLjIgMCw1LjYgMC44LDYuNCAzLjIsNCA1LjYsNi40IDYuNCw1LjYgNCwzLjIiPjwvcG9seWdvbj4NCjwvc3ZnPg==);
+    background-image: url(https://raw.githubusercontent.com/intrnl/discordAdditions/master/macTitlebar/resources/btn-close.svg);
 }
 
 /* Minimize button */
@@ -61,7 +61,7 @@
     background-color: #ca9633;
 }
 .titleBar-3_fDwJ div:nth-of-type(4) svg {
-    background-image: url(data:image/svg+xml;base64,PHN2ZyB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDggMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4NCiAgICA8cmVjdCBmaWxsPSIjOTk1NzAwIiB3aWR0aD0iOCIgaGVpZ2h0PSIxLjEiPjwvcmVjdD4NCjwvc3ZnPg==);
+    background-image: url(https://raw.githubusercontent.com/intrnl/discordAdditions/master/macTitlebar/resources/btn-minimize.svg);
 }
 
 /* Maximize button */
@@ -73,7 +73,7 @@
     background-color: #2a9f3a;
 }
 .titleBar-3_fDwJ div:nth-of-type(3) svg {
-    background-image: url(data:image/svg+xml;base64,PHN2ZyB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDcuOSA3LjkiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPg0KICAgIDxwb2x5Z29uIGZpbGw9IiMwMzY0MDMiIHBvaW50cz0iNy45LDQuNSA3LjksMy40IDQuNSwzLjQgNC41LDAgMy40LDAgMy40LDMuNCAwLDMuNCAwLDQuNSAzLjQsNC41IDMuNCw3LjkgNC41LDcuOSA0LjUsNC41Ij48L3BvbHlnb24+DQo8L3N2Zz4=);
+    background-image: url(https://raw.githubusercontent.com/intrnl/discordAdditions/master/macTitlebar/resources/btn-maximize.svg);
 }
 
 /* Appearance tweak */
