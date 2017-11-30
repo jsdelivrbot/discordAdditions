@@ -6,7 +6,7 @@
     
     --i-rtl-closeimg: url(https://rawgit.com/intrnl/discordAdditions/master/revertTitlebar/resources/btn-close.svg);
     --i-rtl-maximizeimg: url(https://rawgit.com/intrnl/discordAdditions/master/revertTitlebar/resources/btn-maximize.svg);
-    --i-rtl-minimizeimg: url(https://rawgit.com/intrnl/discordAdditions/master/revertTItlebar/resources/btn-minimizeimg.svg);
+    --i-rtl-minimizeimg: url(https://rawgit.com/intrnl/discordAdditions/master/revertTItlebar/resources/btn-minimize.svg);
  /* These variable above messes with the background images of the window control buttons. */
 }
 
