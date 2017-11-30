@@ -1064,66 +1064,26 @@
 .theme-dark .keybind-shortcut span{border:0;background:var(--dd-dark-0);color:var(--dd-cbase-4);}
 
 /* User profile modal */
-#user-profile-modal .actions .btn{transition:200ms ease;min-height:36px;min-width:65px;padding:10px;line-height:normal;}
-#user-profile-modal .avatar-profile{background-size:contain;height:100px;width:100px;}
-#user-profile-modal .avatar-wrapper{background-color:transparent;left:20px;top:30px;}
-#user-profile-modal .bot-tag{padding:1px 4px;}
-#user-profile-modal .botTagRegular-288-ZL{padding:1px 4px;}
-#user-profile-modal .guilds .guild{padding:10px;}
-#user-profile-modal .guilds .section .connected-accounts .connected-account a .connected-account-open-icon{margin-right:7px;margin-left:14px;}
-#user-profile-modal .guilds .section .connected-accounts .connected-account{border:0;width:225px;padding:8px}
-#user-profile-modal .guilds .section .headerIcon-eMbZWG[name='Gamepad']{display:none;}
-#user-profile-modal .guilds .section .section-header{font-weight:600;}
-#user-profile-modal .guilds .section+.section{border-top:0;}
-#user-profile-modal .guilds .section{margin:0 10px;}
-#user-profile-modal .header .additional-actions-icon{top:173px;}
-#user-profile-modal .header .header-info{padding-top:0;}
-#user-profile-modal .header:after{background-image:none;}
-#user-profile-modal .header{background-image:none;padding-left:140px;height:160px;}
-#user-profile-modal .scroller{padding:10px;padding-right:3px;}
-#user-profile-modal .tab-bar .tab-bar-item+.tab-bar-item{margin-left:0;}
-#user-profile-modal .tab-bar .tab-bar-item{border-width:3px;padding:20px 10px;min-width:40px;}
-#user-profile-modal .tab-bar-container{padding-left:20px;border-width:3px;}
-#user-profile-modal .tab-bar{padding-top:0;}
-#user-profile-modal{border-radius:0;}
+.root-2sNHUF .activity-1Sr8Y2{padding:20px;margin-top:-20px;}
+.root-2sNHUF .botTag-1OwMgs{padding:1px 4px;line-height:20px;}
+.root-2sNHUF .connectedAccount-3mKaTA{border:0;}
+.root-2sNHUF .discriminator-3KVlLu{font-weight:600;line-height:20px;font-size:18px;}
+.root-2sNHUF .statusProfile-29OBzn{box-shadow:0 0;}
+.root-2sNHUF .tab-bar.tabBar-2z50ux .tabBarItem-1Lg555+.tabBarItem-1Lg555{margin-left:15px;}
+.root-2sNHUF .tabBarContainer-3RVZc-{border-top:0;}
+.root-2sNHUF .username-24t9uh{font-weight:600;line-height:20px;font-size:18px;}
+.root-2sNHUF{border-radius:0;border:1px solid transparent;}
 
-.bd-blue .theme-dark #user-profile-modal .tab-bar .tab-bar-item.selected{border-color:#3a71c1;}
-.theme-dark #user-profile-modal .actions .btn.add-friend:hover{background-color:#43b581;}
-.theme-dark #user-profile-modal .actions .btn.add-friend{background-color:var(--dd-dark-3);}
-.theme-dark #user-profile-modal .actions .btn.disabled:hover{background:var(--dd-dark-3);}
-.theme-dark #user-profile-modal .actions .btn.disabled{background:var(--dd-dark-3);opacity:.5;color:var(--dd-cbase-1);border:0;}
-.theme-dark #user-profile-modal .actions .btn.reject-friend:hover{background-color:var(--dd-dark-1);}
-.theme-dark #user-profile-modal .actions .btn.reject-friend{background-color:var(--dd-dark-3);}
-.theme-dark #user-profile-modal .actions .btn.send-message:hover{background-color:#43b581;}
-.theme-dark #user-profile-modal .actions .btn.send-message{background-color:var(--dd-dark-3);}
-.theme-dark #user-profile-modal .avatar-profile .status{border-color:var(--dd-dark-4);}
-.theme-dark #user-profile-modal .bot-tag{background:rgba(0,0,0,.4);}
-.theme-dark #user-profile-modal .botTagRegular-288-ZL{background:rgba(0,0,0,.4);color:var(--dd-cbase-2);}
-.theme-dark #user-profile-modal .empty .empty-text{color:var(--dd-cbase-4);}
-.theme-dark #user-profile-modal .empty{background-color:var(--dd-dark-4);}
-.theme-dark #user-profile-modal .guilds .guild .guild-nick{color:var(--dd-cbase-4);}
-.theme-dark #user-profile-modal .guilds .guild .status{border-color:var(--dd-dark-3);}
-.theme-dark #user-profile-modal .guilds .guild:hover{background:var(--dd-dark-2);color:var(--dd-cbase-1);}
-.theme-dark #user-profile-modal .guilds .guild{color:var(--dd-cbase-4);}
-.theme-dark #user-profile-modal .guilds .section .assetsSmallImage-2F5lSV{border-color:var(--dd-dark-3);}
-.theme-dark #user-profile-modal .guilds .section .connected-accounts .connected-account .connected-account-name-inner .connected-account-name{color:var(--dd-cbase-1);}
-.theme-dark #user-profile-modal .guilds .section .connected-accounts .connected-account{background-color:var(--dd-dark-3);}
-.theme-dark #user-profile-modal .guilds .section .content-P9ThHS{color:var(--dd-cbase-4);}
-.theme-dark #user-profile-modal .guilds .section .details-vSFjFG{color:var(--dd-cbase-4);}
-.theme-dark #user-profile-modal .guilds .section .headerText-2CVBxK{color:var(--dd-cbase-1);}
-.theme-dark #user-profile-modal .guilds .section .name-8onsv0{color:var(--dd-cbase-1);}
-.theme-dark #user-profile-modal .guilds .section .section-header{color:var(--dd-cbase-1);}
-.theme-dark #user-profile-modal .guilds .section [name='Gamepad'] .headerIconForeground-2QFL0Z{fill:var(--dd-cbase-1);}
-.theme-dark #user-profile-modal .header .header-info .header-info-inner .activity{color:var(--dd-cbase-4);}
-.theme-dark #user-profile-modal .header .header-info .header-info-inner .discord-tag .discriminator{color:var(--dd-cbase-4);}
-.theme-dark #user-profile-modal .header .header-info .header-info-inner .discord-tag{color:var(--dd-cbase-1);}
-.theme-dark #user-profile-modal .header{background-color:var(--dd-dark-4);}
-.theme-dark #user-profile-modal .scroller{background:var(--dd-dark-4);}
-.theme-dark #user-profile-modal .tab-bar .tab-bar-item.selected{border-color:#7298da;color:var(--dd-cbase-1);}
-.theme-dark #user-profile-modal .tab-bar .tab-bar-item:hover{color:var(--dd-cbase-4);border-color:var(--dd-dark-0);}
-.theme-dark #user-profile-modal .tab-bar .tab-bar-item{color:var(--dd-cbase-2);}
-.theme-dark #user-profile-modal .tab-bar-container{background-color:var(--dd-dark-4);border-color:transparent;}
-.theme-dark #user-profile-modal{border:1px solid var(--dd-dark-1);}
+.theme-dark .root-2sNHUF .listRow-1wEi-U{color:var(--dd-cbase-4);}
+.theme-dark .root-2sNHUF .listRow-1wEi-U:hover{background:var(--dd-dark-3);color:var(--dd-cbase-1);}
+.theme-dark .root-2sNHUF .body-3_tdh6{background-color:var(--dd-dark-4);}
+.theme-dark .root-2sNHUF .botTag-1OwMgs{background-color:#7298da;color:var(--dd-cbase-1);}
+.theme-dark .root-2sNHUF .connectedAccount-3mKaTA{background-color:var(--dd-dark-3);}
+.theme-dark .root-2sNHUF .headerFill-TTyrtz{background-color:transparent;}
+.theme-dark .root-2sNHUF .topSectionNormal-2LlRG1{background-color:var(--dd-dark-4);}
+.theme-dark .root-2sNHUF .topSectionPlaying-3jAH9b{background-color:var(--dd-dark-4);}
+.theme-dark .root-2sNHUF .userInfoSectionHeader-pmdPGs{color:var(--dd-cbase-4);}
+.theme-dark .root-2sNHUF{border-color:var(--dd-dark-1);}
 
 /* Nitro payment modal */
 .premium-payment-modal .premium-animation{width:auto;}
