@@ -564,6 +564,7 @@
 
 .theme-dark .context-menu .context-menu{background:var(--dd-dark-4);border:1px solid var(--dd-dark-1);box-shadow:0 2px 25px rgba(0,0,0,0.4);}
 .theme-dark .context-menu .item-subMenu:hover{background-color:transparent;background-position:180px;}
+.theme-dark .context-menu .item-subMenu.item-subMenu-has-scroller{background-position:180px;}
 .theme-dark .context-menu .item-subMenu{background-color:transparent;background-position:180px;}
 .theme-dark .context-menu .item.danger:hover{color:#f04747!important;}
 .theme-dark .context-menu .item.disabled:hover{color:var(--dd-cbase-2);}
