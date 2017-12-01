@@ -77,6 +77,10 @@
 }
 
 /* Appearance tweak */
+.platform-win .container-2oOGIt {
+    padding-top: 0;
+    top: 0;
+}
 .guilds-wrapper {
     margin-top: 32px;
 }
@@ -104,12 +108,13 @@
     z-index: 999999;
     -webkit-app-region: no-drag;
 }
+.container-2oOGIt:before,
 .backdrop-2ohBEd:before,
 .layer .ui-standard-sidebar-view:before {
     content: '';
     display: block;
     height: calc(32px - 4px);
-    width: calc(100vw - 72px);
+    width: calc(100vw - 70px);
     position: absolute;
     top: 4px;
     right: 0;
