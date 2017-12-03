@@ -1,0 +1,133 @@
+:root {
+    --i-dtl-bgcolor: #282b30;
+    
+    --i-dtl-logoimg: url(https://discordapp.com/assets/93608abbd20d90c13004925014a9fd01.svg);
+    --i-dtl-logosize: 60px 19px;
+    --i-dtl-logoopacity: .6;
+    --i-dtl-logooffset: 8px;
+    
+    --i-dtl-btnhover: rgba(255,255,255,0.1);
+    --i-dtl-btnactive: rgba(255,255,255,0.15);
+    --i-dtl-closehover: #e81123;
+    --i-dtl-closeactive: #bf0f1d;
+    
+    --i-dtl-minimizeimg: url(https://rawgit.com/intrnl/discordAdditions/master/nativeTitlebar/assets/btn-minimize.svg);
+    --i-dtl-maximizeimg: url(https://rawgit.com/intrnl/discordAdditions/master/nativeTitlebar/assets/btn-maximize.svg);
+    --i-dtl-closeimg: url(https://rawgit.com/intrnl/discordAdditions/master/nativeTitlebar/assets/btn-close.svg);
+    
+    --i-dtl-btnwidth: 48px;
+    --i-dtl-btnimgsize: 12px;
+    --i-dtl-resizeheight: 6px;
+    --i-dtl-titlebarheight: 30px;
+}
+
+.titleBar-3_fDwJ {
+    background-color: var(--i-dtl-bgcolor);
+    display: flex;
+    height: var(--i-dtl-titlebarheight);
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    -webkit-app-region: drag;
+
+    &:after {
+        content: ' ';
+        display: block;
+        height: var(--i-dtl-resizeheight);
+        width: calc(100vw - var(--i-dtl-btnwidth) * 3);
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 3002;
+        -webkit-app-region: no-drag;
+    }
+    .wordmark-2L03Wr {
+        background-image: var(--i-dtl-logoimg);
+        background-size: var(--i-dtl-logosize);
+        background-position-x: var(--i-dtl-logooffset);
+        background-position-y: center;
+        background-repeat: no-repeat;
+        opacity: var(--i-dtl-logoopacity);
+        display: flex;
+        height: var(--i-dtl-titlebarheight);
+        width: calc(100vw - var(--i-dtl-btnwidth) * 3);
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+
+        & svg {
+            display: none;
+        }
+    }
+    .winButton-U7zAqI {
+        background-size: var(--i-dtl-btnimgsize);
+        background-position: center;
+        background-repeat: no-repeat;
+        transition: 200ms ease;
+        cursor: default;
+        display: flex;
+        height: var(--i-dtl-titlebarheight);
+        width: var(--i-dtl-btnwidth);
+        position: relative;
+        top: 0;
+
+        & svg {
+            display: none;
+        }
+        &.winButtonClose-2rIvsa {
+            &:hover {
+                background-color: var(--i-dtl-closehover);
+            }
+            &:active {
+                background-color: var(--i-dtl-closeactive);
+            }
+        }
+        &.winButtonMinMax-bT_gQ1 {
+            &:hover {
+                background-color: var(--i-dtl-btnhover);
+            }
+            &:active {
+                background-color: var(--i-dtl-btnactive);
+            }
+        }
+    }
+    div {
+        &:nth-of-type(2) {
+            background-image: var(--i-dtl-closeimg);
+        }
+        &:nth-of-type(3) {
+            background-image: var(--i-dtl-maximizeimg);
+        }
+        &:nth-of-type(4) {
+            background-image: var(--i-dtl-minimizeimg);
+        }
+    }
+}
+
+
+#app-mount {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+
+    .popout {
+        .themed-popout {
+            max-height: calc(100vh - var(--i-dtl-titlebarheight) - 48px - 20px) !important;
+        }
+    }
+    .ui-standard-sidebar-view {
+        .content-column, .custom-column {
+            min-height: calc(100vh - var(--i-dtl-titlebarheight));
+        }
+    }
+    .modal-2LIEKY {
+        margin-top: var(--i-dtl-titlebarheight);
+        padding-top: calc(60px - var(--i-dtl-titlebarheight));
+    }
+    .tooltip, .context-menu {
+        z-index: 3005;
+    }
+}
