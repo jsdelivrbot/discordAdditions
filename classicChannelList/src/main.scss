@@ -1,0 +1,91 @@
+:root {
+    --i-ccl-selectcolor: #7298da;
+    --i-ccl-unreadcolor: hsla(0,0%,100%,.6);
+}
+
+.channels-3g2vYe {
+    .content-2mSKOj {
+        margin: 0;
+        padding: 0 8px 0 12px;
+        border: 0;
+        border-radius: 0;
+
+        &.contentHoveredText-2HYGIY, &.contentSelectedText-3j5CXt {
+            &:before {
+                content: '';
+                display: flex;
+                height: 32px;
+                width: 4px;
+                position: absolute;
+                left: 0;
+            }
+        }
+        &.contentHoveredText-2HYGIY, &.contentHoveredVoice-3qGNKh {
+            &:before {
+                filter: brightness(55%);
+            }
+        }
+        &.contentSelectedText-3j5CXt, &.contentSelectedVoice-gTtYM9, &.contentHoveredText-2HYGIY, &.contentHoveredVoice-3qGNKh {
+            &:before {
+                background-color: var(--i-ccl-selectcolor);
+            }
+        }
+    }
+    .unread-23Kvxk {
+        background-color: var(--i-ccl-unreadcolor);
+        opacity: .3;
+        display: block;
+        height: 32px;
+        width: 4px;
+        margin-bottom: -2px;
+        margin-top: 0;
+        border: 0;
+        border-radius: 0;
+        position: absolute;
+        top: 0;
+    }
+    .wrapper-fDmxzK {
+        height: 32px;
+    }
+
+    .private-channels {
+        .channel {
+            a {
+                margin: 0;
+                padding: 0 8px 0 12px;
+                border-radius: 0;
+            }
+            &:before {
+                content: '.';
+                font-size: 0;
+                height: 40px;
+                border: 0;
+                position: absolute;
+                width: 4px;
+            }
+            &:hover {
+                &:not(.selected) {
+                    &:before {
+                        background-color: var(--i-ccl-selectcolor);
+                        filter: brightness(55%);
+                    }
+                }
+            }
+            &.selected {
+                &:before {
+                    background-color: var(--i-ccl-selectcolor);
+
+                    .bd-blue & {
+                        border-left: 0;
+                    }
+                }
+            }
+            &[style*="height: 42px;"] {
+                height: 40px !important;
+            }
+        }
+    }
+}
+.bd-blue {
+    --i-ccl-selectcolor: #3a71c1;
+}

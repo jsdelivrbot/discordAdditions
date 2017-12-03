@@ -1,94 +1,57 @@
 :root {
-    --i-ccl-selectcolor: #7298da;
-    --i-ccl-unreadcolor: hsla(0,0%,100%,.6);
-}
+  --i-ccl-selectcolor: #7298da;
+  --i-ccl-unreadcolor: hsla(0,0%,100%,.6); }
 
-.content-2mSKOj {
-    border-radius: 0;
-    margin: 0;
-    padding-left: 12px;
-}
-.contentHoveredText-2HYGIY:before {
-    content: ' ';
-    filter: brightness(55%);
+.channels-3g2vYe .content-2mSKOj {
+  margin: 0;
+  padding: 0 8px 0 12px;
+  border: 0;
+  border-radius: 0; }
+  .channels-3g2vYe .content-2mSKOj.contentHoveredText-2HYGIY:before, .channels-3g2vYe .content-2mSKOj.contentSelectedText-3j5CXt:before {
+    content: '';
+    display: flex;
     height: 32px;
-    left: 0;
+    width: 4px;
     position: absolute;
-    width: 4px;
-}
-.contentHoveredText-2HYGIY:before,
-.contentHoveredVoice-3qGNKh:before {
-    background-color: var(--i-ccl-selectcolor);
-}
-.contentSelectedText-3j5CXt:before {
-    content: ' ';
-    height: 32px;
-    left: 0;
-    position: absolute;
-    width: 4px;
-}
-.contentSelectedText-3j5CXt:before,
-.contentSelectedVoice-gTtYM9:before {
-    background-color: var(--i-ccl-selectcolor);
-}
-.unread-23Kvxk {
-    background-color: var(--i-ccl-unreadcolor);
-    border-radius: 0;
-    height: 32px;
-    margin-bottom: -2px;
-    margin-top: 0;
-    opacity: .3;
-    top: 0;
-    width: 4px;
-}
-.wrapper-fDmxzK {
-    height: 32px;
-}
+    left: 0; }
+  .channels-3g2vYe .content-2mSKOj.contentHoveredText-2HYGIY:before, .channels-3g2vYe .content-2mSKOj.contentHoveredVoice-3qGNKh:before {
+    filter: brightness(55%); }
+  .channels-3g2vYe .content-2mSKOj.contentSelectedText-3j5CXt:before, .channels-3g2vYe .content-2mSKOj.contentSelectedVoice-gTtYM9:before, .channels-3g2vYe .content-2mSKOj.contentHoveredText-2HYGIY:before, .channels-3g2vYe .content-2mSKOj.contentHoveredVoice-3qGNKh:before {
+    background-color: var(--i-ccl-selectcolor); }
+.channels-3g2vYe .unread-23Kvxk {
+  background-color: var(--i-ccl-unreadcolor);
+  opacity: .3;
+  display: block;
+  height: 32px;
+  width: 4px;
+  margin-bottom: -2px;
+  margin-top: 0;
+  border: 0;
+  border-radius: 0;
+  position: absolute;
+  top: 0; }
+.channels-3g2vYe .wrapper-fDmxzK {
+  height: 32px; }
+.channels-3g2vYe .private-channels .channel a {
+  margin: 0;
+  padding: 0 8px 0 12px;
+  border-radius: 0; }
+.channels-3g2vYe .private-channels .channel:before {
+  content: '.';
+  font-size: 0;
+  height: 40px;
+  border: 0;
+  position: absolute;
+  width: 4px; }
+.channels-3g2vYe .private-channels .channel:hover:not(.selected):before {
+  background-color: var(--i-ccl-selectcolor);
+  filter: brightness(55%); }
+.channels-3g2vYe .private-channels .channel.selected:before {
+  background-color: var(--i-ccl-selectcolor); }
+  .bd-blue .channels-3g2vYe .private-channels .channel.selected:before {
+    border-left: 0; }
+.channels-3g2vYe .private-channels .channel[style*="height: 42px;"] {
+  height: 40px !important; }
 
-/* DMs */
-.private-channels .channel a {
-    border-radius: 0;
-    margin: 0;
-    padding-left: 12px;
-}
-.private-channels .channel.selected:before {
-    background-color: var(--i-ccl-selectcolor);
-}
-.private-channels .channel:before {
-    content: '.';
-    font-size: 0;
-    height: 40px;
-    position: absolute;
-    width: 4px;
-}
-.private-channels .channel:hover:not(.selected):before {
-    background-color: var(--i-ccl-selectcolor);
-    filter: brightness(55%);
-}
-.private-channels .channel[style*='height: 42px;'] {
-    height: 40px !important;
-}
-
-/* BD blue */
-.bd-blue .contentHoveredText-2HYGIY:before,
-.bd-blue .contentHoveredVoice-3qGNKh:before,
-.bd-blue .contentSelectedText-3j5CXt:before,
-.bd-blue .contentSelectedVoice-gTtYM9:before {
-    background-color: #3a71c1;
-}
-.bd-blue .private-channels .channel:hover:not(.selected):before {
-    background-color: #3a71c1;
-}
-.bd-blue .private-channels .channel.selected:before {
-    background-color: #3a71c1;
-    border-left: 0;
-}
-
-/* Fix for BMT */
-.private-channels .channel.selected:before,
-.private-channels .channel:hover:before {
-    border-left: 0;
-}
-.private-channels .channel:hover:not(.unread)::before {
-    border-left: 0;
-}
+.bd-blue {
+  --i-ccl-selectcolor: #3a71c1; }
