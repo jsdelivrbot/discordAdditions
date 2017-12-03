@@ -1,0 +1,59 @@
+:root {
+    --i-bca-bgcolor: rgba(0, 0, 0, 0.2);
+}
+  
+.channels-3g2vYe .scroller-fzNley > [class*=container-] > {
+    [class*=container]:first-of-type > [class*=wrapper] > div > div > [class*=icon] {
+        height: 31.11px;
+    }
+    div:first-of-type > [class*=container] {
+        padding-top: 0;
+        margin-top: 12px;
+        margin-bottom: 6px;
+
+        > [class*=wrapper] > div > div > [class*=icon] {
+            height: 31.11px;
+        }
+    }
+
+    [class*=container] {
+        &:first-of-type {
+            padding-top: 0;
+            margin-top: 12px;
+            margin-bottom: 6px;
+
+            > [class*=wrapper] {
+                margin-left: 8px;
+                height: 31.11px;
+                padding: 0 8px;
+                border-radius: 3px;
+                background-color: var(--i-bca-bgcolor);
+            }
+        }
+        + [class*=container-] {
+            margin-top: 6px;
+        }
+    }
+
+    div:first-of-type > [class*=container] > [class*=wrapper] {
+        margin-left: 8px;
+        height: 31.11px;
+        padding: 0 8px;
+        border-radius: 3px;
+        background-color: var(--i-bca-bgcolor);
+    }
+
+    [class*=container]:first-of-type > [class*=wrapper] > [class*=icon], div:first-of-type > [class*=container] > [class*=wrapper] > [class*=icon] {
+        height: 31.11px;
+        width: 16px;
+        position: relative;
+        margin-left: -3px;
+        margin-top: -4px;
+        margin-right: 8px;
+    }
+
+    [class*=container]:first-of-type > [class*=wrapper] > [class*=name], div:first-of-type > [class*=container] > [class*=wrapper] > [class*=name] {
+        height: 31.11px;
+        line-height: 32px;
+    }
+}
