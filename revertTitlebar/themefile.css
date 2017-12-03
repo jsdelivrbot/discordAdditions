@@ -1,84 +1,58 @@
 :root {
-    --i-rtl-invert: 0%;
- /* The variable above messes with the invert filter in the window control buttons.
-    Set it to 0% if you are using dark theme,
-    Set it to 60% if you are using light theme.                                     */
-    
-    --i-rtl-closeimg: url(https://rawgit.com/intrnl/discordAdditions/master/revertTitlebar/resources/btn-close.svg);
-    --i-rtl-maximizeimg: url(https://rawgit.com/intrnl/discordAdditions/master/revertTitlebar/resources/btn-maximize.svg);
-    --i-rtl-minimizeimg: url(https://rawgit.com/intrnl/discordAdditions/master/revertTItlebar/resources/btn-minimize.svg);
- /* These variable above messes with the background images of the window control buttons. */
-}
+  --i-rtl-invert: 0%;
+  --i-rtl-closeimg: url(https://rawgit.com/intrnl/discordAdditions/master/revertTitlebar/assets/btn-close.svg);
+  --i-rtl-maximizeimg: url(https://rawgit.com/intrnl/discordAdditions/master/revertTitlebar/assets/btn-maximize.svg);
+  --i-rtl-minimizeimg: url(https://rawgit.com/intrnl/discordAdditions/master/revertTitlebar/assets/btn-minimize.svg); }
 
-div[class*="titleBar-"] {
-    height: 0px;
-    margin-top: 0px;
-}
-div[class*="titleBar-"]:before {
-    content: '';
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 6px;
+.titleBar-3_fDwJ {
+  height: 30px;
+  width: calc(30px * 3);
+  margin: 0;
+  padding: 9px 8px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  -webkit-app-region: no-drag; }
+  .titleBar-3_fDwJ:before {
+    content: ' ';
+    display: block;
     height: 14px;
-    z-index: 3002;
-    -webkit-app-region: drag;
-}
-div[class*="titleBar-"]:after {
-    content: '';
+    width: 100vw;
     position: absolute;
-    left: 0;
+    top: 4px;
     right: 0;
-    top: 0;
-    height: 6px;
-    z-index: 3002;
-}
-div[class*="wordmark-"], div[class*="winButton-"] svg {
-    display: none;
-}
-div[class*="winButton-"] {
-    top: 9px;
+    z-index: 3000;
+    -webkit-app-region: drag; }
+  .titleBar-3_fDwJ .winButton-U7zAqI {
+    display: block;
     height: 30px;
     width: 30px;
-    right: 8px;
-    background-position: center;
-    opacity: .6;
-    filter: invert(var(--i-rtl-invert));
-}
-div[class*="winButton-"]:hover {
+    position: relative;
+    top: 0;
     background-color: transparent;
-    opacity: .8;
-}
-div[class*="titleBar-"] div:nth-of-type(2) {
-    background-image: var(--i-rtl-closeimg);
-}
-div[class*="titleBar-"] div:nth-of-type(3) {
-    background-image: var(--i-rtl-maximizeimg);
-}
-div[class*="titleBar-"] div:nth-of-type(4) {
-    background-image: var(--i-rtl-minimizeimg);
-    margin-left: 8px;
-}
+    background-size: 26px;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: .6;
+    filter: invert(0%); }
+    .titleBar-3_fDwJ .winButton-U7zAqI:hover {
+      opacity: .8; }
+  .titleBar-3_fDwJ div:nth-of-type(2) {
+    background-image: var(--i-rtl-closeimg); }
+  .titleBar-3_fDwJ div:nth-of-type(3) {
+    background-image: var(--i-rtl-maximizeimg); }
+  .titleBar-3_fDwJ div:nth-of-type(4) {
+    background-image: var(--i-rtl-minimizeimg); }
+  .titleBar-3_fDwJ .wordmark-2L03Wr, .titleBar-3_fDwJ .winButton-U7zAqI svg {
+    display: none; }
 
-.chat [class*='titleWrapper-'] [class*='flex-'] [class*='flex-'],
-#friends [class*='flex-'] [class*='flex-']:last-of-type,
-[class*='activityFeed-'] [class*='flex-'] [class*='flex-']:last-of-type {
-    margin-right: 98px;
-}
-.chat [class*='titleWrapper-'] [class*='flex-'] [class*='flex-']:after,
-#friends [class*='flex-'] [class*='flex-']:last-of-type:after,
-[class*='activityFeed-'] [class*='flex-'] [class*='flex-']:last-of-type:after {
-    content: '';
-    width: 1px;
+.title-qAcLxz .flex-lFgbSz.horizontal-2BEEBe, .titleCall-3X0yGQ .flex-lFgbSz.horizontal-2BEEBe, .headerBar-cxbhPD .flex-lFgbSz.horizontal-2BEEBe {
+  margin-right: 98px; }
+  .title-qAcLxz .flex-lFgbSz.horizontal-2BEEBe:after, .titleCall-3X0yGQ .flex-lFgbSz.horizontal-2BEEBe:after, .headerBar-cxbhPD .flex-lFgbSz.horizontal-2BEEBe:after {
+    content: ' ';
     height: 22px;
-}
-.theme-dark .chat [class*='titleWrapper-'] [class*='flex-'] [class*='flex-']:after,
-.theme-dark #friends [class*='flex-'] [class*='flex-']:last-of-type:after,
-.theme-dark [class*='activityFeed-'] [class*='flex-'] [class*='flex-']:last-of-type:after {
-    background-color: hsla(240,6%,97%,.1);
-}
-.theme-light .chat [class*='titleWrapper-'] [class*='flex-'] [class*='flex-']:after,
-.theme-light #friends [class*='flex-'] [class*='flex-']:last-of-type:after,
-.theme-light [class*='activityFeed-'] [class*='flex-'] [class*='flex-']:last-of-type:after {
-    background-color: hsla(218,5%,47%,.3);
-}
+    width: 1px; }
+    .theme-dark .title-qAcLxz .flex-lFgbSz.horizontal-2BEEBe:after, .theme-dark .titleCall-3X0yGQ .flex-lFgbSz.horizontal-2BEEBe:after, .theme-dark .headerBar-cxbhPD .flex-lFgbSz.horizontal-2BEEBe:after {
+      background-color: rgba(247, 247, 248, 0.1); }
+    .theme-light .title-qAcLxz .flex-lFgbSz.horizontal-2BEEBe:after, .theme-light .titleCall-3X0yGQ .flex-lFgbSz.horizontal-2BEEBe:after, .theme-light .headerBar-cxbhPD .flex-lFgbSz.horizontal-2BEEBe:after {
+      background-color: rgba(114, 118, 126, 0.3); }
