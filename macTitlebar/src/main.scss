@@ -90,9 +90,6 @@
     .headerBar-cxbhPD, .title-qAcLxz, .titleCall-3X0yGQ, .notice {
         -webkit-app-region: drag;
 
-        * {
-            -webkit-app-region: no-drag;
-        }
         &:before {
             content: ' ';
             display: block;

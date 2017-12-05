@@ -60,8 +60,6 @@
   margin-top: 32px; }
 #app-mount .headerBar-cxbhPD, #app-mount .title-qAcLxz, #app-mount .titleCall-3X0yGQ, #app-mount .notice {
   -webkit-app-region: drag; }
-  #app-mount .headerBar-cxbhPD *, #app-mount .title-qAcLxz *, #app-mount .titleCall-3X0yGQ *, #app-mount .notice * {
-    -webkit-app-region: no-drag; }
   #app-mount .headerBar-cxbhPD:before, #app-mount .title-qAcLxz:before, #app-mount .titleCall-3X0yGQ:before, #app-mount .notice:before {
     content: ' ';
     display: block;
