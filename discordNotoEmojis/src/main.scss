@@ -1,0 +1,9 @@
+@import "emoji";
+
+.emoji, .autocompleteRowVertical-3_UxVA .icon-3XfMwL {
+	@each $twemoji, $blob in $emoji {
+		&[src="#{$twemoji}"] {
+			content: url("#{$blob}");
+		}
+	}
+}
