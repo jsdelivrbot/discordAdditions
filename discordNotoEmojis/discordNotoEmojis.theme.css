@@ -1,3 +1,3 @@
 //META{"name":"discordNotoEmojis","description":"Replaces default Discord emoji with Noto (blobs).","author":"contributors","version":"0.0"}*//{}
 
-@import url(https://rawgit.com/intrnl/discordAdditions/master/discordNotoEmojis/themefile.css);
+@import url("https://rawgit.com/intrnl/discordAdditions/master/discordNotoEmojis/themefile.css");
