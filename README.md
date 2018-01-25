@@ -10,7 +10,6 @@ A collection of CSS themes that you can use to customize your Discord client at 
 - [classicChannelList](https://github.com/intrnl/discordAdditions/tree/master/classicChannelList) - attempts to bring back how the channel list used to look like, with minor changes.
 - [codeblockLangIdentifier](https://github.com/intrnl/discordAdditions/tree/master/codeblockLangIdentifier) - adds language identifier to the top of code blocks.
 - [countFriendsList](https://github.com/intrnl/discordAdditions/tree/master/countFriendsList) - adds a counter besides users in friends list.
-- [darkDiscord](https://github.com/intrnl/discordAdditions/tree/master/darkDiscord) - a dark themed Discord.
 - [discordNotoEmojis](https://github.com/intrnl/discordAdditions/tree/master/discordNotoEmojis) - replaces Discord's default twemoji (twitter emoji) with Noto (blobs) equivalents.
 - [hiddenAccountEmail](https://github.com/intrnl/discordAdditions/tree/master/hiddenAccountEmail) - hides your email address when not hovered.
 - [hideChannelDescription](https://github.com/intrnl/discordAdditions/tree/master/hideChannelDescription) - tucks away the channel description to a dropdown icon.
