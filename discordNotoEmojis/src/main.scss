@@ -1,7 +1,25 @@
-@import "emoji";
+@function map-collect($maps...) {
+  $collection: ();
+
+  @each $map in $maps {
+    $collection: map-merge($collection, $map);
+  }
+  @return $collection;
+}
+
+@import "emoji-activities";
+@import "emoji-flags";
+@import "emoji-food";
+@import "emoji-nature";
+@import "emoji-objects";
+@import "emoji-people";
+@import "emoji-symbols";
+@import "emoji-travel";
+
+$emoji-all: map-collect($emoji-activities, $emoji-flags, $emoji-food, $emoji-nature, $emoji-objects, $emoji-people, $emoji-symbols, $emoji-travel);
 
 .emoji, .autocompleteRowVertical-3_UxVA .icon-3XfMwL {
-	@each $twemoji, $blob in $emoji {
+	@each $twemoji, $blob in $emoji-all {
 		&[src="#{$twemoji}"] {
 			content: url("#{$blob}");
 		}
