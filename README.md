@@ -1,5 +1,6 @@
 # discordAdditions
 
+Moved to [discordcustomizations](https://github.com/intrnl/discordcustomizations).   
 A collection of CSS themes that you can use to customize your Discord client at will.
 
 ## Themes
